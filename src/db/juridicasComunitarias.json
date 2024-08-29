@@ -924,7 +924,7 @@
                                             "label": "¿Cuáles de las siguientes tipologías de problemas afectan con mayor frecuencia a los miembros de su comunidad?",
                                             "options": [
                                                 {
-                                                    "value": "3",
+                                                    "value": "4",
                                                     "label": "Separación, divorcio, liquidación, unión libre"
                                                 }
                                             ]
@@ -1011,9 +1011,305 @@
                                         }
 
                                     ]
-                                }
+                                },
+                                {
+                                    "id": "1.5",
+                                    "label": "División de propiedad / Separación de bienes",
+                                    "followUpQuestions": [
+
+                                        {
+                                            "id": "P19.1.5",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas afectan con mayor frecuencia a los miembros de su comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "5",
+                                                    "label": "Herencias, sucesiones, testamentos"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P20.1.5",
+                                            "type": "radio",
+                                            "label": "Frente a este problema ¿cuál es la acción que con más frecuencia adoptan los miembros de su comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Acuden a la justicia propia de su comunidad"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Acuden a una institución, autoridad o persona particular"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Intenta llegar a un acuerdo directamente con quien tiene el problema"
+                                                },
+                                                {
+                                                    "value": "4",
+                                                    "label": "Acude de forma violenta"
+                                                },
+                                                {
+                                                    "value": "5",
+                                                    "label": "Acude a un actor ilegal"
+                                                },
+                                                {
+                                                    "value": "6",
+                                                    "label": "No hizo nada"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P21.1.5",
+                                            "type": "checkbox",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P22.1.5",
+                                            "type": "radio",
+                                            "label": "Sobre este problema ¿considera que la jurisdicción ordinaria o la justicia estatal reclame competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Sí"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P23.1.5",
+                                            "type": "radio",
+                                            "label": "¿El problema se solucionó?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Sí"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        }
+
+                                    ]
+                                },
+                                {
+                                    "id": "1.6",
+                                    "label": "Cuidado de personas que más lo requieren (niños, niñas y adolescentes, personas enfermas, personas con discapacidad, personas mayores)",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P19.1.6",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas afectan con mayor frecuencia a los miembros de su comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "6",
+                                                    "label": "Herencias, sucesiones, testamentos"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P20.1.6",
+                                            "type": "radio",
+                                            "label": "Frente a este problema ¿cuál es la acción que con más frecuencia adoptan los miembros de su comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Acuden a la justicia propia de su comunidad"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Acuden a una institución, autoridad o persona particular"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Intenta llegar a un acuerdo directamente con quien tiene el problema"
+                                                },
+                                                {
+                                                    "value": "4",
+                                                    "label": "Acude de forma violenta"
+                                                },
+                                                {
+                                                    "value": "5",
+                                                    "label": "Acude a un actor ilegal"
+                                                },
+                                                {
+                                                    "value": "6",
+                                                    "label": "No hizo nada"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P21.1.6",
+                                            "type": "checkbox",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P22.1.6",
+                                            "type": "radio",
+                                            "label": "Sobre este problema ¿considera que la jurisdicción ordinaria o la justicia estatal reclame competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Sí"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P23.1.6",
+                                            "type": "radio",
+                                            "label": "¿El problema se solucionó?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Sí"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1.7",
+                                    "label": "Quien asume los gastos del hogar",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P19.1.7",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas afectan con mayor frecuencia a los miembros de su comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "5",
+                                                    "label": "Herencias, sucesiones, testamentos"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P20.1.7",
+                                            "type": "radio",
+                                            "label": "Frente a este problema ¿cuál es la acción que con más frecuencia adoptan los miembros de su comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Acuden a la justicia propia de su comunidad"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Acuden a una institución, autoridad o persona particular"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Intenta llegar a un acuerdo directamente con quien tiene el problema"
+                                                },
+                                                {
+                                                    "value": "4",
+                                                    "label": "Acude de forma violenta"
+                                                },
+                                                {
+                                                    "value": "5",
+                                                    "label": "Acude a un actor ilegal"
+                                                },
+                                                {
+                                                    "value": "6",
+                                                    "label": "No hizo nada"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P21.1.7",
+                                            "type": "checkbox",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P22.1.7",
+                                            "type": "radio",
+                                            "label": "Sobre este problema ¿considera que la jurisdicción ordinaria o la justicia estatal reclame competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Sí"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P23.1.7",
+                                            "type": "radio",
+                                            "label": "¿El problema se solucionó?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Sí"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }                               
+                                
                             ]
                         }
+                        
+                        
                     ]
                 }
             ]
