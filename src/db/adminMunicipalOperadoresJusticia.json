@@ -544,7 +544,7 @@
                         },
                         {
                             "value": "5",
-                            "label": "Otro ¿cuál? _______________________________",
+                            "label": "Otro ¿cuál?",
                             "hasOther": true
                         },
                         {
@@ -641,6 +641,298 @@
                             "hasOther": true
                         }
                     ]
+                },
+                {
+                    "id": "P25",
+                    "type": "checkbox",
+                    "label": "Del siguiente listado de actores u operadores, ¿con cuáles se articula usted para el cumplimiento de sus funciones en materia de acceso a la justicia?",
+                    "groups": [
+                        {
+                            "label": "Justicia Formal",
+                            "options": [
+                                {
+                                    "value": "1",
+                                    "label": "Juzgados"
+                                },
+                                {
+                                    "value": "2",
+                                    "label": "Fiscalía"
+                                },
+                                {
+                                    "value": "3",
+                                    "label": "Policía judicial"
+                                },
+                                {
+                                    "value": "4",
+                                    "label": "Hospital Local"
+                                },
+                                {
+                                    "value": "5",
+                                    "label": "Instituto Nacional de Medicina Legal"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Justicia alternativa o no formal",
+                            "options": [
+                                {
+                                    "value": "6",
+                                    "label": "Centro de Conciliación"
+                                },
+                                {
+                                    "value": "7",
+                                    "label": "Conciliadores en derecho"
+                                },
+                                {
+                                    "value": "8",
+                                    "label": "Conciliadores en equidad"
+                                },
+                                {
+                                    "value": "9",
+                                    "label": "Mediadores, árbitros, amigables componedores"
+                                },
+                                {
+                                    "value": "10",
+                                    "label": "Notaria"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Justicia administrativa",
+                            "options": [
+                                {
+                                    "value": "11",
+                                    "label": "Comisaria de familia"
+                                },
+                                {
+                                    "value": "12",
+                                    "label": "Coordinador Centro Zonal del ICBF"
+                                },
+                                {
+                                    "value": "13",
+                                    "label": "Corregidores"
+                                },
+                                {
+                                    "value": "14",
+                                    "label": "Inspección de policía"
+                                },
+                                {
+                                    "value": "15",
+                                    "label": "Inspección de tránsito"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Actores comunitarios",
+                            "options": [
+                                {
+                                    "value": "16",
+                                    "label": "Juntas de Acción Comunal - JAC"
+                                },
+                                {
+                                    "value": "17",
+                                    "label": "Promotores comunitarios de paz"
+                                },
+                                {
+                                    "value": "18",
+                                    "label": "Casa de justicia / Centro de convivencia ciudadana"
+                                },
+                                {
+                                    "value": "19",
+                                    "label": "Consultorios jurídicos de Universidades"
+                                },
+                                {
+                                    "value": "20",
+                                    "label": "Funcionarios delegados de la Cámara de Comercio para métodos de resolución de conflictos y temas sociales"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Jurisdicción especial",
+                            "options": [
+                                {
+                                    "value": "21",
+                                    "label": "Pueblos indígenas"
+                                },
+                                {
+                                    "value": "22",
+                                    "label": "Jueces de paz"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Jurisdicción especial para la paz",
+                            "options": [
+                                {
+                                    "value": "23",
+                                    "label": "Enlace territorial de la JEP"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Ministerio público",
+                            "options": [
+                                {
+                                    "value": "24",
+                                    "label": "Personería municipal"
+                                },
+                                {
+                                    "value": "25",
+                                    "label": "Defensoría del pueblo"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Autoridades Municipales",
+                            "options": [
+                                {
+                                    "value": "26",
+                                    "label": "Alcaldía"
+                                },
+                                {
+                                    "value": "27",
+                                    "label": "Secretaría de gobierno / interior"
+                                },
+                                {
+                                    "value": "28",
+                                    "label": "Concejo Municipal"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Fuerza pública (Policía Nacional)",
+                            "options": [
+                                {
+                                    "value": "29",
+                                    "label": "Comandante de la estación de Policía"
+                                },
+                                {
+                                    "value": "30",
+                                    "label": "Policía de Infancia y Adolescencia"
+                                }
+                            ]
+                        }
+                    ],
+                    "options": [
+                        {
+                            "value": "31",
+                            "label": "Otro",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "32",
+                            "label": "Ninguno"
+                        }
+                    ]
+                },
+                {
+                    "id": "P26",
+                    "type": "text",
+                    "label": "¿Cuáles actores u operadores considera usted que no tienen presencia en el municipio y son necesarios para el acceso a la justicia?"
+                },
+                {
+                    "id": "P27",
+                    "type": "checkbox",
+                    "label": "¿Cuál es la oferta de servicios de acceso a la justicia que ustedes brindan a la comunidad?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Acompañamiento técnico para la resolución de los conflictos"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Cursos, charlas, talleres o diplomados referentes a la resolución de conflictos"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Jornadas de atención en acceso a la justicia"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Ferias de servicios"
+                        },
+                        {
+                            "value": "5",
+                            "label": "Orientación sobre las rutas y/o protocolos de atención en acceso a la justicia"
+                        },
+                        {
+                            "value": "6",
+                            "label": "Administración de justicia (dirección de procesos / adopción de decisiones)"
+                        },
+                        {
+                            "value": "7",
+                            "label": "Otra, ¿cuál?",
+                            "hasOther": true
+                        }
+                    ]
+                },
+                {
+                    "id": "P28",
+                    "type": "checkbox",
+                    "label": "¿Cuáles de las siguientes acciones de comunicación y divulgación se realizan para que la comunidad conozca la oferta de servicios de acceso a la justicia?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Publicaciones en carteleras",
+                            "ref": "P30"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Campañas publicitarias",
+                            "ref": "P30"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Jornadas de socialización",
+                            "ref": "P30"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Mensajes publicitarios en las reuniones locales",
+                            "ref": "P30"
+                        },
+                        {
+                            "value": "5",
+                            "label": "Emisoras locales",
+                            "ref": "P30"
+                        },
+                        {
+                            "value": "6",
+                            "label": "Otro",
+                            "hasOther": true,
+                            "ref": "P30"
+                        },
+                        {
+                            "value": "7",
+                            "label": "Ninguna",
+                            "ref": "P29"
+                        }
+                    ]
+                },
+                {
+                    "id": "P29",
+                    "type": "text",
+                    "label": "¿Por qué no se realizan acciones de comunicación y divulgación para que la comunidad conozca la oferta de servicios de acceso a la justicia?"
+                },
+                {
+                    "id": "P30",
+                    "type": "text",
+                    "label": "Para el desarrollo de sus funciones/labores, ¿en qué temas le gustaría a usted capacitarse relacionados con acceso a la justicia?"
+                },
+                {
+                    "id": "P30A",
+                    "type": "radio",
+                    "label": "Para el desarrollo de sus funciones/labores, ¿le suministran a usted los medios de transporte para realizar los desplazamientos necesarios?, ejemplo: moto, carro, lancha, combustible o reconocimiento económico",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Si"
+                        },
+                        {
+                            "value": "2",
+                            "label": "No"
+                        }
+                    ]
                 }
                 
                 
@@ -650,7 +942,815 @@
                 
 
             ]
+        },
+        {
+            "title": "Barreras de acceso a la justicia",
+            "questions": [
+                {
+                    "id": "P31",
+                    "type": "checkbox",
+                    "label": "Del siguiente listado, ¿Cuáles considera, desde su rol (como representante de la comunidad), que son las principales barreras de acceso a la justicia que se le presentan a los miembros de su comunidad?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "ref": "P32.1",
+                            "label": "Culturales y lingüísticas",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas en razón de la pertenencia a grupos culturales o lingüísticos minoritarios. "
+                        },
+                        {
+                            "value": "2",
+                            "ref": "P32.2",
+                            "label": "De Género",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas, en razón del sexo, la identidad de género, orientación sexual o expresión de género. "
+                        },
+                        {
+                            "value": "3",
+                            "ref": "P32.3",
+                            "label": "De seguridad, orden público o asociadas al conflicto armado",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de una necesidad jurídica debido a la percepción de peligro frente la vida o la integridad personal."
+                        },
+                        {
+                            "value": "4",
+                            "ref": "P32.4",
+                            "label": "Discapacidad",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas en razón de la condición de discapacidad de las personas. "
+                        },
+                        {
+                            "value": "5",
+                            "ref": "P32.6",
+                            "label": "Económicas",
+                            "definition": "Definición. Se refiere a las dificultades de las personas para asumir los costos que implica el acceso a los servicios de justicia o los obstáculos que enfrentan al encontrarse en situación de marginalidad económica. "
+                        },
+                        {
+                            "value": "6",
+                            "ref": "P32.7",
+                            "label": "Geográficas",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas en razón de la ubicación geográfica, las distancias, medios y vías de comunicación o transporte."
+                        },
+                        {
+                            "value": "7",
+                            "ref": "P32.8",
+                            "label": "Institucionales",
+                            "definition": "Definición. Se refieren a dificultades en el acceso en razón a la estructura, políticas, procesos y dinámicas de los sistemas de justicia. "
+                        },
+                        {
+                            "value": "8",
+                            "ref": "P32.9",
+                            "label": "Tecnológicas",
+                            "definition": "Definición. Dificultades en el acceso a la justicia por la falta de equipos, sistemas tecnológicos, redes o infraestructura de conectividad. "
+                        }
+                    ]
+                },
+                {
+                    "id": "P32",
+                    "isIndex": true,
+                    "type": "checkbox",
+                    "label": " ¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los miembros de su comunidad?",
+                    "options": [
+                        {
+                            "value": "1.1",
+                            "label": "Atención inadecuada por razón de la condición cultural o lingüística."
+                        },
+                        {
+                            "value": "1.2",
+                            "label": "Falta de información, rutas de atención y asistencia legal de fácil comprensión o disponible en lenguas minoritarias."
+                        },
+                        {
+                            "value": "1.3",
+                            "label": "Falta de articulación y coordinación entre la justicia propia afro y la jurisdicción ordinaria."
+                        },
+                        {
+                            "value": "1.4",
+                            "label": "Falta de articulación y coordinación entre la Justicia Especial Indígena y la jurisdicción ordinaria."
+                        },
+                        {
+                            "value": "1.5",
+                            "label": "Falta de asistencia de traductores o interpretes dentro de los procedimientos o trámites legales."
+                        },
+                        {
+                            "value": "1.6",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "2.1",
+                            "label": "Falta de atención o atención inadecuada o desestimación de los conflictos en razón del sexo, identidad de género, orientación sexual o expresión de género."
+                        },
+                        {
+                            "value": "2.2",
+                            "label": "Falta de asistencia o representación legal adecuada por razón del sexo, identidad de género, orientación sexual o expresión de género."
+                        },
+                        {
+                            "value": "2.3",
+                            "label": "No accede a los servicios de justicia por sentir o presumir que será discriminado en razón de su sexo, identidad de género, orientación sexual o expresión de género."
+                        },
+                        {
+                            "value": "2.4",
+                            "label": "Miedo a denunciar o a continuar con los trámites y procedimientos en razón a amenazas o violencias basadas en género."
+                        },
+                        {
+                            "value": "2.5",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "3.1",
+                            "label": "Miedo a denunciar o a continuar con los trámites por amenazas o control territorial de grupos armados."
+                        },
+                        {
+                            "value": "3.2",
+                            "label": "Justicias paralelas"
+                        },
+                        {
+                            "value": "3.3",
+                            "label": "Afectación en la prestación de servicios de justicia por violencia contra operadores (p. ej. Cierre de oficinas, traslados de despachos, entre otros)."
+                        },
+                        {
+                            "value": "3.4",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "4.1",
+                            "label": "Falta de medios de transporte adecuados para movilizarse hasta donde se prestan los servicios de justicia (Vehículos accesibles, sillas de ruedas, entre otros)."
+                        },
+                        {
+                            "value": "4.2",
+                            "label": "Falta de intérpretes o de asistencia adecuada (para personas con dificultades para ver o escuchar)."
+                        },
+                        {
+                            "value": "4.3",
+                            "label": "Falta de edificaciones o infraestructura accesible para personas con discapacidad (ausencia de rampas, pasillos estrechos, entre otros)."
+                        },
+                        {
+                            "value": "4.4",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "5.1",
+                            "label": "Falta de recursos para contratar un abogado."
+                        },
+                        {
+                            "value": "5.2",
+                            "label": "Falta de abogados o defensores de oficio en el lugar."
+                        },
+                        {
+                            "value": "5.3",
+                            "label": "Falta de recursos para trasladarse al lugar donde se prestan servicios de justicia."
+                        },
+                        {
+                            "value": "5.4",
+                            "label": "Falta de recursos para la conectividad."
+                        },
+                        {
+                            "value": "5.5",
+                            "label": "Falta de recursos para la atención de gastos procesales y pre procesales (p. ej. dictámenes periciales, transporte de testigos o contacto con los mismos, investigadores, entre otros)."
+                        },
+                        {
+                            "value": "5.6",
+                            "label": "Altos costos de oportunidad (tiempo que toma y se destinará) para atender el trámite, proceso o procedimiento."
+                        },
+                        {
+                            "value": "5.7",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "6.1",
+                            "label": "Falta de presencia de operadores de justicia en zonas rurales."
+                        },
+                        {
+                            "value": "6.2",
+                            "label": "Falta de infraestructura vial o de oferta de transporte para movilizarse a donde se prestan servicios de justicia"
+                        },
+                        {
+                            "value": "6.3",
+                            "label": "Dificultades para acceder a los operadores de justicia en razón de la distancia que debe recorrerse o de las condiciones geográficas (p. ej. accidentes geográficos)."
+                        },
+                        {
+                            "value": "6.4",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "7.1",
+                            "label": "Lentitud y larga duración de los trámites y procesos de los servicios de justicia."
+                        },
+                        {
+                            "value": "7.2",
+                            "label": "Incumplimiento de acuerdos o sentencias."
+                        },
+                        {
+                            "value": "7.3",
+                            "label": "Excesivos trámites y formalidades, procesos demasiado complejos."
+                        },
+                        {
+                            "value": "7.4",
+                            "label": "Desconfianza en los operadores de justicia y en la institucionalidad en general."
+                        },
+                        {
+                            "value": "7.5",
+                            "label": "Percepción de impunidad en el sistema de justicia."
+                        },
+                        {
+                            "value": "7.6",
+                            "label": "Falta de implementación o promoción de los Métodos de Resolución de Conflictos."
+                        },
+                        {
+                            "value": "7.7",
+                            "label": "Falta de articulación y coordinación entre actores y operadores de justicia."
+                        },
+                        {
+                            "value": "7.8",
+                            "label": "Desconocimiento de derechos, deberes y de los diversos mecanismos de acceso a la justicia."
+                        },
+                        {
+                            "value": "7.9",
+                            "label": "Alta rotación de servidores en el sector justicia."
+                        },
+                        {
+                            "value": "7.10",
+                            "label": "Falta de conocimientos o competencias de los actores y operadores de justicia."
+                        },
+                        {
+                            "value": "7.11",
+                            "label": "Falta de recursos financieros, físicos y humanos para atender de forma oportuna y suficiente las necesidades jurídicas."
+                        },
+                        {
+                            "value": "7.12",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "8.1",
+                            "label": "Falta de equipos o infraestructura tecnológica a disposición de los actores y operadores de justicia."
+                        },
+                        {
+                            "value": "8.2",
+                            "label": "Las personas no cuentan con equipos o sistemas que les permitan acceder en línea a los servicios de justicia."
+                        },
+                        {
+                            "value": "8.3",
+                            "label": "Deficiente conectividad en zonas rurales (veredas o corregimientos)."
+                        },
+                        {
+                            "value": "8.4",
+                            "label": "Deficiente conectividad en el casco urbano de los municipios o distritos."
+                        },
+                        {
+                            "value": "8.5",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Conflictividades",
+            "questions": [
+                {
+                    "id": "P33",
+                    "type": "checkbox",
+                    "label": "Del siguiente listado de problemas / desacuerdos / conflictos y disputas ¿Cuáles tramita usted con mayor frecuencia, de conformidad al cargo u ocupación que desempeña en la entidad / organización o comunidad que representa?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Problemas relacionados con familiares como separación o divorcio, cuotas de alimentos, herencias o sucesiones, paternidad / maternidad, cuidado de personas que más lo requieren y gastos del hogar.",
+                            "ref": "1.1",
+                            "subCategories": [
+                                {
+                                    "id": "1.1",
+                                    "label": "Paternidad / maternidad o adopción",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.1.1",
+                                            "type": "checkbox",
+                                            "label": " ¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Paternidad / maternidad o adopción"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.1.1",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.1.1",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.1.1"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.1.1"
+                                                }
+
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.1.1",
+                                            "type": "radio",
+                                            "label": " ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.1.1",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+
+                                    ]
+                                },
+                                {
+                                    "id": "1.2",
+                                    "label": "Cuota de alimentos, custodia, patria potestad, visitas",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.1.2",
+                                            "type": "checkbox",
+                                            "label": " ¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "2",
+                                                    "label": "Paternidad / maternidad o adopción"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.1.2",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.1.2",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.1.2"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.1.2"
+                                                }
+
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.1.2",
+                                            "type": "radio",
+                                            "label": " ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.1.2",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+
+                                    ]
+
+                                },
+                                {
+                                    "id": "1.3",
+                                    "label": "Separación, divorcio, liquidación, unión libre",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.1.3",
+                                            "type": "checkbox",
+                                            "label": " ¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "3",
+                                                    "label": "Separación, divorcio, liquidación, unión libre"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.1.3",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.1.3",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.1.3"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.1.3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.1.3",
+                                            "type": "radio",
+                                            "label": " ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.1.3",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1.4",
+                                    "label": "División de propiedad / Separación de bienes",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.1.4",
+                                            "type": "checkbox",
+                                            "label": " ¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "4",
+                                                    "label": "División de propiedad / Separación de bienes"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.1.4",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.1.4",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.1.4"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.1.4"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.1.4",
+                                            "type": "radio",
+                                            "label": " ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.1.4",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1.5",
+                                    "label": "Herencias, sucesiones, testamentos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.1.5",
+                                            "type": "checkbox",
+                                            "label": " ¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "5",
+                                                    "label": "Herencias, sucesiones, testamentos"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.1.5",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.1.5",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.1.5"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.1.5"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.1.5",
+                                            "type": "radio",
+                                            "label": " ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.1.5",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1.6",
+                                    "label": "Cuidado de personas que más lo requieren (niños, niñas y adolescentes, personas enfermas, personas con discapacidad, personas mayores)",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.1.6",
+                                            "type": "checkbox",
+                                            "label": " ¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "6",
+                                                    "label": "Cuidado de personas que más lo requieren (niños, niñas y adolescentes, personas enfermas, personas con discapacidad, personas mayores)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.1.6",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.1.6",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.1.6"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.1.6"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.1.6",
+                                            "type": "radio",
+                                            "label": " ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.1.6",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1.7",
+                                    "label": "Quien asume los gastos del hogar",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.1.7",
+                                            "type": "checkbox",
+                                            "label": " ¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "7",
+                                                    "label": "Quien asume los gastos del hogar"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.1.7",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.1.7",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.1.7"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.1.7"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.1.7",
+                                            "type": "radio",
+                                            "label": " ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.1.7",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                }
+    
+                            ]
+                        },
+                        {
+                            "value": "2",
+                            "label": "Problemas relacionados con el consumo de un producto, bien o servicio (telefonía celular, televisión por cable, internet, transporte, alimentos, electrodomésticos y servicios técnicos o profesionales). Se excluyen los servicios públicos domiciliarios.",
+                            "ref": "2.1"
+                        }
+                    ]
+                }
+            ]
         }
+        
     ]
 }
 
