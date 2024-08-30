@@ -1,0 +1,657 @@
+{
+    "surveyTitle": "Encuesta a la Administración Municipal y Operadores De Justicia",
+    "chapters": [
+        {
+            "title": "Características sociodemográficas del encuestado",
+            "questions": [
+                {
+                    "id": "P1",
+                    "type": "text",
+                    "label": "Nombre completo del encuestado"
+                },
+                {
+                    "id": "P2",
+                    "type": "text",
+                    "label": "Nombre de la comunidad que representa"
+                },
+                {
+                    "id": "P3",
+                    "type": "tel",
+                    "label": "Número de celular"
+                },
+                {
+                    "id": "P4",
+                    "type": "email",
+                    "label": "Correo electrónico"
+                },
+                {
+                    "id": "P5",
+                    "type": "text",
+                    "label": "Nombre del departamento"
+                },
+                {
+                    "id": "P6",
+                    "type": "text",
+                    "label": "Código departamento"
+                },
+                {
+                    "id": "P7",
+                    "type": "text",
+                    "label": "Nombre del municipio"
+                },
+                {
+                    "id": "P8",
+                    "type": "text",
+                    "label": "Código del municipio"
+                },
+                {
+                    "id": "P9",
+                    "type": "radio",
+                    "label": "¿Qué tipo de actor / operador de justicia usted representa?",
+                    "groups": [
+                        {
+                            "label": "Justicia Formal",
+                            "options": [
+                                {
+                                    "value": "1",
+                                    "label": "Juez/a"
+                                },
+                                {
+                                    "value": "2",
+                                    "label": "Fiscal"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Justicia alternativa o no formal",
+                            "options": [
+                                {
+                                    "value": "3",
+                                    "label": "Coordinador/a del Centro de Conciliación"
+                                },
+                                {
+                                    "value": "4",
+                                    "label": "Conciliador/a en derecho"
+                                },
+                                {
+                                    "value": "5",
+                                    "label": "Conciliador/a en equidad"
+                                },
+                                {
+                                    "value": "6",
+                                    "label": "Mediador/a"
+                                },
+                                {
+                                    "value": "7",
+                                    "label": "Notario/a"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Justicia administrativa",
+                            "options": [
+                                {
+                                    "value": "8",
+                                    "label": "Comisario/a de familia"
+                                },
+                                {
+                                    "value": "9",
+                                    "label": "Coordinador/a Centro Zonal del ICBF"
+                                },
+                                {
+                                    "value": "10",
+                                    "label": "Corregidor/a municipal"
+                                },
+                                {
+                                    "value": "11",
+                                    "label": "Inspector/a de policía"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Actores comunitarios",
+                            "options": [
+                                {
+                                    "value": "12",
+                                    "label": "Representante de Junta de Acción Comunal / Asojuntas"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Instancias de promoción de la justicia",
+                            "options": [
+                                {
+                                    "value": "13",
+                                    "label": "Coordinador/a Casa de Justicia o Centro de Convivencia"
+                                },
+                                {
+                                    "value": "14",
+                                    "label": "Representante del Consultorio jurídico de las Universidades"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Jurisdicción especial",
+                            "options": [
+                                {
+                                    "value": "15",
+                                    "label": "Juez/a de paz – Juez/a de reconsideración"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Ministerio público",
+                            "options": [
+                                {
+                                    "value": "16",
+                                    "label": "Personero/a municipal"
+                                },
+                                {
+                                    "value": "17",
+                                    "label": "Defensor/a público/a"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Fuerza pública",
+                            "options": [
+                                {
+                                    "value": "18",
+                                    "label": "Comandante de la estación de policía"
+                                },
+                                {
+                                    "value": "19",
+                                    "label": "Policía de infancia y adolescencia"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Autoridades municipales",
+                            "options": [
+                                {
+                                    "value": "20",
+                                    "label": "Secretario/a de gobierno / interior"
+                                },
+                                {
+                                    "value": "21",
+                                    "label": "Enlace del SLJ en la administración municipal"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "P10",
+                    "type": "radio",
+                    "label": "¿Nos autoriza a realizarle la encuesta?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Si",
+                            "ref": "P11"
+                        },
+                        {
+                            "value": "2",
+                            "label": "No",
+                            "isFinal": true
+                        }
+                    ]
+                },
+                {
+                    "id": "P11",
+                    "type": "radio",
+                    "label": "¿Cuál es su edad?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Entre 18 a 25 años"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Entre 26 a 35 años"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Entre 36 a 45 años"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Entre 46 a 55 años"
+                        },
+                        {
+                            "value": "5",
+                            "label": "Mayor de 56 años"
+                        }
+                    ]
+                },
+                {
+                    "id": "P12",
+                    "type": "radio",
+                    "label": "¿De acuerdo con su cultura, pueblo o rasgos físicos... usted se reconoce como:",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Indígena"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Gitano / ROM"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Raizal del archipiélago de San Andrés y Providencia"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Palenquero de San Basilio"
+                        },
+                        {
+                            "value": "5",
+                            "label": "Negro, mulato, afrodescendiente o afrocolombiano"
+                        },
+                        {
+                            "value": "6",
+                            "label": "Ninguno de los anteriores"
+                        }
+                    ]
+                },
+                {
+                    "id": "P13",
+                    "type": "radio",
+                    "label": "¿Cuál es su nivel educativo más alto alcanzado?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Ninguno"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Preescolar"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Básica primaria (1-5)"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Básica secundaria (6-9)"
+                        },
+                        {
+                            "value": "5",
+                            "label": "Media (10-13)"
+                        },
+                        {
+                            "value": "6",
+                            "label": "Técnico"
+                        },
+                        {
+                            "value": "7",
+                            "label": "Tecnólogo"
+                        },
+                        {
+                            "value": "8",
+                            "label": "Profesional"
+                        },
+                        {
+                            "value": "9",
+                            "label": "Especialista"
+                        },
+                        {
+                            "value": "10",
+                            "label": "Magister"
+                        },
+                        {
+                            "value": "11",
+                            "label": "Doctorado"
+                        },
+                        {
+                            "value": "12",
+                            "label": "No sabe / No informa"
+                        }
+                    ]
+                }
+               
+            ]
+        },
+        {
+            "title": "Información laboral",
+            "questions": [
+                {
+                    "id": "P14",
+                    "type": "text",
+                    "label": "¿Cuál es el nombre completo del cargo, ocupación o rol que usted desempeña actualmente?"
+                },
+                {
+                    "id": "P15",
+                    "type": "radio",
+                    "label": "¿Cuántos años de experiencia tiene en este cargo u ocupación?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Menor de 1 año"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Entre 1 a 3 años"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Entre 4 a 6 años"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Entre 7 a 9 años"
+                        },
+                        {
+                            "value": "5",
+                            "label": "10 años o mayor"
+                        }
+                    ]
+                },
+                {
+                    "id": "P16",
+                    "type": "radio",
+                    "label": "¿Las funciones / labores que usted desempeña tienen cobertura?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Urbana"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Rural"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Ambas"
+                        }
+                    ]
+                },
+                {
+                    "id": "P17",
+                    "type": "radio",
+                    "label": "¿Qué tipo de vinculación tiene usted en el cargo, ocupación o rol que desempeña actualmente?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Carrera administrativa"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Provisional"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Prestación de servicios"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Libre nombramiento y remoción"
+                        },
+                        {
+                            "value": "5",
+                            "label": "Ad honorem (sin retribución económica)"
+                        },
+                        {
+                            "value": "6",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Capacidad Institucional",
+            "questions": [
+                {
+                    "id": "P18",
+                    "type": "checkbox",
+                    "label": "De los siguientes mecanismos, ¿cuáles dispone la entidad u organización que usted representa, para hacer el registro continuo y actualizado de los casos que se atienden? (ENCUESTADOR: LEA LAS OPCIONES Y ESPERAR RESPUESTA DEL ENCUESTADO – RM – MARCAR CON “X”)",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Archivo físico / cuadernos",
+                            "ref": "P19"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Paquete informático (Ejemplo: Excel / Word)",
+                            "ref": "P19"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Sistema de información especializado",
+                            "ref": "P19"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Otro ¿cuál?",
+                            "ref": "P19",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "5",
+                            "label": "Ninguno",
+                            "ref": "P20"
+                        }
+                    ]
+                },
+                {
+                    "id": "P19",
+                    "type": "checkbox",
+                    "label": "El registro de los casos que atienden les permite conocer información específica, sobre: (ENCUESTADOR: LEA CADA OPCIÓN Y ESPERAR RESPUESTA DEL ENCUESTADO – RU – MARCAR CON “X” EN CADA CASO)",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Número total de casos",
+                            "ref": "P21",
+                            "subOptions": [
+                                {
+                                    "value": "1",
+                                    "label": "Si"
+                                },
+                                {
+                                    "value": "2",
+                                    "label": "No"
+                                },
+                                {
+                                    "value": "3",
+                                    "label": "No sabe"
+                                }
+                            ]
+                        },
+                        {
+                            "value": "2",
+                            "label": "Número de casos activos",
+                            "ref": "P21",
+                            "subOptions": [
+                                {
+                                    "value": "1",
+                                    "label": "Si"
+                                },
+                                {
+                                    "value": "2",
+                                    "label": "No"
+                                },
+                                {
+                                    "value": "3",
+                                    "label": "No sabe"
+                                }
+                            ]
+                        },
+                        {
+                            "value": "3",
+                            "label": "Número de casos archivados",
+                            "ref": "P21",
+                            "subOptions": [
+                                {
+                                    "value": "1",
+                                    "label": "Si"
+                                },
+                                {
+                                    "value": "2",
+                                    "label": "No"
+                                },
+                                {
+                                    "value": "3",
+                                    "label": "No sabe"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "P20",
+                    "type": "text",
+                    "label": "¿Por qué no cuentan con un mecanismo para el registro de los casos que atienden?"
+                },
+                {
+                    "id": "P21",
+                    "type": "radio",
+                    "label": "¿Usted realiza seguimiento a los casos que atiende en ejercicio de su competencia?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Si"
+                        },
+                        {
+                            "value": "2",
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "id": "P22",
+                    "type": "checkbox",
+                    "label": "De acuerdo con su experiencia, ¿cuáles son las principales dificultades que se presentan y que generan demoras en el trámite de los casos que atiende? (ENCUESTADOR: LEA LAS OPCIONES Y ESPERAR RESPUESTA DEL ENCUESTADO – RM – MARCAR CON “X”)",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Falta de personal"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Falta de herramientas tecnológicas"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Falta de articulación con otras entidades presentes en el municipio"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Ausencia de entidades que debieran estar presentes en el municipio"
+                        },
+                        {
+                            "value": "5",
+                            "label": "Otro ¿cuál? _______________________________",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "6",
+                            "label": "Ninguno"
+                        }
+                    ]
+                },
+                {
+                    "id": "P23",
+                    "type": "radio",
+                    "label": "¿Pertenece a una o varias instancias de coordinación local o regional entre instituciones que prestan servicios de justicia? (ENCUESTADOR: LEA LAS OPCIONES Y ESPERAR RESPUESTA DEL ENCUESTADO – RU – MARCAR CON “X”)",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Si",
+                            "ref": "P24"
+                        },
+                        {
+                            "value": "2",
+                            "label": "No",
+                            "ref": "P25"
+                        }
+                    ]
+                },
+                {
+                    "id": "P24",
+                    "type": "checkbox",
+                    "label": "Del siguiente listado, ¿a qué instancias de coordinación usted pertenece? (ENCUESTADOR: MUESTRE TARJETA 1 Y ESPERAR RESPUESTA DEL ENCUESTADO – RM – MARCAR CON “X”)",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Consejo Municipal de Seguridad"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Comité Municipal de Justicia Transicional"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Comité Municipal de Casa de Justicia o Centro de Convivencia Ciudadana"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Comité Coordinador de Casa de Justicia o Centro de Convivencia Ciudadana"
+                        },
+                        {
+                            "value": "5",
+                            "label": "Comité Municipal de Derechos Humanos y Derecho Internacional Humanitario"
+                        },
+                        {
+                            "value": "6",
+                            "label": "Consejo Municipal de Política Social"
+                        },
+                        {
+                            "value": "7",
+                            "label": "Consejo Municipal de Paz, Reconciliación y Convivencia"
+                        },
+                        {
+                            "value": "8",
+                            "label": "Mesa Municipal de Participación de Víctimas"
+                        },
+                        {
+                            "value": "9",
+                            "label": "Comité Municipal de Convivencia Escolar"
+                        },
+                        {
+                            "value": "10",
+                            "label": "Consejo de Gobierno"
+                        },
+                        {
+                            "value": "11",
+                            "label": "Comisión Municipal de Policía y Participación Ciudadana"
+                        },
+                        {
+                            "value": "12",
+                            "label": "Comité Interinstitucional Consultivo para la Prevención de la Violencia Sexual y Atención Integral de los Niños, Niñas y Adolescentes (NNA) Victimas del Abuso Sexual"
+                        },
+                        {
+                            "value": "13",
+                            "label": "Comité Municipal para la Lucha contra la Trata de Personas"
+                        },
+                        {
+                            "value": "14",
+                            "label": "Comité Territorial de Orden Público"
+                        },
+                        {
+                            "value": "15",
+                            "label": "Comité Local de Justicia"
+                        },
+                        {
+                            "value": "16",
+                            "label": "Otros, ¿cuáles?",
+                            "hasOther": true
+                        }
+                    ]
+                }
+                
+                
+                
+                
+                
+                
+
+            ]
+        }
+    ]
+}
+
+       
