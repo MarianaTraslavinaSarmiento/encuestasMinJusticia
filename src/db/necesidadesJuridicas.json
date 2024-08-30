@@ -241,6 +241,394 @@
                 
 
             ]
+        },
+        {
+            "title": "Barreras de acceso a la justicia",
+            "questions": [
+                {
+                    "id": "P15",
+                    "type": "checkbox",
+                    "label": "Del siguiente listado, ¿Cuáles considera, desde su rol (como representante de la comunidad), que son las principales barreras de acceso a la justicia que se le presentan a los miembros de su comunidad?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "ref": "P17.1",
+                            "label": "Culturales y lingüísticas",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas en razón de la pertenencia a grupos culturales o lingüísticos minoritarios. "
+                        },
+                        {
+                            "value": "2",
+                            "ref": "P17.2",
+                            "label": "De Género",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas, en razón del sexo, la identidad de género, orientación sexual o expresión de género. "
+                        },
+                        {
+                            "value": "3",
+                            "ref": "P17.3",
+                            "label": "De seguridad, orden público o asociadas al conflicto armado",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de una necesidad jurídica debido a la percepción de peligro frente la vida o la integridad personal."
+                        },
+                        {
+                            "value": "4",
+                            "ref": "P17.4",
+                            "label": "Discapacidad",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas en razón de la condición de discapacidad de las personas. "
+                        },
+                        {
+                            "value": "5",
+                            "ref": "P17.6",
+                            "label": "Económicas",
+                            "definition": "Definición. Se refiere a las dificultades de las personas para asumir los costos que implica el acceso a los servicios de justicia o los obstáculos que enfrentan al encontrarse en situación de marginalidad económica. "
+                        },
+                        {
+                            "value": "6",
+                            "ref": "P17.7",
+                            "label": "Geográficas",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas en razón de la ubicación geográfica, las distancias, medios y vías de comunicación o transporte."
+                        },
+                        {
+                            "value": "7",
+                            "ref": "P17.8",
+                            "label": "Institucionales",
+                            "definition": "Definición. Se refieren a dificultades en el acceso en razón a la estructura, políticas, procesos y dinámicas de los sistemas de justicia. "
+                        },
+                        {
+                            "value": "8",
+                            "ref": "P17.9",
+                            "label": "Tecnológicas",
+                            "definition": "Definición. Dificultades en el acceso a la justicia por la falta de equipos, sistemas tecnológicos, redes o infraestructura de conectividad. "
+                        }
+                    ]
+                },
+                {
+                    "id": "P16",
+                    "isIndex": true,
+                    "type": "checkbox",
+                    "label": " ¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los miembros de su comunidad?",
+                    "options": [
+                        {
+                            "value": "1.1",
+                            "label": "Atención inadecuada por razón de la condición cultural o lingüística."
+                        },
+                        {
+                            "value": "1.2",
+                            "label": "Falta de información, rutas de atención y asistencia legal de fácil comprensión o disponible en lenguas minoritarias."
+                        },
+                        {
+                            "value": "1.3",
+                            "label": "Falta de articulación y coordinación entre la justicia propia afro y la jurisdicción ordinaria."
+                        },
+                        {
+                            "value": "1.4",
+                            "label": "Falta de articulación y coordinación entre la Justicia Especial Indígena y la jurisdicción ordinaria."
+                        },
+                        {
+                            "value": "1.5",
+                            "label": "Falta de asistencia de traductores o interpretes dentro de los procedimientos o trámites legales."
+                        },
+                        {
+                            "value": "1.6",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "2.1",
+                            "label": "Falta de atención o atención inadecuada o desestimación de los conflictos en razón del sexo, identidad de género, orientación sexual o expresión de género."
+                        },
+                        {
+                            "value": "2.2",
+                            "label": "Falta de asistencia o representación legal adecuada por razón del sexo, identidad de género, orientación sexual o expresión de género."
+                        },
+                        {
+                            "value": "2.3",
+                            "label": "No accede a los servicios de justicia por sentir o presumir que será discriminado en razón de su sexo, identidad de género, orientación sexual o expresión de género."
+                        },
+                        {
+                            "value": "2.4",
+                            "label": "Miedo a denunciar o a continuar con los trámites y procedimientos en razón a amenazas o violencias basadas en género."
+                        },
+                        {
+                            "value": "2.5",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "3.1",
+                            "label": "Miedo a denunciar o a continuar con los trámites por amenazas o control territorial de grupos armados."
+                        },
+                        {
+                            "value": "3.2",
+                            "label": "Justicias paralelas"
+                        },
+                        {
+                            "value": "3.3",
+                            "label": "Afectación en la prestación de servicios de justicia por violencia contra operadores (p. ej. Cierre de oficinas, traslados de despachos, entre otros)."
+                        },
+                        {
+                            "value": "3.4",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "4.1",
+                            "label": "Falta de medios de transporte adecuados para movilizarse hasta donde se prestan los servicios de justicia (Vehículos accesibles, sillas de ruedas, entre otros)."
+                        },
+                        {
+                            "value": "4.2",
+                            "label": "Falta de intérpretes o de asistencia adecuada (para personas con dificultades para ver o escuchar)."
+                        },
+                        {
+                            "value": "4.3",
+                            "label": "Falta de edificaciones o infraestructura accesible para personas con discapacidad (ausencia de rampas, pasillos estrechos, entre otros)."
+                        },
+                        {
+                            "value": "4.4",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "5.1",
+                            "label": "Falta de recursos para contratar un abogado."
+                        },
+                        {
+                            "value": "5.2",
+                            "label": "Falta de abogados o defensores de oficio en el lugar."
+                        },
+                        {
+                            "value": "5.3",
+                            "label": "Falta de recursos para trasladarse al lugar donde se prestan servicios de justicia."
+                        },
+                        {
+                            "value": "5.4",
+                            "label": "Falta de recursos para la conectividad."
+                        },
+                        {
+                            "value": "5.5",
+                            "label": "Falta de recursos para la atención de gastos procesales y pre procesales (p. ej. dictámenes periciales, transporte de testigos o contacto con los mismos, investigadores, entre otros)."
+                        },
+                        {
+                            "value": "5.6",
+                            "label": "Altos costos de oportunidad (tiempo que toma y se destinará) para atender el trámite, proceso o procedimiento."
+                        },
+                        {
+                            "value": "5.7",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "6.1",
+                            "label": "Falta de presencia de operadores de justicia en zonas rurales."
+                        },
+                        {
+                            "value": "6.2",
+                            "label": "Falta de infraestructura vial o de oferta de transporte para movilizarse a donde se prestan servicios de justicia"
+                        },
+                        {
+                            "value": "6.3",
+                            "label": "Dificultades para acceder a los operadores de justicia en razón de la distancia que debe recorrerse o de las condiciones geográficas (p. ej. accidentes geográficos)."
+                        },
+                        {
+                            "value": "6.4",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "7.1",
+                            "label": "Lentitud y larga duración de los trámites y procesos de los servicios de justicia."
+                        },
+                        {
+                            "value": "7.2",
+                            "label": "Incumplimiento de acuerdos o sentencias."
+                        },
+                        {
+                            "value": "7.3",
+                            "label": "Excesivos trámites y formalidades, procesos demasiado complejos."
+                        },
+                        {
+                            "value": "7.4",
+                            "label": "Desconfianza en los operadores de justicia y en la institucionalidad en general."
+                        },
+                        {
+                            "value": "7.5",
+                            "label": "Percepción de impunidad en el sistema de justicia."
+                        },
+                        {
+                            "value": "7.6",
+                            "label": "Falta de implementación o promoción de los Métodos de Resolución de Conflictos."
+                        },
+                        {
+                            "value": "7.7",
+                            "label": "Falta de articulación y coordinación entre actores y operadores de justicia."
+                        },
+                        {
+                            "value": "7.8",
+                            "label": "Desconocimiento de derechos, deberes y de los diversos mecanismos de acceso a la justicia."
+                        },
+                        {
+                            "value": "7.9",
+                            "label": "Alta rotación de servidores en el sector justicia."
+                        },
+                        {
+                            "value": "7.10",
+                            "label": "Falta de conocimientos o competencias de los actores y operadores de justicia."
+                        },
+                        {
+                            "value": "7.11",
+                            "label": "Falta de recursos financieros, físicos y humanos para atender de forma oportuna y suficiente las necesidades jurídicas."
+                        },
+                        {
+                            "value": "7.12",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "8.1",
+                            "label": "Falta de equipos o infraestructura tecnológica a disposición de los actores y operadores de justicia."
+                        },
+                        {
+                            "value": "8.2",
+                            "label": "Las personas no cuentan con equipos o sistemas que les permitan acceder en línea a los servicios de justicia."
+                        },
+                        {
+                            "value": "8.3",
+                            "label": "Deficiente conectividad en zonas rurales (veredas o corregimientos)."
+                        },
+                        {
+                            "value": "8.4",
+                            "label": "Deficiente conectividad en el casco urbano de los municipios o distritos."
+                        },
+                        {
+                            "value": "8.5",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Conflictividades",
+            "questions": [
+                {
+                    "id": "P17",
+                    "type": "checkbox",
+                    "label": "Del siguiente listado de problemas / desacuerdos / conflictos y disputas ¿Para cada caso puede decirme si usted ha experimentado personalmente alguno de esos problemas entre enero 2020 hasta junio de 2024? Por favor solo incluya los problemas que experimentó usted mismo, no los que le ocurrieron a sus familiares, a sus amigos, a su negocio, o a su empleador, ni las situaciones en las que usted representó o ayudó a alguien con un problema. Y por favor solo mencione los problemas una vez:",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Problemas relacionados con familiares como separación o divorcio, cuotas de alimentos, herencias o sucesiones, paternidad / maternidad, cuidado de personas que más lo requieren y gastos del hogar.",
+                            "ref": "1.1"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Problemas relacionados con el consumo de un producto, bien o servicio (telefonía celular, televisión por cable, internet, transporte, alimentos, electrodomésticos y servicios técnicos o profesionales). Se excluyen los servicios públicos domiciliarios.",
+                            "ref": "2.1"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Problemas relacionados con la prestación de un servicio público domiciliario como agua, luz, gas, alcantarillado o basuras.",
+                            "ref": "3.1"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Problemas relacionados con su trabajo o empleo, como falta de pago de salarios, reconocimiento o formalización de la relación laboral, cambio en las condiciones laborales, despido, acoso.",
+                            "ref": "4.1"
+                        },
+                        {
+                            "value": "5",
+                            "label": "Problemas relacionados con deudas contraídas con el sector financiero, solidario o particulares, respecto a intereses elevados, hipotecas, embargos, quiebras, reportes a centrales de riesgo, deudas educativas.",
+                            "ref": "5.1"
+                        },
+                        {
+                            "value": "6",
+                            "label": "Problemas relacionados con la vivienda en la que habita o de la que es dueño, o problemas con vecinos por ruidos, malos olores, mascotas, chismes y otros.",
+                            "ref": "6.1"
+                        },
+                        {
+                            "value": "7",
+                            "label": "Problemas relacionados con el entorno o el espacio público, como el daño, deterioro o falta de paraderos, bancas, calles, puentes; invasión, uso indebido del espacio público o perjuicios por la ejecución de obras públicas.",
+                            "ref": "7.1"
+                        },
+                        {
+                            "value": "8",
+                            "label": "Problemas relacionados con la propiedad, uso y tenencia de la tierra como disputas sobre títulos, linderos, registro catastral o extinción de dominio.",
+                            "ref": "8.1"
+                        },
+                        {
+                            "value": "9",
+                            "label": "Problemas relacionados con el medio ambiente o el acceso a recursos comunitarios, como conflictos por el acceso a fuentes de agua, explotación ilegal de recursos ambientales o contaminación.",
+                            "ref": "9.1"
+                        },
+                        {
+                            "value": "10",
+                            "label": "Problemas relacionados con la prestación de los servicios de salud, pensión, riesgos laborales, como en la asignación de citas, medicamentos, calidad, oportunidad, afiliación, negación, reconocimiento o pago de la mesada pensional.",
+                            "ref": "10.1"
+                        },
+                        {
+                            "value": "11",
+                            "label": "Problemas en su relación con el Estado, referentes a multas, comparendos, pago de impuestos, expropiaciones, deficiencia en los servicios prestados, abuso de autoridad por policía y ejército o trámites de migrantes.",
+                            "ref": "11.1"
+                        },
+                        {
+                            "value": "12",
+                            "label": "Problemas relacionados con el servicio de educación y formación, como el acceso, la calidad, y el ambiente educativo (matoneo).",
+                            "ref": "12.1"
+                        },
+                        {
+                            "value": "13",
+                            "label": "Problemas relacionados con afectaciones, daños o perjuicios causados o derivados de delitos, como hurto, lesiones, calumnias, daños a la propiedad, secuestro, homicidio, ciberdelito, violencia sexual y violencia intrafamiliar.",
+                            "ref": "13.1"
+                        },
+                        {
+                            "value": "14",
+                            "label": "Problemas relacionados con afectaciones, daños o perjuicios causados o derivados del conflicto armado o problemas de orden público como desplazamiento forzado, terrorismo, despojo de tierras, extorsión.",
+                            "ref": "14.1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Conflictividades",
+            "questions": [
+                {
+                    "id": "P17",
+                    "type": "checkbox",
+                    "label": "Del siguiente listado de problemas / desacuerdos / conflictos y disputas ¿Para cada caso puede decirme si usted ha experimentado personalmente alguno de esos problemas entre enero 2020 hasta junio de 2024? Por favor solo incluya los problemas que experimentó usted mismo, no los que le ocurrieron a sus familiares, a sus amigos, a su negocio, o a su empleador, ni las situaciones en las que usted representó o ayudó a alguien con un problema. Y por favor solo mencione los problemas una vez:",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Problemas relacionados con familiares como separación o divorcio, cuotas de alimentos, herencias o sucesiones, paternidad / maternidad, cuidado de personas que más lo requieren y gastos del hogar.",
+                            "ref": "1.1",
+                            "subCategories": [
+                                {
+                                    "id": "1.1",
+                                    "label": "Familiares",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P18.1.1",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas afectan con mayor frecuencia a los miembros de su comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Paternidad / maternidad o adopción"
+                                                }
+                                            ]
+                                        },
+                                        {
+
+                                        }
+                            
+                        }
+
+                    ]
+                }
+
+
+
+            ]
         }
+        
     ]
 }
