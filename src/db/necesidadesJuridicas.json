@@ -1,0 +1,246 @@
+{
+    "surveyTitle": "Encuesta Sobre Necesidades Jurídicas ",
+    "chapters": [
+        {
+            "title": "Características sociodemográficas del encuestado",
+            "questions": [
+                {
+                    "id": "P1",
+                    "type": "text",
+                    "label": "Nombre completo del encuestado"
+                },
+                {
+                    "id": "P2",
+                    "type": "tel",
+                    "label": "Número de celular"
+                },
+                {
+                    "id": "P3",
+                    "type": "text",
+                    "label": "Nombre del departamento"
+                },
+                {
+                    "id": "P4",
+                    "type": "text",
+                    "label": "Código departamento"
+                },
+                {
+                    "id": "P5",
+                    "type": "text",
+                    "label": "Nombre del municipio"
+                },
+                {
+                    "id": "P6",
+                    "type": "text",
+                    "label": "Código del municipio"
+                },
+                {
+                    "id": "P7",
+                    "type": "radio",
+                    "label": "¿Nos autoriza a realizarle la encuesta?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Si",
+                            "ref": "P8"
+                        },
+                        {
+                            "value": "2",
+                            "label": "No",
+                            "isFinal": true
+                        }
+                    ]
+                },
+                {
+                    "id": "P8",
+                    "type": "radio",
+                    "label": "¿Cuál es su edad?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Entre 18 a 25 años"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Entre 26 a 35 años"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Entre 36 a 45 años"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Entre 46 a 55 años"
+                        },
+                        {
+                            "value": "5",
+                            "label": "Mayor de 56 años"
+                        }
+                    ]
+                },
+                {
+                    "id": "P9",
+                    "type": "radio",
+                    "label": "De acuerdo con su cultura, pueblo o rasgos físicos... usted se reconoce como:",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Indígena"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Gitano / ROM"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Raizal del archipiélago de San Andrés y Providencia"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Palenquero de San Basilio"
+                        },
+                        {
+                            "value": "5",
+                            "label": "Negro, mulato, afrodescendiente o afrocolombiano"
+                        },
+                        {
+                            "value": "6",
+                            "label": "Ninguno de los anteriores"
+                        }                        
+
+                    ]
+                },
+                {
+                    "id": "P10",
+                    "type": "radio",
+                    "label": "¿Cuál es su nivel educativo más alto alcanzado?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Ninguno"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Preescolar"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Básica primaria (1-5)"
+                        },
+                        {
+                            "value": "4",
+                            "label": "Básica secundaria (6-9)"
+                        },
+                        {
+                            "value": "5",
+                            "label": "Media (10-13)"
+                        },
+                        {
+                            "value": "6",
+                            "label": "Técnico"
+                        },
+                        {
+                            "value": "7",
+                            "label": "Tecnólogo"
+                        },
+                        {
+                            "value": "8",
+                            "label": "Profesional"
+                        },
+                        {
+                            "value": "9",
+                            "label": "Especialista"
+                        },
+                        {
+                            "value": "10",
+                            "label": "Magister"
+                        },
+                        {
+                            "value": "11",
+                            "label": "Doctorado"
+                        },
+                        {
+                            "value": "12",
+                            "label": "No sabe / No informa"
+                        }
+                    ]
+                },
+                {
+                    "id": "P11",
+                    "type": "radio",
+                    "label": "¿Cuánto tiempo lleva viviendo en el municipio de...?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Menos de 1 año"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Entre 1 y menos de 5 años"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Entre 5 y menos de 10 años"
+                        },
+                        {
+                            "value": "4",
+                            "label": "10 años y más"
+                        }
+                    ]
+                },
+                {
+                    "id": "P12",
+                    "type": "radio",
+                    "label": "¿Actualmente en qué zona del municipio vive?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Urbana"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Rural"
+                        }
+                    ]
+                },
+                {
+                    "id": "P13",
+                    "type": "radio",
+                    "label": "Usted se reconoce como:",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Campesino - campesina"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Miembro de la comunidad LGTBIQ+"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Migrante"
+                        }
+                    ]
+                },
+                {
+                    "id": "P14",
+                    "type": "radio",
+                    "label": "Sexo:",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Hombre"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Mujer"
+                        }
+                    ]
+                }
+
+                
+
+            ]
+        }
+    ]
+}
