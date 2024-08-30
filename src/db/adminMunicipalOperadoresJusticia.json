@@ -6929,7 +6929,1780 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "value": "12",
+                            "label": "Problemas relacionados con el servicio de educación y formación, como el acceso, la calidad, y el ambiente educativo (matoneo).",
+                            "ref": "12.1",
+                            "subCategories": [
+                                {
+                                    "id": "12.1",
+                                    "label": "Educación y formación",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.12.1",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Problemas en el acceso a la educación básica y media"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.12.1",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.12.1",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.12.1"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.12.1"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.12.1",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.12.1",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "12.2",
+                                    "label": "Educación y formación",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.12.2",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "2",
+                                                    "label": "Problemas en el acceso a la educación superior"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.12.2",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.12.2",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.12.2"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.12.2"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.12.2",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.12.2",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "12.3",
+                                    "label": "Educación y formación",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.12.3",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "3",
+                                                    "label": "Condiciones de calidad en la prestación del servicio, negación"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.12.3",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.12.3",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.12.3"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.12.3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.12.3",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.12.3",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "12.4",
+                                    "label": "Educación y formación",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.12.4",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "4",
+                                                    "label": "Derechos de gratuidad, matrícula de ingreso, materiales"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.12.4",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.12.4",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.12.4"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.12.4"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.12.4",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.12.4",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "12.5",
+                                    "label": "Educación y formación",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.12.5",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "5",
+                                                    "label": "Acceso y prestación inadecuada del servicio en relación con necesidades específicas de la persona"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.12.5",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.12.5",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.12.5"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.12.5"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.12.5",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.12.5",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "12.6",
+                                    "label": "Educación y formación",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.12.6",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "6",
+                                                    "label": "Ambiente educativo (matoneo, bullying, violencia)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.12.6",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.12.6",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.12.6"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.12.6"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.12.6",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.12.6",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                }
+                            ]  
+                        },
+                        {
+                            "value": "13",
+                            "label": "Problemas relacionados con afectaciones, daños o perjuicios causados o derivados de delitos, como hurto, lesiones, calumnias, daños a la propiedad, secuestro, homicidio, ciberdelito, violencia sexual y violencia intrafamiliar.",
+                            "ref": "13.1",
+                            "subCategories":[
+                                {
+                                    "id": "13.1",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.13.1",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Hurto, estafa, fraude, extorsión"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.13.1",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.13.1",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.13.1"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.13.1"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.13.1",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.13.1",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "13.2",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.13.2",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "2",
+                                                    "label": "Daño en bienes muebles y/o inmuebles (patrimonio como vehículos o oficina)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.13.2",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.13.2",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.13.2"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.13.2"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.13.2",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.13.2",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "13.3",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.13.3",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "3",
+                                                    "label": "Amenazas, lesiones"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.13.3",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.13.3",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.13.3"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.13.3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.13.3",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.13.3",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "13.4",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.13.4",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "4",
+                                                    "label": "Contra los derechos de autor"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.13.4",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.13.4",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.13.4"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.13.4"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.13.4",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.13.4",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "13.5",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.13.5",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "5",
+                                                    "label": "Secuestros, tortura"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.13.5",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.13.5",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.13.5"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.13.5"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.13.5",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.13.5",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "13.6",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.13.6",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "6",
+                                                    "label": "Injurias, calumnias"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.13.6",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.13.6",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.13.6"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.13.6"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.13.6",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.13.6",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "13.7",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.13.7",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "7",
+                                                    "label": "Homicidio, feminicidio"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.13.7",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.13.7",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.13.7"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.13.7"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.13.7",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.13.7",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "13.8",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.13.8",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "8",
+                                                    "label": "Ciberdelitos (hurto por medios informáticos, violación de datos personales)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.13.8",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.13.8",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.13.8"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.13.8"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.13.8",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.13.8",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "13.9",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.13.9",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "9",
+                                                    "label": "Plantaciones ilícitas, producción de drogas, tráfico de estupefacientes y sustancias químicas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.13.9",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.13.9",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.13.9"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.13.9"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.13.9",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.13.9",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "13.10",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.13.10",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "10",
+                                                    "label": "Violencia sexual"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.13.10",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.13.10",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.13.10"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.13.10"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.13.10",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.13.10",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "13.11",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P34.13.11",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                            "options": [
+                                                {
+                                                    "value": "11",
+                                                    "label": "Violencia intrafamiliar"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P35.13.11",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P36.13.11",
+                                            "type": "radio",
+                                            "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P37.13.11"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P38.13.11"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P37.13.11",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P38.13.11",
+                                            "type": "number",
+                                            "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                        }
+                                    ]
+                                }
+                            ]
                             
+                        },
+                        {
+                            "value": "14",
+                            "label": "Problemas relacionados con afectaciones, daños o perjuicios causados o derivados del conflicto armado o problemas de orden público como desplazamiento forzado, terrorismo, despojo de tierras, extorsión.",
+                            "ref": "14.1",
+                            "subCategories": [
+                                {
+                                "id": "14.1",
+                                "label": "Afectaciones, daños o perjuicios causados o derivados del conflicto armado o problemas de orden público",
+                                "followUpQuestions": [
+                                    {
+                                        "id": "P34.14.1",
+                                        "type": "checkbox",
+                                        "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Desplazamiento forzado y desaparición forzada"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P35.14.1",
+                                        "type": "radio",
+                                        "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Urbano"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "Rural"
+                                            },
+                                            {
+                                                "value": "3",
+                                                "label": "Ambas"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P36.14.1",
+                                        "type": "radio",
+                                        "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si",
+                                                "ref": "P37.14.1"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No",
+                                                "ref": "P38.14.1"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P37.14.1",
+                                        "type": "radio",
+                                        "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P38.14.1",
+                                        "type": "number",
+                                        "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "14.2",
+                                "label": "Afectaciones, daños o perjuicios causados o derivados del conflicto armado o problemas de orden público",
+                                "followUpQuestions": [
+                                    {
+                                        "id": "P34.14.2",
+                                        "type": "checkbox",
+                                        "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                        "options": [
+                                            {
+                                                "value": "2",
+                                                "label": "Agresiones por la Policía o las Fuerzas Militares (batidas ilegales, falsos positivos, ejecuciones extrajudiciales, etc.)"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P35.14.2",
+                                        "type": "radio",
+                                        "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Urbano"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "Rural"
+                                            },
+                                            {
+                                                "value": "3",
+                                                "label": "Ambas"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P36.14.2",
+                                        "type": "radio",
+                                        "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si",
+                                                "ref": "P37.14.2"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No",
+                                                "ref": "P38.14.2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P37.14.2",
+                                        "type": "radio",
+                                        "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P38.14.2",
+                                        "type": "number",
+                                        "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "14.3",
+                                "label": "Afectaciones, daños o perjuicios causados o derivados del conflicto armado o problemas de orden público",
+                                "followUpQuestions": [
+                                    {
+                                        "id": "P34.14.3",
+                                        "type": "checkbox",
+                                        "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                        "options": [
+                                            {
+                                                "value": "3",
+                                                "label": "Incumplimiento en la sustitución de cultivos ilícitos"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P35.14.3",
+                                        "type": "radio",
+                                        "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Urbano"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "Rural"
+                                            },
+                                            {
+                                                "value": "3",
+                                                "label": "Ambas"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P36.14.3",
+                                        "type": "radio",
+                                        "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si",
+                                                "ref": "P37.14.3"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No",
+                                                "ref": "P38.14.3"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P37.14.3",
+                                        "type": "radio",
+                                        "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P38.14.3",
+                                        "type": "number",
+                                        "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "14.4",
+                                "label": "Afectaciones, daños o perjuicios causados o derivados del conflicto armado o problemas de orden público",
+                                "followUpQuestions": [
+                                    {
+                                        "id": "P34.14.4",
+                                        "type": "checkbox",
+                                        "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                        "options": [
+                                            {
+                                                "value": "4",
+                                                "label": "Delitos contra la vida y/o la integridad personal ocurridos con ocasión del conflicto armado (tortura, homicidio, secuestro, violencia sexual, minas antipersona)"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P35.14.4",
+                                        "type": "radio",
+                                        "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Urbano"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "Rural"
+                                            },
+                                            {
+                                                "value": "3",
+                                                "label": "Ambas"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P36.14.4",
+                                        "type": "radio",
+                                        "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si",
+                                                "ref": "P37.14.4"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No",
+                                                "ref": "P38.14.4"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P37.14.4",
+                                        "type": "radio",
+                                        "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P38.14.4",
+                                        "type": "number",
+                                        "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "14.5",
+                                "label": "Afectaciones, daños o perjuicios causados o derivados del conflicto armado o problemas de orden público",
+                                "followUpQuestions": [
+                                    {
+                                        "id": "P34.14.5",
+                                        "type": "checkbox",
+                                        "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                        "options": [
+                                            {
+                                                "value": "5",
+                                                "label": "Delitos contra el patrimonio ocurridos con ocasión del conflicto armado (extorsión, hurto, daño en bien ajeno)"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P35.14.5",
+                                        "type": "radio",
+                                        "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Urbano"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "Rural"
+                                            },
+                                            {
+                                                "value": "3",
+                                                "label": "Ambas"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P36.14.5",
+                                        "type": "radio",
+                                        "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si",
+                                                "ref": "P37.14.5"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No",
+                                                "ref": "P38.14.5"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P37.14.5",
+                                        "type": "radio",
+                                        "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P38.14.5",
+                                        "type": "number",
+                                        "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "14.6",
+                                "label": "Afectaciones, daños o perjuicios causados o derivados del conflicto armado o problemas de orden público",
+                                "followUpQuestions": [
+                                    {
+                                        "id": "P34.14.6",
+                                        "type": "checkbox",
+                                        "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                        "options": [
+                                            {
+                                                "value": "6",
+                                                "label": "Terrorismo y amenazas"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P35.14.6",
+                                        "type": "radio",
+                                        "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Urbano"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "Rural"
+                                            },
+                                            {
+                                                "value": "3",
+                                                "label": "Ambas"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P36.14.6",
+                                        "type": "radio",
+                                        "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si",
+                                                "ref": "P37.14.6"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No",
+                                                "ref": "P38.14.6"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P37.14.6",
+                                        "type": "radio",
+                                        "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P38.14.6",
+                                        "type": "number",
+                                        "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "14.7",
+                                "label": "Afectaciones, daños o perjuicios causados o derivados del conflicto armado o problemas de orden público",
+                                "followUpQuestions": [
+                                    {
+                                        "id": "P34.14.7",
+                                        "type": "checkbox",
+                                        "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+                                        "options": [
+                                            {
+                                                "value": "7",
+                                                "label": "Despojo de tierras"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P35.14.7",
+                                        "type": "radio",
+                                        "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Urbano"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "Rural"
+                                            },
+                                            {
+                                                "value": "3",
+                                                "label": "Ambas"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P36.14.7",
+                                        "type": "radio",
+                                        "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si",
+                                                "ref": "P37.14.7"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No",
+                                                "ref": "P38.14.7"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P37.14.7",
+                                        "type": "radio",
+                                        "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                        "options": [
+                                            {
+                                                "value": "1",
+                                                "label": "Si"
+                                            },
+                                            {
+                                                "value": "2",
+                                                "label": "No"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "P38.14.7",
+                                        "type": "number",
+                                        "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                                    }
+                                ]
+                            }
+                            ]
                         }
                     ]
                 }
