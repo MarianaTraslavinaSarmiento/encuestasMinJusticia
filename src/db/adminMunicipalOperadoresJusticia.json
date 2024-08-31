@@ -8705,9 +8705,116 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "id": "P39",
+                    "type": "radio",
+                    "label": "¿Existe algún tipo de coordinación con autoridades indígenas para el trámite de los casos que usted atiende y que tengan relación con estas comunidades?",
+                    "options": [
+                      {
+                        "value": "1",
+                        "label": "Sí"
+                      },
+                      {
+                        "value": "2",
+                        "label": "No"
+                      },
+                      {
+                        "value": "3",
+                        "label": "No existen comunidades indígenas en el municipio"
+                      }
+                    ]
+                },
+                {
+                    "id": "P40",
+                    "type": "radio",
+                    "label": "¿Existe algún tipo de coordinación con comunidades negras y afrocolombianas para el trámite de los casos que usted atiende y que tengan relación con estas comunidades?",
+                    "options": [
+                      {
+                        "value": "1",
+                        "label": "Sí"
+                      },
+                      {
+                        "value": "2",
+                        "label": "No"
+                      },
+                      {
+                        "value": "3",
+                        "label": "No existen comunidades negras ni afrocolombianas en el municipio"
+                      }
+                    ]
+                },
+                {
+                    "id": "P41",
+                    "type": "radio",
+                    "label": "¿Usted ha identificado algún conflicto entre empresas y comunidad en el municipio?",
+                    "options": [
+                      {
+                        "value": "1",
+                        "label": "Sí"
+                      },
+                      {
+                        "value": "2",
+                        "label": "No"
+                      }
+                    ]
                 }
+
+                  
+
+            ]
+        },
+        {
+            "title": " Política pública de acceso a la justicia",
+            "questions":[
+                {
+                    "id": "P42",
+                    "type": "radio",
+                    "label": "¿El municipio cuenta con una política pública de acceso a la justicia? (ENCUESTADOR: LEA LAS OPCIONES Y ESPERAR RESPUESTA DEL ENCUESTADO – RU – MARCAR CON “X”)",
+                    "exclusiveTo": "Secretario de Gobierno / Interior",
+                    "options": [
+                      {
+                        "value": "1",
+                        "label": "Sí",
+                        "ref": "P43"
+                      },
+                      {
+                        "value": "2",
+                        "label": "No",
+                        "ref": "P44"
+                      }
+                    ]
+                },
+                {
+                    "id": "P43",
+                    "type": "text",
+                    "label": "Describa brevemente los énfasis que tiene la política pública de acceso a la justicia a nivel municipal. Incluir el nombre de la política pública y si se encuentra disponible para consulta de la ciudadanía.",
+                    "exclusiveTo": "Secretario de Gobierno / Interior"
+                },
+                {
+                    "id": "P44",
+                    "type": "text",
+                    "label": "¿Qué acciones ha emprendido la administración para fortalecer la justicia a nivel municipal?",
+                    "exclusiveTo": "Secretario de Gobierno / Interior"
+                },
+                {
+                    "id": "P45",
+                    "type": "text",
+                    "label": "¿Qué apoyo o articulación ustedes necesitan con la institucionalidad nacional o departamental para fortalecer la justicia en su municipio?"
+                },
+                {
+                    "id": "P45A",
+                    "type": "number",
+                    "label": "¿Cuál es el presupuesto anual disponible en su entidad u organismo que usted representa para proyectos relacionados con acceso a la justicia en el municipio?"
+                },
+                {
+                    "id": "P46",
+                    "type": "text",
+                    "label": "Para finalizar esta encuesta, usted desearía agregar algún comentario o recomendación."
+                }    
             ]
         }
+
         
     ]
 }
