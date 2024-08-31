@@ -1,0 +1,2748 @@
+{
+    "surveyTitle": "Encuesta a la Administración Municipal y Operadores De Justicia",
+    "chapters": [
+        {
+            "title": "Características sociodemográficas del encuestado",
+            "questions": [
+                [
+                    {
+                      "id": "P1",
+                      "type": "text",
+                      "label": "Nombre completo del encuestado:"
+                    },
+                    {
+                      "id": "P2",
+                      "type": "text",
+                      "label": "Nombre del Establecimiento Educativo del cual es funcionario:"
+                    },
+                    {
+                      "id": "P3",
+                      "type": "text",
+                      "label": "Número de celular:"
+                    },
+                    {
+                      "id": "P4",
+                      "type": "text",
+                      "label": "Correo electrónico:"
+                    },
+                    {
+                      "id": "P5",
+                      "type": "text",
+                      "label": "Nombre del departamento:"
+                    },
+                    {
+                      "id": "P6",
+                      "type": "text",
+                      "label": "Código del departamento:"
+                    },
+                    {
+                      "id": "P7",
+                      "type": "text",
+                      "label": "Nombre del municipio:"
+                    },
+                    {
+                      "id": "P8",
+                      "type": "text",
+                      "label": "Código del municipio:"
+                    },
+                    {
+                      "id": "P9",
+                      "type": "radio",
+                      "label": "¿Qué rol desempeña usted dentro del establecimiento educativo?",
+                      "options": [
+                        { "label": "Rector", "value": "1" },
+                        { "label": "Coordinador o líder de convivencia escolar", "value": "2" }
+                      ]
+                    },
+                    {
+                      "id": "P10",
+                      "type": "radio",
+                      "label": "¿Nos autoriza a realizarle la encuesta?",
+                      "options": [
+                        { "label": "Si", "value": "1", "ref": "P11" },
+                        { "label": "No", "value": "2", "isFinal": true }
+                      ]
+                    },
+                    {
+                      "id": "P11",
+                      "type": "radio",
+                      "label": "¿Cuántas sedes tiene el Establecimiento Educativo en el que usted trabaja?",
+                      "options": [
+                        { "label": "1", "value": "1" },
+                        { "label": "2", "value": "2" },
+                        { "label": "3", "value": "3" },
+                        { "label": "Más de 3", "value": "4" }
+                      ]
+                    },
+                    {
+                      "id": "P12",
+                      "type": "radio",
+                      "label": "¿Cuál es su edad?",
+                      "options": [
+                        { "label": "Entre 18 a 25 años", "value": "1" },
+                        { "label": "Entre 26 a 35 años", "value": "2" },
+                        { "label": "Entre 36 a 45 años", "value": "3" },
+                        { "label": "Entre 46 a 55 años", "value": "4" },
+                        { "label": "Mayor de 56 años", "value": "5" }
+                      ]
+                    },
+                    {
+                      "id": "P13",
+                      "type": "radio",
+                      "label": "¿De acuerdo con su cultura, pueblo o rasgos físicos... usted se reconoce como:",
+                      "options": [
+                        { "label": "Indígena", "value": "1" },
+                        { "label": "Gitano / ROM", "value": "2" },
+                        { "label": "Raizal del archipiélago de San Andrés y Providencia", "value": "3" },
+                        { "label": "Palenquero de San Basilio", "value": "4" },
+                        { "label": "Negro, mulato, afrodescendiente o afrocolombiano", "value": "5" },
+                        { "label": "Ninguno de los anteriores", "value": "6" }
+                      ]
+                    },
+                    {
+                      "id": "P14",
+                      "type": "radio",
+                      "label": "¿Cuál es su nivel educativo más alto alcanzado?",
+                      "options": [
+                        { "label": "Ninguno", "value": "1" },
+                        { "label": "Preescolar", "value": "2" },
+                        { "label": "Básica primaria (1-5)", "value": "3" },
+                        { "label": "Básica secundaria (6-9)", "value": "4" },
+                        { "label": "Media (10-13)", "value": "5" },
+                        { "label": "Técnico", "value": "6" },
+                        { "label": "Tecnólogo", "value": "7" },
+                        { "label": "Profesional", "value": "8" },
+                        { "label": "Especialista", "value": "9" },
+                        { "label": "Magíster", "value": "10" },
+                        { "label": "Doctorado", "value": "11" },
+                        { "label": "No sabe / No informa", "value": "12" }
+                      ]
+                    }
+                  ]
+                  
+            ]
+        },
+        {
+            "title": "Información del Establecimiento Educativo",
+            "questions": [
+                {
+                  "id": "P15",
+                  "type": "text",
+                  "label": "¿Cuál es el nombre completo del Establecimiento Educativo en el que usted trabaja?"
+                },
+                {
+                  "id": "P16",
+                  "type": "radio",
+                  "label": "¿Cuál es el nivel más alto ofertado por el Establecimiento Educativo?",
+                  "options": [
+                    { "label": "Preescolar", "value": "1" },
+                    { "label": "Primaria", "value": "2" },
+                    { "label": "Secundaria", "value": "3" },
+                    { "label": "Media", "value": "4" },
+                    { "label": "Otro, ¿Cuál?", "value": "5", "hasOther": true }
+                  ]
+                },
+                {
+                  "id": "P17",
+                  "type": "checkbox",
+                  "label": "¿Cuál es la jornada escolar que brinda el Establecimiento Educativo?",
+                  "options": [
+                    { "label": "Mañana", "value": "1" },
+                    { "label": "Tarde", "value": "2" },
+                    { "label": "Completa", "value": "3" },
+                    { "label": "Nocturna", "value": "4" },
+                    { "label": "Fin de semana", "value": "5" },
+                    { "label": "Otro, ¿Cuál?", "value": "6", "hasOther": true }
+                  ]
+                },
+                {
+                  "id": "P18",
+                  "type": "radio",
+                  "label": "¿A cuál sector pertenece el Establecimiento Educativo?",
+                  "options": [
+                    { "label": "Oficial", "value": "1" },
+                    { "label": "Privado", "value": "2" }
+                  ]
+                },
+                {
+                  "id": "P19",
+                  "type": "radio",
+                  "label": "¿Cuántos años de experiencia tiene en este cargo u ocupación?",
+                  "options": [
+                    { "label": "Menor de 1 año", "value": "1" },
+                    { "label": "Entre 1 a 3 años", "value": "2" },
+                    { "label": "Entre 4 a 6 años", "value": "3" },
+                    { "label": "Entre 7 a 9 años", "value": "4" },
+                    { "label": "10 años o mayor", "value": "5" }
+                  ]
+                },
+                {
+                  "id": "P20",
+                  "type": "radio",
+                  "label": "¿Las funciones / labores que usted desempeña tiene cobertura?",
+                  "options": [
+                    { "label": "Urbana", "value": "1" },
+                    { "label": "Rural", "value": "2" },
+                    { "label": "Ambas", "value": "3" }
+                  ]
+                },
+                {
+                  "id": "P21",
+                  "type": "radio",
+                  "label": "¿Qué tipo de vinculación tiene usted en el cargo, ocupación o rol que desempeña actualmente?",
+                  "options": [
+                    { "label": "Carrera administrativa", "value": "1" },
+                    { "label": "Provisional", "value": "2" },
+                    { "label": "Prestación de servicios", "value": "3" },
+                    { "label": "Libre nombramiento y remoción", "value": "4" },
+                    { "label": "Ad honorem (sin retribución económica)", "value": "5" },
+                    { "label": "Contrato laboral", "value": "6" },
+                    { "label": "Otro ¿Cuál?", "value": "7", "hasOther": true }
+                  ]
+                }
+            ]
+        },
+        {
+            "title": "Barreras de acceso a la justicia",
+            "questions": [
+                {
+                    "id": "P22",
+                    "type": "checkbox",
+                    "label": "Del siguiente listado, a partir de su rol (Rector, Coordinador o líder de convivencia escolar), ¿cuáles considera que son las principales barreras de acceso a la justicia que se le presentan a los estudiantes de su establecimiento educativo?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "ref": "P17.1",
+                            "label": "Culturales y lingüísticas",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas en razón de la pertenencia a grupos culturales o lingüísticos minoritarios. "
+                        },
+                        {
+                            "value": "2",
+                            "ref": "P17.2",
+                            "label": "De Género",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas, en razón del sexo, la identidad de género, orientación sexual o expresión de género. "
+                        },
+                        {
+                            "value": "3",
+                            "ref": "P17.3",
+                            "label": "De seguridad, orden público o asociadas al conflicto armado",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de una necesidad jurídica debido a la percepción de peligro frente la vida o la integridad personal."
+                        },
+                        {
+                            "value": "4",
+                            "ref": "P17.4",
+                            "label": "Discapacidad",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas en razón de la condición de discapacidad de las personas. "
+                        },
+                        {
+                            "value": "5",
+                            "ref": "P17.6",
+                            "label": "Económicas",
+                            "definition": "Definición. Se refiere a las dificultades de las personas para asumir los costos que implica el acceso a los servicios de justicia o los obstáculos que enfrentan al encontrarse en situación de marginalidad económica. "
+                        },
+                        {
+                            "value": "6",
+                            "ref": "P17.7",
+                            "label": "Geográficas",
+                            "definition": "Definición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas en razón de la ubicación geográfica, las distancias, medios y vías de comunicación o transporte."
+                        },
+                        {
+                            "value": "7",
+                            "ref": "P17.8",
+                            "label": "Institucionales",
+                            "definition": "Definición. Se refieren a dificultades en el acceso en razón a la estructura, políticas, procesos y dinámicas de los sistemas de justicia. "
+                        },
+                        {
+                            "value": "8",
+                            "ref": "P17.9",
+                            "label": "Tecnológicas",
+                            "definition": "Definición. Dificultades en el acceso a la justicia por la falta de equipos, sistemas tecnológicos, redes o infraestructura de conectividad. "
+                        }
+                    ]
+                },
+                {
+                    "id": "P23",
+                    "isIndex": true,
+                    "type": "checkbox",
+                    "label": "¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los estudiantes de su establecimiento educativo?",
+                    "options": [
+                        {
+                            "value": "1.1",
+                            "label": "Atención inadecuada por razón de la condición cultural o lingüística."
+                        },
+                        {
+                            "value": "1.2",
+                            "label": "Falta de información, rutas de atención y asistencia legal de fácil comprensión o disponible en lenguas minoritarias."
+                        },
+                        {
+                            "value": "1.3",
+                            "label": "Falta de articulación y coordinación entre la justicia propia afro y la jurisdicción ordinaria."
+                        },
+                        {
+                            "value": "1.4",
+                            "label": "Falta de articulación y coordinación entre la Justicia Especial Indígena y la jurisdicción ordinaria."
+                        },
+                        {
+                            "value": "1.5",
+                            "label": "Falta de asistencia de traductores o interpretes dentro de los procedimientos o trámites legales."
+                        },
+                        {
+                            "value": "1.6",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "2.1",
+                            "label": "Falta de atención o atención inadecuada o desestimación de los conflictos en razón del sexo, identidad de género, orientación sexual o expresión de género."
+                        },
+                        {
+                            "value": "2.2",
+                            "label": "Falta de asistencia o representación legal adecuada por razón del sexo, identidad de género, orientación sexual o expresión de género."
+                        },
+                        {
+                            "value": "2.3",
+                            "label": "No accede a los servicios de justicia por sentir o presumir que será discriminado en razón de su sexo, identidad de género, orientación sexual o expresión de género."
+                        },
+                        {
+                            "value": "2.4",
+                            "label": "Miedo a denunciar o a continuar con los trámites y procedimientos en razón a amenazas o violencias basadas en género."
+                        },
+                        {
+                            "value": "2.5",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "3.1",
+                            "label": "Miedo a denunciar o a continuar con los trámites por amenazas o control territorial de grupos armados."
+                        },
+                        {
+                            "value": "3.2",
+                            "label": "Justicias paralelas"
+                        },
+                        {
+                            "value": "3.3",
+                            "label": "Afectación en la prestación de servicios de justicia por violencia contra operadores (p. ej. Cierre de oficinas, traslados de despachos, entre otros)."
+                        },
+                        {
+                            "value": "3.4",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "4.1",
+                            "label": "Falta de medios de transporte adecuados para movilizarse hasta donde se prestan los servicios de justicia (Vehículos accesibles, sillas de ruedas, entre otros)."
+                        },
+                        {
+                            "value": "4.2",
+                            "label": "Falta de intérpretes o de asistencia adecuada (para personas con dificultades para ver o escuchar)."
+                        },
+                        {
+                            "value": "4.3",
+                            "label": "Falta de edificaciones o infraestructura accesible para personas con discapacidad (ausencia de rampas, pasillos estrechos, entre otros)."
+                        },
+                        {
+                            "value": "4.4",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "5.1",
+                            "label": "Falta de recursos para contratar un abogado."
+                        },
+                        {
+                            "value": "5.2",
+                            "label": "Falta de abogados o defensores de oficio en el lugar."
+                        },
+                        {
+                            "value": "5.3",
+                            "label": "Falta de recursos para trasladarse al lugar donde se prestan servicios de justicia."
+                        },
+                        {
+                            "value": "5.4",
+                            "label": "Falta de recursos para la conectividad."
+                        },
+                        {
+                            "value": "5.5",
+                            "label": "Falta de recursos para la atención de gastos procesales y pre procesales (p. ej. dictámenes periciales, transporte de testigos o contacto con los mismos, investigadores, entre otros)."
+                        },
+                        {
+                            "value": "5.6",
+                            "label": "Altos costos de oportunidad (tiempo que toma y se destinará) para atender el trámite, proceso o procedimiento."
+                        },
+                        {
+                            "value": "5.7",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "6.1",
+                            "label": "Falta de presencia de operadores de justicia en zonas rurales."
+                        },
+                        {
+                            "value": "6.2",
+                            "label": "Falta de infraestructura vial o de oferta de transporte para movilizarse a donde se prestan servicios de justicia"
+                        },
+                        {
+                            "value": "6.3",
+                            "label": "Dificultades para acceder a los operadores de justicia en razón de la distancia que debe recorrerse o de las condiciones geográficas (p. ej. accidentes geográficos)."
+                        },
+                        {
+                            "value": "6.4",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "7.1",
+                            "label": "Lentitud y larga duración de los trámites y procesos de los servicios de justicia."
+                        },
+                        {
+                            "value": "7.2",
+                            "label": "Incumplimiento de acuerdos o sentencias."
+                        },
+                        {
+                            "value": "7.3",
+                            "label": "Excesivos trámites y formalidades, procesos demasiado complejos."
+                        },
+                        {
+                            "value": "7.4",
+                            "label": "Desconfianza en los operadores de justicia y en la institucionalidad en general."
+                        },
+                        {
+                            "value": "7.5",
+                            "label": "Percepción de impunidad en el sistema de justicia."
+                        },
+                        {
+                            "value": "7.6",
+                            "label": "Falta de implementación o promoción de los Métodos de Resolución de Conflictos."
+                        },
+                        {
+                            "value": "7.7",
+                            "label": "Falta de articulación y coordinación entre actores y operadores de justicia."
+                        },
+                        {
+                            "value": "7.8",
+                            "label": "Desconocimiento de derechos, deberes y de los diversos mecanismos de acceso a la justicia."
+                        },
+                        {
+                            "value": "7.9",
+                            "label": "Alta rotación de servidores en el sector justicia."
+                        },
+                        {
+                            "value": "7.10",
+                            "label": "Falta de conocimientos o competencias de los actores y operadores de justicia."
+                        },
+                        {
+                            "value": "7.11",
+                            "label": "Falta de recursos financieros, físicos y humanos para atender de forma oportuna y suficiente las necesidades jurídicas."
+                        },
+                        {
+                            "value": "7.12",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        },
+                        {
+                            "value": "8.1",
+                            "label": "Falta de equipos o infraestructura tecnológica a disposición de los actores y operadores de justicia."
+                        },
+                        {
+                            "value": "8.2",
+                            "label": "Las personas no cuentan con equipos o sistemas que les permitan acceder en línea a los servicios de justicia."
+                        },
+                        {
+                            "value": "8.3",
+                            "label": "Deficiente conectividad en zonas rurales (veredas o corregimientos)."
+                        },
+                        {
+                            "value": "8.4",
+                            "label": "Deficiente conectividad en el casco urbano de los municipios o distritos."
+                        },
+                        {
+                            "value": "8.5",
+                            "label": "Otro, ¿Cuál?",
+                            "hasOther": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Conflictividades",
+            "questions": [
+                {
+                    "id": "P24",
+                    "type": "checkbox",
+                    "label": "Del siguiente listado de problemas / desacuerdos / conflictos y disputas ¿Cuáles considera usted que se presentan con mayor frecuencia a los estudiantes del Establecimiento Educativo?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Problemas relacionados con familiares como separación o divorcio, paternidad / maternidad o recursos insuficientes para la crianza.",
+                            "ref": "1.1",
+                            "subCategories": [
+                                {
+                                    "id": "1.1",
+                                    "label": "Familiares",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.1.1",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Paternidad / maternidad o adopción"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.1.1",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.1.1",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.1.1"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.1.1"
+                                                }
+
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.1.1",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.1.1",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1.2",
+                                    "label": "Familiares",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.1.2",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "2",
+                                                    "label": "Separación de los padres"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.1.2",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.1.2",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.1.2"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.1.2"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.1.2",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.1.2",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "1.3",
+                                    "label": "Familiares",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.1.3",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "3",
+                                                    "label": "Falta de recursos suficientes para la crianza en la familia"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.1.3",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.1.3",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.1.3"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.1.3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.1.3",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.1.3",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "value": "2",
+                            "label": "Problemas relacionados con el servicio de educación y formación, como el acceso y la calidad.",
+                            "ref": "2.1",
+                            "subCategories": [
+                                {
+                                    "id": "2.1",
+                                    "label": "Educación y formación",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.2.1",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "2",
+                                                    "label": "Problemas en el acceso a la educación básica y media"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.2.1",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.2.1",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.2.1"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.2.1"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.2.1",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.2.1",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "2.2",
+                                    "label": "Educación y formación",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.2.2",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "3",
+                                                    "label": "Problemas en el acceso a la educación superior"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.2.2",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.2.2",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.2.2"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.2.2"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.2.2",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.2.2",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "2.3",
+                                    "label": "Educación y formación",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.2.3",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "4",
+                                                    "label": "Condiciones de calidad en la prestación del servicio, negación"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.2.3",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.2.3",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.2.3"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.2.3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.2.3",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.2.3",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "2.4",
+                                    "label": "Educación y formación",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.2.4",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "5",
+                                                    "label": "Derechos de gratuidad, matrícula de ingreso, materiales"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.2.4",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.2.4",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.2.4"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.2.4"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.2.4",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.2.4",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "2.5",
+                                    "label": "Educación y formación",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.2.5",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "6",
+                                                    "label": "Acceso y prestación inadecuada del servicio en relación con necesidades específicas de la persona"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.2.5",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.2.5",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.2.5"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.2.5"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.2.5",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.2.5",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "value": "3",
+                            "label": "Problemas relacionados con afectaciones, daños o perjuicios causados o derivados de delitos, como hurto, lesiones, calumnias, daños a la propiedad, secuestro, homicidio, ciberdelito, violencia sexual y violencia intrafamiliar.",
+                            "ref": "3.1",
+                            "subCategories": [
+                                {
+                                    "id": "3.1",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.3.1",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "2",
+                                                    "label": "Hurto"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.3.1",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.3.1",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.3.1"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.3.1"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.3.1",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.3.1",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3.2",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.3.2",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "3",
+                                                    "label": "Daño en bienes muebles y/o inmuebles (patrimonio como vehículos u oficina)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.3.2",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.3.2",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.3.2"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.3.2"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.3.2",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.3.2",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3.3",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.3.3",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "4",
+                                                    "label": "Amenazas, lesiones"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.3.3",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.3.3",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.3.3"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.3.3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.3.3",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.3.3",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3.4",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.3.4",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "5",
+                                                    "label": "Secuestros, tortura"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.3.4",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.3.4",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.3.4"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.3.4"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.3.4",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.3.4",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3.5",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.3.5",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "6",
+                                                    "label": "Injurias, calumnias"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.3.5",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.3.5",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.3.5"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.3.5"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.3.5",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.3.5",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3.6",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.3.6",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "7",
+                                                    "label": "Homicidio, feminicidio"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.3.6",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.3.6",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.3.6"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.3.6"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.3.6",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.3.6",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3.7",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.3.7",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "8",
+                                                    "label": "Ciberdelitos (hurto por medios informáticos, violación de datos personales)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.3.7",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.3.7",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.3.7"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.3.7"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.3.7",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.3.7",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3.8",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.3.8",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "9",
+                                                    "label": "Plantaciones ilícitas, producción de drogas, tráfico de estupefacientes y sustancias químicas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.3.8",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.3.8",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.3.8"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.3.8"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.3.8",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.3.8",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3.9",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.3.9",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "10",
+                                                    "label": "Violencia sexual"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.3.9",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.3.9",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.3.9"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.3.9"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.3.9",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.3.9",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "3.10",
+                                    "label": "Afectaciones, daños o perjuicios causados o derivados de delitos",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.3.10",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "11",
+                                                    "label": "Violencia intrafamiliar"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.3.10",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.3.10",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.3.10"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.3.10"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.3.10",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.3.10",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "value": "4",
+                            "label": "Problemas relacionados con afectaciones, daños o perjuicios causados o derivados de desplazamiento y orden público ",
+                            "ref": "4.1",
+                            "subCategories": [
+                                {
+                                    "id": "4.1",
+                                    "label": "Desplazamiento forzado y desaparición forzada",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.4.1",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Desplazamiento forzado y desaparición forzada"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.4.1",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.4.1",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.4.1"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.4.1"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.4.1",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.4.1",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "4.2",
+                                    "label": "Agresiones por la Policía o las Fuerzas Militares (batidas ilegales, falsos positivos, ejecuciones extrajudiciales, etc.)",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.4.2",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "2",
+                                                    "label": "Agresiones por la Policía o las Fuerzas Militares (batidas ilegales, falsos positivos, ejecuciones extrajudiciales, etc.)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.4.2",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.4.2",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.4.2"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.4.2"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.4.2",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.4.2",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "4.3",
+                                    "label": "Delitos contra la vida y/o la integridad personal ocurridos con ocasión del conflicto armado (tortura, homicidio, secuestro, violencia sexual, minas antipersona)",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.4.3",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "3",
+                                                    "label": "Delitos contra la vida y/o la integridad personal ocurridos con ocasión del conflicto armado (tortura, homicidio, secuestro, violencia sexual, minas antipersona)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.4.3",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.4.3",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.4.3"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.4.3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.4.3",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.4.3",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "4.4",
+                                    "label": "Terrorismo y amenazas",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.4.4",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "4",
+                                                    "label": "Terrorismo y amenazas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.4.4",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.4.4",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.4.4"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.4.4"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.4.4",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.4.4",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "value": "5",
+                            "label": "Problemas relacionados con la convivencia escolar",
+                            "ref": "5.1",
+                            "subCategories": [
+                                {
+                                    "id": "5.1",
+                                    "label": "Acoso escolar (matoneo / bullying)",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.5.1",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Acoso escolar (matoneo / bullying)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.5.1",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.5.1",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.5.1"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.5.1"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.5.1",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.5.1",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "5.2",
+                                    "label": "Ciberbullying o ciberacoso",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.5.2",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "2",
+                                                    "label": "Ciberbullying o ciberacoso"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.5.2",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.5.2",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.5.2"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.5.2"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.5.2",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.5.2",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "5.3",
+                                    "label": "Actos de discriminación",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.5.3",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "3",
+                                                    "label": "Actos de discriminación"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.5.3",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.5.3",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.5.3"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.5.3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.5.3",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.5.3",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "5.4",
+                                    "label": "Uso indebido de teléfonos móviles, redes sociales o sitios web",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.5.4",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "4",
+                                                    "label": "Uso indebido de teléfonos móviles, redes sociales o sitios web"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.5.4",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.5.4",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.5.4"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.5.4"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.5.4",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.5.4",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "5.5",
+                                    "label": "Juegos sexuales o tocamientos dentro del establecimiento",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.5.5",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "5",
+                                                    "label": "Juegos sexuales o tocamientos dentro del establecimiento"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.5.5",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.5.5",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.5.5"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.5.5"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.5.5",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.5.5",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "5.6",
+                                    "label": "Porte de armas dentro del establecimiento",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.5.6",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "6",
+                                                    "label": "Porte de armas dentro del establecimiento"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.5.6",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.5.6",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.5.6"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.5.6"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.5.6",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.5.6",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "5.7",
+                                    "label": "Venta o consumo de sustancias psicoactivas en el establecimiento",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.5.7",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "7",
+                                                    "label": "Venta o consumo de sustancias psicoactivas en el establecimiento"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.5.7",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.5.7",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.5.7"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.5.7"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.5.7",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.5.7",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "5.8",
+                                    "label": "Participación en pandillas, combos u otras organizaciones similares",
+                                    "followUpQuestions": [
+                                        {
+                                            "id": "P25.5.8",
+                                            "type": "checkbox",
+                                            "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+                                            "options": [
+                                                {
+                                                    "value": "8",
+                                                    "label": "Participación en pandillas, combos u otras organizaciones similares"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P26.5.8",
+                                            "type": "radio",
+                                            "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Urbano"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "Rural"
+                                                },
+                                                {
+                                                    "value": "3",
+                                                    "label": "Ambas"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P27.5.8",
+                                            "type": "radio",
+                                            "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si",
+                                                    "ref": "P28.5.8"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No",
+                                                    "ref": "P29.5.8"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P28.5.8",
+                                            "type": "radio",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+                                            "options": [
+                                                {
+                                                    "value": "1",
+                                                    "label": "Si"
+                                                },
+                                                {
+                                                    "value": "2",
+                                                    "label": "No"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "P29.5.8",
+                                            "type": "number",
+                                            "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+
+                    ]
+                },
+                {
+                    "id": "P30",
+                    "type": "radio",
+                    "label": "¿Existe desde el Establecimiento Educativo alianzas o espacios de coordinación con la institucionalidad u operadores de justicia presentes en el municipio para atender los casos de los estudiantes?",
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Sí",
+                            "ref": "P31"
+                        },
+                        {
+                            "value": "2",
+                            "label": "No",
+                            "ref": "P32"
+                        }
+                    ]
+                },
+                {
+                    "id": "P31",
+                    "type": "text",
+                    "label": "¿A qué institución, autoridad o personas particularmente acude el Establecimiento Educativo para atender los casos?",
+                    "ref": "P33"
+                },
+                {
+                    "id": "P32",
+                    "type": "text",
+                    "label": "¿Por qué no existen esas alianzas o protocolos de coordinación?"
+                },
+                {
+                    "id": "P33",
+                    "type": "text",
+                    "label": "¿Qué apoyo o articulación ustedes necesitan con la institucionalidad municipal, departamental o nacional para el manejo de estos casos?"
+                },
+                {
+                    "id": "P34",
+                    "type": "text",
+                    "label": "Para finalizar esta encuesta, ¿desearía agregar algún comentario o recomendación?"
+                }
+            ]
+        }
+    ]
+}

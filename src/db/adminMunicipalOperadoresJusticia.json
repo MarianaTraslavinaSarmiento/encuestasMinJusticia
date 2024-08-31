@@ -949,7 +949,7 @@
                 {
                     "id": "P31",
                     "type": "checkbox",
-                    "label": "Del siguiente listado, ¿Cuáles considera, desde su rol (como representante de la comunidad), que son las principales barreras de acceso a la justicia que se le presentan a los miembros de su comunidad?",
+                    "label": "Del siguiente listado, ¿Cuáles considera desde su competencia que son las principales barreras de acceso a la justicia que se presentan en este municipio?",
                     "options": [
                         {
                             "value": "1",
@@ -1005,7 +1005,7 @@
                     "id": "P32",
                     "isIndex": true,
                     "type": "checkbox",
-                    "label": " ¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los miembros de su comunidad?",
+                    "label": "¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se presentan en el municipio?",
                     "options": [
                         {
                             "value": "1.1",
@@ -1275,7 +1275,7 @@
                                         {
                                             "id": "P37.1.1",
                                             "type": "radio",
-                                            "label": " ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                            "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
                                             "options": [
                                                 {
                                                     "value": "1",
