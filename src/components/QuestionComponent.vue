@@ -1,79 +1,102 @@
 <template>
   <div class="question">
-    <label v-if="!isIndex" :for="question.id">{{ question.label }}</label>
-    <component
-      v-if="!isIndex"
-      :is="getInputComponent"
-      :id="question.id"
-      :type="question.type"
-      :options="question.options"
-      :modelValue="modelValue"
-      @update:modelValue="$emit('update:modelValue', $event)"
-    />
-    <div v-if="hasSubCategories">
-      <div v-for="subCategory in question.subCategories" :key="subCategory.id">
-        <h3>{{ subCategory.label }}</h3>
-        <div v-for="followUp in subCategory.followUpQuestions" :key="followUp.id">
-          <question-component
-            :question="followUp"
-            v-model="subFormData[followUp.id]"
-            @update:modelValue="handleSubQuestionUpdate(followUp.id, $event)"
-          />
-        </div>
+    <label :for="question.id">{{ question.label }}</label>
+    <div v-if="isTextInput">
+      <input 
+        :id="question.id" 
+        :type="question.type" 
+        :value="answers[question.id]" 
+        @input="updateAnswer(question.id, $event.target.value)"
+      >
+    </div>
+    <div v-else-if="question.type === 'radio'">
+      <div v-for="option in question.options" :key="option.value">
+        <input 
+          :id="`${question.id}_${option.value}`" 
+          type="radio" 
+          :value="option.value" 
+          :checked="answers[question.id] === option.value"
+          @change="updateAnswer(question.id, option.value)"
+        >
+        <label :for="`${question.id}_${option.value}`">{{ option.label }}</label>
+        <input 
+          v-if="option.hasOther" 
+          :id="`${question.id}_${option.value}_other`" 
+          type="text" 
+          :value="answers[`${question.id}_other`]"
+          @input="updateAnswer(`${question.id}_other`, $event.target.value)"
+        >
+      </div>
+    </div>
+    <div v-else-if="question.type === 'checkbox'">
+      <div v-for="option in question.options" :key="option.value">
+        <input 
+          :id="`${question.id}_${option.value}`" 
+          type="checkbox" 
+          :value="option.value" 
+          :checked="answers[question.id] && answers[question.id].includes(option.value)"
+          @change="updateCheckboxAnswer(question.id, option.value)"
+        >
+        <label :for="`${question.id}_${option.value}`">{{ option.label }}</label>
+        <input 
+          v-if="option.hasOther" 
+          :id="`${question.id}_${option.value}_other`" 
+          type="text" 
+          :value="answers[`${question.id}_${option.value}_other`]"
+          @input="updateAnswer(`${question.id}_${option.value}_other`, $event.target.value)"
+        >
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { computed, reactive, toRefs, onMounted} from 'vue';
-import InputCheckbox from './InputCheckbox.vue';
-import InputRadio from './InputRadio.vue';
-// import Input from './Input.vue';
+import { computed } from 'vue'
 
 const props = defineProps({
-  question: {
-    type: Object,
-    required: true
-  },
-  modelValue: {
-    type: [String, Array],
-    default: ''
-  }
-});
+  question: Object,
+  answers: Object
+})
 
-const emit = defineEmits(['update:modelValue']);
+const emit = defineEmits(['update-answer'])
 
-const state = reactive({
-  subFormData: {}
-});
+const isTextInput = computed(() => 
+  ['text', 'tel', 'email'].includes(props.question.type)
+)
 
-const getInputComponent = computed(() => {
-  switch (props.question.type) {
-    case 'checkbox':
-      return InputCheckbox;
-    case 'radio':
-      return InputRadio;
-    default:
-      return 'input';
-  }
-});
+const updateAnswer = (questionId, value) => {
+  emit('update-answer', questionId, value)
+}
 
-const isIndex = computed(() => {
-  return props.question.isIndex;
-});
-
-const hasSubCategories = computed(() => {
-  return props.question.subCategories && props.question.subCategories.length > 0;
-});
-
-const handleSubQuestionUpdate = (questionId, value) => {
-  state.subFormData[questionId] = value;
-  emit('update:modelValue', { ...props.modelValue, subFormData: state.subFormData });
-};
-
-const { subFormData } = toRefs(state);
+const updateCheckboxAnswer = (questionId, optionValue) => {
+  const currentAnswers = props.answers[questionId] || []
+  const updatedAnswers = currentAnswers.includes(optionValue)
+    ? currentAnswers.filter(v => v !== optionValue)
+    : [...currentAnswers, optionValue]
+  emit('update-answer', questionId, updatedAnswers)
+}
 </script>
 
 <style scoped>
+.question {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
 </style>
