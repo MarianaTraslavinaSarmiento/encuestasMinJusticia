@@ -1,13 +1,10 @@
 <script setup>
 import MenuDesplegable from '@/components/MenuDesplegable.vue';
 import TituloForm from '@/components/TituloForm.vue';
-import SurveyForm from '@/components/SurveyForm.vue';
 
 import BackHome from '@/components/BackHome.vue';
 
 import data from '@/db/juridicasComunitarias.json';
-
-import NestedQuestions from '@/components/NestedQuestions.vue';
 
 import DynamicForm from '@/components/DynamicForm.vue';
 
@@ -42,8 +39,6 @@ import DynamicForm from '@/components/DynamicForm.vue';
             <hr class="initialDivision">
 
             <h1>{{ data.surveyTitle }}</h1>
-            <!-- <survey-form :chapters="data.chapters" @submit="handleSubmit" /> -->
-            <!-- <NestedQuestions :questions="data.chapters[2].questions" /> -->
             <DynamicForm />
         </div>
     </main>
