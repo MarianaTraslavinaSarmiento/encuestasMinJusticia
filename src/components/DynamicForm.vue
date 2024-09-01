@@ -71,11 +71,15 @@ const getRelatedQuestions = (indexQuestion) => {
       const suffix = matchingOption.ref.split('.')[1]
       console.log('Sufijo de referencia:', suffix)
 
-      const filteredOptions = indexQuestion.options.filter(opt => opt.value.startsWith(suffix))
+      const filteredOptions = indexQuestion.options.filter(opt => opt.value.startsWith(suffix));
+
+      const correspondingQuestion = allQuestions.find(q => q.id === indexQuestion.id)
+      const label = correspondingQuestion ? correspondingQuestion.label : ''
+        
       
       // Crear una nueva estructura de pregunta para cada sub-opción
       const subQuestions = filteredOptions.map(opt => ({
-        label: '', //TODO: Extraer el label de la pregunta correspondiente, Probar en los demas forms
+        label: label, //TODO:  Probar en los demas forms, si es podible intentar que la sub ociones salgan debajo del label de la pregunta padre
         id: `${indexQuestion.id}_${opt.value}`,
         type: indexQuestion.type || 'checkbox', // Usar el tipo de la pregunta indexada o 'checkbox' por defecto
         options: [{ ...opt, value: 'true' }], // Convertir la opción en una estructura de opción válida
