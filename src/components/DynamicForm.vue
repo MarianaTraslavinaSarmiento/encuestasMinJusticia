@@ -1,7 +1,7 @@
 <template>
   <div class="dynamic-form">
-    <h1>{{ formData.surveyTitle }}</h1>
-    <div v-for="chapter in formData.chapters" :key="chapter.title">
+    <h1>{{ props.formData.surveyTitle }}</h1>
+    <div v-for="chapter in props.formData.chapters" :key="chapter.title">
       <h2>{{ chapter.title }}</h2>
       <div v-for="question in chapter.questions" :key="question.id">
         <template v-if="!question.isIndex">
@@ -27,22 +27,27 @@
 
 <script setup>
 import { ref, computed, watch } from 'vue'
-import { useFormStore } from '@/stores/formStore.js'
 import QuestionComponent from './QuestionComponent.vue'
+import { useFormStore } from '@/stores/formStore.js'
 
-const store = useFormStore()
-const formData = computed(() => store.formData)
+
+const formStore = useFormStore()
+
+const props = defineProps({
+  formData: { type: Object, required: true }
+})
+
 const answers = ref({})
 
 const updateAnswer = (questionId, value) => {
   console.log('Actualizando respuesta:', questionId, value)
   answers.value[questionId] = value
-  store.updateAnswer(questionId, value)
+  formStore.updateAnswer(questionId, value)
 }
 
 const getRelatedQuestions = (indexQuestion) => {
   console.log(`Buscando preguntas relacionadas para: ${indexQuestion.id}`)
-  const allQuestions = formData.value.chapters.flatMap(chapter => chapter.questions)
+  const allQuestions = props.formData.chapters.flatMap(chapter => chapter.questions)
   console.log('Todas las preguntas:', allQuestions)
 
   const parentQuestion = allQuestions.find(q => q.options && q.options.some(opt => opt.ref && opt.ref.startsWith(indexQuestion.id)))

@@ -1,15 +1,19 @@
 <script setup>
     import MenuDesplegable from '@/components/MenuDesplegable.vue';
     import TituloForm from '@/components/TituloForm.vue';
-
     import BackHome from '@/components/BackHome.vue';
+    import { useFormStore } from '@/stores/formStore.js'
+    import DynamicForm from "@/components/DynamicForm.vue";
+
+    const formStore = useFormStore()
+    formStore.setCurrentForm('formData2')
+    const currentData = formStore.getCurrentFormData
 </script>
 
 <template>
     <main>
         <BackHome></BackHome>
         <div class="form">
-
             <TituloForm titulo="ENCUESTA SOBRE NECESIDADES JURÍDICAS" />
             <p>El Ministerio de Justicia y del Derecho viene adelantando, la asistencia técnica para promover la implementación y operación de la estrategia Sistemas Locales de Justicia a nivel municipal. El objetivo de esta encuesta es contribuir a la lectura del territorio a través de la identificación de las barreras de acceso a la justicia y las conflictividades.</p>
             <br>
@@ -17,7 +21,7 @@
             <br>
             <p> Agradecemos de antemano su colaboración. </p>
             <hr class="initialDivision">
-        
+            <DynamicForm :formData="currentData" />
         </div>
     </main>
 </template>

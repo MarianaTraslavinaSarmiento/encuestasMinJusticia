@@ -1,8 +1,13 @@
 <script setup>
 import MenuDesplegable from "@/components/MenuDesplegable.vue";
 import TituloForm from "@/components/TituloForm.vue";
-
 import BackHome from "@/components/BackHome.vue";
+import { useFormStore } from '@/stores/formStore.js'
+import DynamicForm from "@/components/DynamicForm.vue";
+
+const formStore = useFormStore()
+formStore.setCurrentForm('formData1')
+const currentData = formStore.getCurrentFormData
 
 </script>
 
@@ -49,7 +54,7 @@ import BackHome from "@/components/BackHome.vue";
         diligenciamiento 60 minutos.
       </p>
       <hr class="initialDivision" />
-
+      <DynamicForm :formData="currentData" />
     </form>
   </main>
 

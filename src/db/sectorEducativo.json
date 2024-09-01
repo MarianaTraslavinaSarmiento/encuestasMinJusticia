@@ -1,10 +1,9 @@
 {
-    "surveyTitle": "Encuesta a la Administración Municipal y Operadores De Justicia",
+    "surveyTitle": "Encuesta de Necesidades Jurídicas - Sector Educativo",
     "chapters": [
         {
             "title": "Características sociodemográficas del encuestado",
             "questions": [
-                [
                     {
                       "id": "P1",
                       "type": "text",
@@ -119,8 +118,6 @@
                       ]
                     }
                   ]
-                  
-            ]
         },
         {
             "title": "Información del Establecimiento Educativo",

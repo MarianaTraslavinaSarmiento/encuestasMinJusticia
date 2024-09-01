@@ -2,6 +2,13 @@
     import MenuDesplegable from '@/components/MenuDesplegable.vue';
     import TituloForm from '@/components/TituloForm.vue';
     import BackHome from '@/components/BackHome.vue';
+    import { useFormStore } from '@/stores/formStore.js'
+    import DynamicForm from "@/components/DynamicForm.vue";
+
+    const formStore = useFormStore()
+    formStore.setCurrentForm('formData4')
+    const currentData = formStore.getCurrentFormData
+
 </script>
 
 <template>
@@ -18,6 +25,8 @@
             <br>
             <p> Agradecemos de antemano su colaboración. </p>
             <hr class="initialDivision">
+            <DynamicForm :formData="currentData" />
+
         </div>
     </main>
 </template>

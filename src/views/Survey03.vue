@@ -1,12 +1,13 @@
 <script setup>
-import MenuDesplegable from '@/components/MenuDesplegable.vue';
-import TituloForm from '@/components/TituloForm.vue';
+    import MenuDesplegable from '@/components/MenuDesplegable.vue';
+    import TituloForm from '@/components/TituloForm.vue';
+    import BackHome from '@/components/BackHome.vue';
+    import { useFormStore } from '@/stores/formStore.js'
+    import DynamicForm from "@/components/DynamicForm.vue";
 
-import BackHome from '@/components/BackHome.vue';
-
-import data from '@/db/juridicasComunitarias.json';
-
-import DynamicForm from '@/components/DynamicForm.vue';
+    const formStore = useFormStore()
+    formStore.setCurrentForm('formData3')
+    const currentData = formStore.getCurrentFormData
 
 </script>
 
@@ -37,9 +38,7 @@ import DynamicForm from '@/components/DynamicForm.vue';
             <br>
             <p> Agradecemos de antemano su colaboración. </p>
             <hr class="initialDivision">
-
-            <h1>{{ data.surveyTitle }}</h1>
-            <DynamicForm />
+            <DynamicForm :formData="currentData" />
         </div>
     </main>
 </template>

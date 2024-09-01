@@ -304,7 +304,7 @@
                     "id": "P16",
                     "isIndex": true,
                     "type": "checkbox",
-                    "label": " ¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los miembros de su comunidad?",
+                    "label": "¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los miembros de su comunidad?",
                     "options": [
                         {
                             "value": "1.1",
@@ -651,7 +651,7 @@
                                         {
                                             "id": "P20.1.1",
                                             "type": "text",
-                                            "label": " ¿A qué institución, autoridad o persona particular usted acudió?"
+                                            "label": "¿A qué institución, autoridad o persona particular usted acudió?"
                                             
                                         },
                                         {
@@ -700,7 +700,7 @@
                                         {
                                             "id": "P23.1.1",
                                             "type": "text",
-                                            "label": " ¿Cuánto dinero gastó en total para intentar resolver el problema?  (En pesos colombianos)"
+                                            "label": "¿Cuánto dinero gastó en total para intentar resolver el problema?  (En pesos colombianos)"
                                             
                                         },
                                         {
@@ -1475,7 +1475,7 @@
                                         {
                                             "id": "P20.2.1",
                                             "type": "text",
-                                            "label": " ¿A qué institución, autoridad o persona particular usted acudió?"
+                                            "label": "¿A qué institución, autoridad o persona particular usted acudió?"
                                             
                                         },
                                         {
@@ -1524,7 +1524,7 @@
                                         {
                                             "id": "P23.2.1",
                                             "type": "text",
-                                            "label": " ¿Cuánto dinero gastó en total para intentar resolver el problema?  (En pesos colombianos)"
+                                            "label": "¿Cuánto dinero gastó en total para intentar resolver el problema?  (En pesos colombianos)"
                                             
                                         },
                                         {
@@ -2066,7 +2066,7 @@
                                         {
                                             "id": "P20.3.1",
                                             "type": "text",
-                                            "label": " ¿A qué institución, autoridad o persona particular usted acudió?"
+                                            "label": "¿A qué institución, autoridad o persona particular usted acudió?"
                                             
                                         },
                                         {
@@ -2115,7 +2115,7 @@
                                         {
                                             "id": "P23.3.1",
                                             "type": "text",
-                                            "label": " ¿Cuánto dinero gastó en total para intentar resolver el problema?  (En pesos colombianos)"
+                                            "label": "¿Cuánto dinero gastó en total para intentar resolver el problema?  (En pesos colombianos)"
                                             
                                         },
                                         {
@@ -2425,7 +2425,7 @@
                                         {
                                             "id": "P20.4.1",
                                             "type": "text",
-                                            "label": " ¿A qué institución, autoridad o persona particular usted acudió?"
+                                            "label": "¿A qué institución, autoridad o persona particular usted acudió?"
                                             
                                         },
                                         {
@@ -2474,7 +2474,7 @@
                                         {
                                             "id": "P23.4.1",
                                             "type": "text",
-                                            "label": " ¿Cuánto dinero gastó en total para intentar resolver el problema?  (En pesos colombianos)"
+                                            "label": "¿Cuánto dinero gastó en total para intentar resolver el problema?  (En pesos colombianos)"
                                             
                                         },
                                         {
@@ -6642,7 +6642,7 @@
                                         {
                                             "id": "P20.9.1",
                                             "type": "text",
-                                            "label": " ¿A qué institución, autoridad o persona particular usted acudió?"
+                                            "label": "¿A qué institución, autoridad o persona particular usted acudió?"
                                             
                                         },
                                         {
@@ -6691,7 +6691,7 @@
                                         {
                                             "id": "P23.9.1",
                                             "type": "text",
-                                            "label": " ¿Cuánto dinero gastó en total para intentar resolver el problema?  (En pesos colombianos)"
+                                            "label": "¿Cuánto dinero gastó en total para intentar resolver el problema?  (En pesos colombianos)"
                                             
                                         },
                                         {
