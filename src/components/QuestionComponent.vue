@@ -1,6 +1,6 @@
 <template>
   <div class="question">
-    <label :for="question.id">{{ question.label }}</label>
+    <label style="font-weight: bold; margin-bottom: 10px;" :for="question.id">{{ question.label }}</label>
     <div v-if="isTextInput">
       <input 
         :id="question.id" 
@@ -10,7 +10,7 @@
       >
     </div>
     <div class="question__options" v-else-if="question.type === 'radio'">
-      <div v-for="option in question.options" :key="option.value">
+      <div style="display: flex;" v-for="option in question.options" :key="option.value">
         <input 
           :id="`${question.id}_${option.value}`" 
           type="radio" 
@@ -79,7 +79,7 @@ const updateCheckboxAnswer = (questionId, optionValue) => {
 
 <style scoped>
 .question {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .question__option{
@@ -104,4 +104,6 @@ input[type="radio"],
 input[type="checkbox"] {
   margin-right: 5px;
 }
+
+
 </style>

@@ -38,7 +38,8 @@
             <br>
             <p> Agradecemos de antemano su colaboración. </p>
             <hr class="initialDivision">
-            <DynamicForm :formData="currentData" />
+
+            <DynamicForm :formData="currentData"/>
         </div>
     </main>
 </template>

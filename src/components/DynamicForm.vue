@@ -122,9 +122,19 @@ watch(answers, (newAnswers) => {
 </script>
 
 <style scoped>
-.dynamic-form {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+.dynamic-form h1{
+
+  font-size: 20px;
+
 }
+
+h2 {
+  background-color: var(--color-darkBlue);
+  color: var(--color-white);
+  margin-block: 20px;
+  padding: 5px;
+  font-size: 17px;
+}
+
+
 </style>
