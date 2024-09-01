@@ -290,25 +290,25 @@
                         },
                         {
                             "value": "5",
-                            "ref": "P17.6",
+                            "ref": "P17.5",
                             "label": "Económicas",
                             "definition": "Definición. Se refiere a las dificultades de las personas para asumir los costos que implica el acceso a los servicios de justicia o los obstáculos que enfrentan al encontrarse en situación de marginalidad económica. "
                         },
                         {
                             "value": "6",
-                            "ref": "P17.7",
+                            "ref": "P17.6",
                             "label": "Geográficas",
                             "definition": "Definición. Obstáculos o dificultades para la satisfacción de necesidades jurídicas en razón de la ubicación geográfica, las distancias, medios y vías de comunicación o transporte."
                         },
                         {
                             "value": "7",
-                            "ref": "P17.8",
+                            "ref": "P17.7",
                             "label": "Institucionales",
                             "definition": "Definición. Se refieren a dificultades en el acceso en razón a la estructura, políticas, procesos y dinámicas de los sistemas de justicia. "
                         },
                         {
                             "value": "8",
-                            "ref": "P17.9",
+                            "ref": "P17.8",
                             "label": "Tecnológicas",
                             "definition": "Definición. Dificultades en el acceso a la justicia por la falta de equipos, sistemas tecnológicos, redes o infraestructura de conectividad. "
                         }
