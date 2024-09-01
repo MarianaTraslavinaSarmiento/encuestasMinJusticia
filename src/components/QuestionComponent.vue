@@ -47,6 +47,20 @@
         >
       </div>
     </div>
+
+    <!-- Nuevo bloque para manejar subcategorías -->
+    <div v-if="question.isTypology && hasSelectedOptions">
+      <div v-for="subCategory in selectedSubCategories" :key="subCategory.id">
+        <h3>{{ subCategory.label }}</h3>
+        <div v-for="subQuestion in subCategory.followUpQuestions" :key="subQuestion.id">
+          <QuestionComponent 
+            :question="subQuestion"
+            :answers="answers"
+            @update-answer="updateAnswer"
+          />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -63,6 +77,18 @@ const emit = defineEmits(['update-answer'])
 const isTextInput = computed(() => 
   ['text', 'tel', 'email'].includes(props.question.type)
 )
+
+const hasSelectedOptions = computed(() => {
+  return props.answers[props.question.id] && props.answers[props.question.id].length > 0
+})
+
+const selectedSubCategories = computed(() => {
+  if (!props.question.isTypology || !hasSelectedOptions.value) return []
+  
+  return props.question.options
+    .filter(option => props.answers[props.question.id].includes(option.value))
+    .flatMap(option => option.subCategories || [])
+})
 
 const updateAnswer = (questionId, value) => {
   emit('update-answer', questionId, value)
@@ -81,17 +107,13 @@ const updateCheckboxAnswer = (questionId, optionValue) => {
 .question {
   margin-bottom: 25px;
 }
-
-.question__option{
+.question__option {
   display: flex;
 }
-
-
 label {
   display: block;
   margin-bottom: 5px;
 }
-
 input[type="text"],
 input[type="tel"],
 input[type="email"] {
@@ -99,7 +121,6 @@ input[type="email"] {
   padding: 5px;
   margin-bottom: 10px;
 }
-
 input[type="radio"],
 input[type="checkbox"] {
   margin-right: 5px;

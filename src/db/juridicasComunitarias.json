@@ -608,10 +608,11 @@
             ]
         },
         {
-            "title": "Conflictividades",
+            "title": "Catalogo Por Tipología",
             "questions": [
                 {
                     "id": "P18",
+                    "isTypology": true,
                     "type": "checkbox",
                     "label": "Del siguiente listado de problemas / desacuerdos / conflictos y disputas ¿Cuáles considera usted que se le presentan con mayor frecuencia a los miembros de su comunidad?",
                     "options": [
@@ -668,7 +669,7 @@
                                         },
                                         {
                                             "id": "P21.1.1",
-                                            "type": "checkbox",
+                                            "type": "radio",
                                             "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
                                             "options": [
                                                 {
