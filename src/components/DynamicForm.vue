@@ -68,6 +68,7 @@ const getRelatedQuestions = (indexQuestion) => {
 
   const relatedQuestions = []
 
+
   selectedOptions.forEach(selectedOption => {
     const matchingOption = parentQuestion.options.find(opt => opt.value === selectedOption)
     console.log('Opción coincidente:', matchingOption)
@@ -84,14 +85,30 @@ const getRelatedQuestions = (indexQuestion) => {
       
       // Crear una nueva estructura de pregunta para cada sub-opción
       const subQuestions = filteredOptions.map(opt => ({
-        label: label, //TODO:  Probar en los demas forms, si es podible intentar que la sub ociones salgan debajo del label de la pregunta padre
+         //TODO:  Probar en los demas forms, si es podible intentar que la sub ociones salgan debajo del label de la pregunta padre
         id: `${indexQuestion.id}_${opt.value}`,
         type: indexQuestion.type || 'checkbox', // Usar el tipo de la pregunta indexada o 'checkbox' por defecto
         options: [{ ...opt, value: 'true' }], // Convertir la opción en una estructura de opción válida
         isSubQuestion: true // Añadir una bandera para identificar sub-preguntas
       }))
 
-      relatedQuestions.push(...subQuestions)
+      // label: label,
+
+      console.log('SubQuestions:', subQuestions)
+
+      const trasnformQuestions = {
+        id: indexQuestion.id,
+        label: label,
+        type: indexQuestion.type || 'checkbox', // Usar el tipo de la pregunta indexada o 'checkbox' por defecto
+        options: subQuestions.map(subQ => ({
+          id: subQ.id,
+          value: subQ.id.split('_')[1], // Tomamos la parte después del guion bajo
+          label: subQ.options[0].label,
+        }))
+      }
+      console.log('TrasnformQuestions:', trasnformQuestions)
+    
+      relatedQuestions.push(...[trasnformQuestions])
     }
   })
 
