@@ -9,7 +9,7 @@
         @input="updateAnswer(question.id, $event.target.value)"
       >
     </div>
-    <div v-else-if="question.type === 'radio'">
+    <div class="question__options" v-else-if="question.type === 'radio'">
       <div v-for="option in question.options" :key="option.value">
         <input 
           :id="`${question.id}_${option.value}`" 
@@ -28,8 +28,8 @@
         >
       </div>
     </div>
-    <div v-else-if="question.type === 'checkbox'">
-      <div v-for="option in question.options" :key="option.value">
+    <div class="question__options" v-else-if="question.type === 'checkbox'">
+      <div class="question__option" v-for="option in question.options" :key="option.value">
         <input 
           :id="`${question.id}_${option.value}`" 
           type="checkbox" 
@@ -81,6 +81,11 @@ const updateCheckboxAnswer = (questionId, optionValue) => {
 .question {
   margin-bottom: 20px;
 }
+
+.question__option{
+  display: flex;
+}
+
 
 label {
   display: block;
