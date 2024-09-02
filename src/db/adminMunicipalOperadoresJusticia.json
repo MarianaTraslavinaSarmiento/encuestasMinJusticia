@@ -1214,6 +1214,7 @@
                     "id": "P33",
                     "type": "checkbox",
                     "label": "Del siguiente listado de problemas / desacuerdos / conflictos y disputas ¿Cuáles tramita usted con mayor frecuencia, de conformidad al cargo u ocupación que desempeña en la entidad / organización o comunidad que representa?",
+                    "isTypology": true,
                     "options": [
                         {
                             "value": "1",

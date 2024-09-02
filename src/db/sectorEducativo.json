@@ -470,6 +470,7 @@
                     "id": "P24",
                     "type": "checkbox",
                     "label": "Del siguiente listado de problemas / desacuerdos / conflictos y disputas ¿Cuáles considera usted que se presentan con mayor frecuencia a los estudiantes del Establecimiento Educativo?",
+                    "isTypology": true,
                     "options": [
                         {
                             "value": "1",

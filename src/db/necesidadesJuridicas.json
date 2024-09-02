@@ -595,6 +595,7 @@
                     "id": "P17",
                     "type": "checkbox",
                     "label": "Del siguiente listado de problemas / desacuerdos / conflictos y disputas ¿Para cada caso puede decirme si usted ha experimentado personalmente alguno de esos problemas entre enero 2020 hasta junio de 2024? Por favor solo incluya los problemas que experimentó usted mismo, no los que le ocurrieron a sus familiares, a sus amigos, a su negocio, o a su empleador, ni las situaciones en las que usted representó o ayudó a alguien con un problema. Y por favor solo mencione los problemas una vez:",
+                    "isTypology": true,
                     "options": [
                         {
                             "value": "1",
