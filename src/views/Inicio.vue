@@ -9,15 +9,65 @@
         "04": ["/necesidades_juridicas_sector_educativo", "Encuesta De Necesidades Jurídicas - Sector Educativo"]
     }
 
-    const chapter = {
+    const chapter = 
+        {
         id: "01",
         title: "Encuesta A La Administración Municipal Y Operadores De Justicia",
         questions: [
+                {
+                id: "00",
+                type: "RU",
+                label: "No es Final",
+                options: [
+                    {
+                        value: "1",
+                        label: "Si",
+                    },
+                    {
+                        value: "2",
+                        label: "No",
+                        ref: {
+                            id: "00.1",
+                            label: "Referencia",
+                            type: "RU",
+                            options: [
+                                {
+                                    value: "1",
+                                    label: "Si",
+                                    ref: {
+                                        id: "00.1.1",
+                                        label: "Referencia",
+                                        type: "RU",
+                                        options: [
+                                            {
+                                                value: "1",
+                                                label: "Si",
+                                            },
+                                            {
+                                                value: "2",
+                                                label: "No",
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    value: "2",
+                                    label: "No",
+                                },
+                                {
+                                    value: "3",
+                                    label: "tal vez"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
             {
                 id: "01",
                 isFinal: true,
                 type: "RU",
-                label: "es Final",
+                label: "autoriza? (es Final)",
                 options: [
                     {
                         value: "1",
