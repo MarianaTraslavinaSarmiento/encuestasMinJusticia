@@ -23,6 +23,18 @@ const props = defineProps({
     </div>
 </template>
 
-<style scoped>
-
+<style lang="scss" scoped>
+    .chapter {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        & label{
+            background-color: var(--color-darkBlue);
+            color: var(--color-white);
+            padding: 10px;
+            font-weight: bold;
+            font-size: 1.2em;
+            width: 100%;
+        }
+    }
 </style>

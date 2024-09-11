@@ -33,6 +33,11 @@ const router = createRouter({
       path: '/encuesta_finalizada',
       name: 'encuesta_finalizada',
       component: () => import('../views/Gracias.vue')
+    },
+    {
+      path: '/pruebas',
+      name: 'pruebas',
+      component: () => import('../views/Survey05.vue')
     }
   ]
 })
