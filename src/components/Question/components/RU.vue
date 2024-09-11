@@ -1,5 +1,6 @@
 <script setup>
 import Question from '../Question.vue';
+import ModalDialog from '@/components/ModalDialog/ModalDialog.vue';
 import { ref, watch, computed } from 'vue';
 
 const props = defineProps({
@@ -24,16 +25,26 @@ watch(selectedOption, (newValue) => {
     }
 });
 
-const confirmSelection = () => {
-    showModal.value = false;
+const handleConfirm = () => {
+  console.log('User confirmed');
+  showModal.value = false;
+  console.warn("The user does not allow the permission to continue");
+  
     // Here you would typically emit an event to notify the parent component
     // that the user has confirmed their selection
+    // but in this case we will just use pinia to gatter te state
+    // and collect the form data
+  
 };
 
-const cancelSelection = () => {
-    showModal.value = false;
-    selectedOption.value = null;
+// Method to handle cancellation
+const handleCancel = () => {
+  console.log('User cancelled');
+  showModal.value = false;
+  selectedOption.value = null;
+
 };
+
 </script>
 
 <template>
@@ -50,25 +61,50 @@ const cancelSelection = () => {
                 >
                 <label :for="`question-${question.id}-${option.value}`">{{ option.label }}</label>
             </div>
+            
         </fieldset>
-
+        
         <!-- Nested question -->
         <div v-if="refQuestion" class="nested-question">
             <Question :question="refQuestion" />
         </div>
+ 
 
         <!-- Modal -->
-        <div v-if="showModal" class="modal">
-            <div class="modal-content">
-                <p>No es posible realizar la encuesta sin su autorización. ¿Está seguro?</p>
-                <button @click="confirmSelection">Sí</button>
-                <button @click="cancelSelection">No</button>
-            </div>
-        </div>
+        <ModalDialog 
+        :is-open="showModal" 
+        :message="`Nececitamos su autorizacion para continuar de lo contario no podemos realizar la encuesta. ¿cancelar la encuesta?`"
+        @confirm="handleConfirm"
+        @cancel="handleCancel"
+        />
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+
+.ru-question {
+    display: flex;
+  flex-direction: column;
+
+  & fieldset {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+    & legend {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    .option{
+        display: flex;
+        gap: 0.5rem;
+        padding: 0 0 0 0.5rem  ;
+    }
+
+  }
+}
 
 
 .modal {

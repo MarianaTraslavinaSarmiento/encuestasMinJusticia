@@ -28,22 +28,12 @@ const refQuestions = computed(() => {
     <fieldset>
       <legend>{{ question.label }}</legend>
       <div v-for="option in question.options" :key="option.value" class="option">
-        <input 
-          type="checkbox"
-          :id="`question-${question.id}-${option.value}`"
-          v-model="selectedOptions"
-          :value="option.value"
-          :name="`question-${question.id}`"
-        >
+        <input type="checkbox" :id="`question-${question.id}-${option.value}`" v-model="selectedOptions"
+          :value="option.value" :name="`question-${question.id}`">
         <label :for="`question-${question.id}-${option.value}`">{{ option.label }}</label>
-        
-        <input 
-          v-if="option.isOther && isOtherSelected"
-          type="text"
-          v-model="otherInput"
-          :placeholder="option.placeholder || 'Please specify'"
-          class="other-input"
-        >
+
+        <input v-if="option.isOther && isOtherSelected" type="text" v-model="otherInput"
+          :placeholder="option.placeholder || 'Please specify'" class="other-input">
       </div>
     </fieldset>
 
@@ -54,5 +44,42 @@ const refQuestions = computed(() => {
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+.rm-question {
+  display: flex;
+  flex-direction: column;
+
+  & fieldset {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    & legend {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    .option {
+      display: flex;
+      gap: 0.5rem;
+      padding: 0 0 0 0.5rem;
+
+      & label {
+        font-size: 1rem;
+        padding: 0.5rem;
+      }
+
+      & .other-input {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 100%;
+        border: 1px solid #ccc;
+        margin-right: 0.5rem;
+      }
+    }
+
+  }
+
+}
 </style>
