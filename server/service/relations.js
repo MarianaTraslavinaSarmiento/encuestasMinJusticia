@@ -1,4 +1,3 @@
-const { Op } = require('sequelize');
 const { Survey, Chapter, Question, OptionQuestion } = require('../db/models');
 
 async function getSurveysWithChapters() {
