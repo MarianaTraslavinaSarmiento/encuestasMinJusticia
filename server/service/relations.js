@@ -1,4 +1,4 @@
-const { Survey, Chapter, Question, OptionQuestion } = require('../db/models');
+const { Survey, Chapter, Question, OptionQuestion, OptionResponse } = require('../db/models');
 
 async function getSurveysWithChapters() {
   try {
@@ -12,8 +12,10 @@ async function getSurveysWithChapters() {
               include: [{
                 model: OptionQuestion,
                 as: 'options',
-                separate: true
-
+                include: [{
+                  model: OptionResponse,
+                  as: 'responses',
+                }]
               }]
             }]
           }

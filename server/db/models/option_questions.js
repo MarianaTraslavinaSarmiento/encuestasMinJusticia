@@ -8,7 +8,8 @@ const OptionQuestion = sequelize.define('OptionQuestion', {
   },
   option_id: {
     type: DataTypes.INTEGER,
-    allowNull: false
+    allowNull: false,
+    foreignKey: true
   },
   optioncatalog_id: {
     type: DataTypes.INTEGER,
@@ -47,6 +48,11 @@ OptionQuestion.associate = function(models) {
     OptionQuestion.belongsTo(models.Question, {
         foreignKey: 'optionquestion_id',
         as: 'question'
+    });
+
+    OptionQuestion.belongsTo(models.OptionResponse, {
+        foreignKey: 'option_id',
+        as: 'responses'
     });
  
 };
