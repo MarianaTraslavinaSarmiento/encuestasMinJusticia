@@ -27,9 +27,9 @@ const OptionResponse = sequelize.define('OptionResponse', {
 });
 
 OptionResponse.associate = function(models) {
-  OptionResponse.hasMany(models.OptionQuestion, {
+  OptionResponse.hasOne(models.OptionQuestion, {
     foreignKey: 'option_id',
-    as: 'option'
+    as: 'optionQuestion'
   });
 };
 

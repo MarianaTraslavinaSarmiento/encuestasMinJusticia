@@ -40,21 +40,23 @@ const OptionQuestion = sequelize.define('OptionQuestion', {
   tableName: 'option_questions',
   timestamps: true,
   updatedAt: 'updated_at',
-  createdAt: false, 
+  createdAt: false,
   underscored: true,
 });
 
 OptionQuestion.associate = function(models) {
-    OptionQuestion.belongsTo(models.Question, {
-        foreignKey: 'optionquestion_id',
-        as: 'question'
-    });
-
-    OptionQuestion.belongsTo(models.OptionResponse, {
-        foreignKey: 'option_id',
-        as: 'responses'
-    });
- 
+  OptionQuestion.belongsTo(models.Question, {
+    foreignKey: 'optionquestion_id',
+    as: 'question'
+  });
+  OptionQuestion.belongsTo(models.OptionResponse, {
+    foreignKey: 'option_id',
+    as: 'response'
+  });
+  OptionQuestion.belongsTo(models.SubQuestion, {
+    foreignKey: 'subquestion_id',
+    as: 'sub'
+  });
 };
 
 module.exports = OptionQuestion;
