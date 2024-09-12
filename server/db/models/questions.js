@@ -48,6 +48,11 @@ Question.associate = (models) => {
     foreignKey: 'chapter_id',
     as: 'chapter'
   });
+
+  Question.hasMany(models.OptionQuestion, {
+    foreignKey: 'optionquestion_id',
+    as: 'options'
+  });
 };
 
 module.exports = Question;

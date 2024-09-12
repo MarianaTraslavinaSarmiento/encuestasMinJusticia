@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const { sequelize } = require("./db/db.js");
 const { getSurveysWithChapters } = require('./service/relations.js');
-const { Survey , Chapter } = require('./db/models');
+const { Survey , Chapter, Question , OptionQuestion} = require('./db/models');
 
 const port = process.env.EXPRESS_PORT || 5001; // Proporciona un valor predeterminado
 
@@ -12,8 +12,9 @@ async function startServer() {
     await sequelize.sync();
     console.log('Modelos sincronizados con la base de datos.');
 
-    Survey.associate({ Chapter });
-    Chapter.associate({ Survey });
+    // Survey.associate({ Chapter });
+    // Chapter.associate({ Survey, Question });
+    // OptionQuestion.associate({ Question });
     
     // Definir rutas
     app.get("/", async (req, res) => {
