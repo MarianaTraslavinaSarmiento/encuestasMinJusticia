@@ -7,18 +7,18 @@
       "chapters": [
         {
           "id": 1,
-          "title": "Características sociodemográficas del encuestado",
+          "title": "Capítulo 1. Características sociodemográficas del encuestado",
           "questions": [
             {
               "id": 1,
               "type": "Text",
-              "label": "Nombre completo del encuestado:",
+              "label": "P1 Nombre completo del encuestado:",
               "valueId": "1.1"
             },
             {
               "id": 10,
               "type": "RU",
-              "label": "¿Nos autoriza a realizar la encuesta?",
+              "label": "P10 ¿Nos autoriza a realizar la encuesta?",
               "options": [
                 {
                   "id": "10.1",
@@ -35,7 +35,7 @@
             {
               "id": 11,
               "type": "RU",
-              "label": "¿Cuál es su edad?",
+              "label": "P11 ¿Cuál es su edad?",
               "options": [
                 {
                   "id": "11.1",
@@ -67,7 +67,7 @@
             {
               "id": 12,
               "type": "RU",
-              "label": "¿De acuerdo con su cultura, pueblo o rasgos físicos... usted se reconoce como:",
+              "label": "P12 ¿De acuerdo con su cultura, pueblo o rasgos físicos... usted se reconoce como:",
               "options": [
                 {
                   "id": "12.1",
@@ -104,7 +104,7 @@
             {
               "id": 13,
               "type": "RU",
-              "label": "¿Cuál es su nivel educativo más alto alcanzado?",
+              "label": "P13 ¿Cuál es su nivel educativo más alto alcanzado?",
               "options": [
                 {
                   "id": "13.1",
@@ -171,173 +171,67 @@
             {
               "id": 2,
               "type": "Text",
-              "label": "Nombre de entidad, organización o comunidad a la que representa:",
+              "label": "P2 Nombre de entidad, organización o comunidad a la que representa:",
               "valueId": "2.1"
             },
             {
               "id": 3,
               "type": "Text",
-              "label": "Número de celular:",
+              "label": "P3 Número de celular:",
               "valueId": "3.1"
             },
             {
               "id": 4,
               "type": "Text",
-              "label": "Correo electrónico:",
+              "label": "P4 Correo electrónico:",
               "valueId": "4.1"
             },
             {
               "id": 5,
               "type": "Text",
-              "label": "Nombre departamento:",
+              "label": "P5 Nombre departamento:",
               "valueId": "5.1"
             },
             {
               "id": 6,
               "type": "Text",
-              "label": "Código departamento:",
+              "label": "P6 Código departamento:",
               "valueId": "6.1"
             },
             {
               "id": 7,
               "type": "Text",
-              "label": "Nombre municipio:",
+              "label": "P7 Nombre municipio:",
               "valueId": "7.1"
             },
             {
               "id": 8,
               "type": "Text",
-              "label": "Código municipio:",
+              "label": "P8 Código municipio:",
               "valueId": "8.1"
             },
             {
               "id": 9,
               "type": "RU",
-              "label": "¿Qué tipo de actor / operador de justicia usted representa?",
-              "options": [
-                {
-                  "id": "9.1.1",
-                  "value": "9.1.1",
-                  "label": "Juez/a"
-                },
-                {
-                  "id": "9.1.2",
-                  "value": "9.1.2",
-                  "label": "Fiscal"
-                },
-                {
-                  "id": "9.2.3",
-                  "value": "9.2.3",
-                  "label": "Coordinador/a del Centro de Conciliación"
-                },
-                {
-                  "id": "9.2.4",
-                  "value": "9.2.4",
-                  "label": "Conciliador/a en derecho"
-                },
-                {
-                  "id": "9.2.5",
-                  "value": "9.2.5",
-                  "label": "Conciliador/a en equidad"
-                },
-                {
-                  "id": "9.2.6",
-                  "value": "9.2.6",
-                  "label": "Mediador/a"
-                },
-                {
-                  "id": "9.2.7",
-                  "value": "9.2.7",
-                  "label": "Notario/a"
-                },
-                {
-                  "id": "9.3.10",
-                  "value": "9.3.10",
-                  "label": "Corregidor/a municipal"
-                },
-                {
-                  "id": "9.3.11",
-                  "value": "9.3.11",
-                  "label": "Inspector/a de policía"
-                },
-                {
-                  "id": "9.3.8",
-                  "value": "9.3.8",
-                  "label": "Comisario/a de familia"
-                },
-                {
-                  "id": "9.3.9",
-                  "value": "9.3.9",
-                  "label": "Coordinador/a Centro Zonal del ICBF"
-                },
-                {
-                  "id": "9.4.12",
-                  "value": "9.4.12",
-                  "label": "Representante de Junta de Acción Comunal / Asojuntas"
-                },
-                {
-                  "id": "9.5.13",
-                  "value": "9.5.13",
-                  "label": "Coordinador/a Casa de Justicia o Centro de Convivencia"
-                },
-                {
-                  "id": "9.5.14",
-                  "value": "9.5.14",
-                  "label": "Representante del Consultorio jurídico de las Universidades"
-                },
-                {
-                  "id": "9.6.15",
-                  "value": "9.6.15",
-                  "label": "Juez/a de paz – Juez/a de reconsideración"
-                },
-                {
-                  "id": "9.7.16",
-                  "value": "9.7.16",
-                  "label": "Personero/a municipal"
-                },
-                {
-                  "id": "9.7.17",
-                  "value": "9.7.17",
-                  "label": "Defensor/a público/a"
-                },
-                {
-                  "id": "9.8.18",
-                  "value": "9.8.18",
-                  "label": "Comandante de la estación de policía"
-                },
-                {
-                  "id": "9.8.19",
-                  "value": "9.8.19",
-                  "label": "Policía de infancia y adolescencia"
-                },
-                {
-                  "id": "9.9.20",
-                  "value": "9.9.20",
-                  "label": "Secretario/a de gobierno / interior"
-                },
-                {
-                  "id": "9.9.21",
-                  "value": "9.9.21",
-                  "label": "Enlace del SLJ en la administración municipal"
-                }
-              ]
+              "label": "P9 ¿Qué tipo de actor / operador de justicia usted representa?",
+              "options": []
             }
           ]
         },
         {
           "id": 2,
-          "title": "Información laboral",
+          "title": "Capítulo 2. Información laboral",
           "questions": [
             {
               "id": 14,
               "type": "Text",
-              "label": "¿Cuál es el nombre completo del cargo ocupación o rol que usted desempeña actualmente?",
+              "label": "P14 ¿Cuál es el nombre completo del cargo ocupación o rol que usted desempeña actualmente?",
               "valueId": "14.1"
             },
             {
               "id": 15,
               "type": "RU",
-              "label": "¿Cuántos años de experiencia tiene en este cargo u ocupación?",
+              "label": "P15 ¿Cuántos años de experiencia tiene en este cargo u ocupación?",
               "options": [
                 {
                   "id": "15.1",
@@ -364,7 +258,7 @@
             {
               "id": 16,
               "type": "RU",
-              "label": "¿Las funciones / labores que usted desempeña tiene cobertura?",
+              "label": "P16 ¿Las funciones / labores que usted desempeña tiene cobertura?",
               "options": [
                 {
                   "id": "16.1",
@@ -386,7 +280,7 @@
             {
               "id": 17,
               "type": "RU",
-              "label": "¿Qué tipo de vinculación tiene usted en el cargo ocupación o rol que desempeña actualmente?",
+              "label": "P17 ¿Qué tipo de vinculación tiene usted en el cargo ocupación o rol que desempeña actualmente?",
               "options": [
                 {
                   "id": "17.1",
@@ -426,12 +320,12 @@
         },
         {
           "id": 3,
-          "title": "Capacidad Institucional",
+          "title": "Capítulo 3. Capacidad Institucional",
           "questions": [
             {
               "id": 18,
               "type": "RM",
-              "label": "¿De los siguientes mecanismos, cuáles dispone la entidad u organización que usted representa para hacer el registro continuo y actualizado de los casos que se atienden?",
+              "label": "P18 ¿De los siguientes mecanismos, cuáles dispone la entidad u organización que usted representa para hacer el registro continuo y actualizado de los casos que se atienden?",
               "options": [
                 {
                   "id": "18.1",
@@ -465,19 +359,19 @@
             {
               "id": 19,
               "type": "RU",
-              "label": "El registro de los casos que atienden les permite conocer información específica sobre:",
+              "label": "P19 El registro de los casos que atienden les permite conocer información específica sobre:",
               "options": []
             },
             {
               "id": 20,
               "type": "Text",
-              "label": "¿Por qué no cuentan con un mecanismo para el registro de los casos que atienden?",
+              "label": "P20 ¿Por qué no cuentan con un mecanismo para el registro de los casos que atienden?",
               "valueId": "20.1"
             },
             {
               "id": 21,
               "type": "RU",
-              "label": "¿Usted realiza seguimiento a los casos que atiende en ejercicio de su competencia?",
+              "label": "P21 ¿Usted realiza seguimiento a los casos que atiende en ejercicio de su competencia?",
               "options": [
                 {
                   "id": "21.1",
@@ -494,7 +388,7 @@
             {
               "id": 22,
               "type": "RU",
-              "label": "¿Cuáles son las principales dificultades que se presentan y que generan demoras en el trámite de los casos que atiende?",
+              "label": "P22 ¿Cuáles son las principales dificultades que se presentan y que generan demoras en el trámite de los casos que atiende?",
               "options": [
                 {
                   "id": "22.1",
@@ -533,7 +427,7 @@
             {
               "id": 23,
               "type": "RU",
-              "label": "¿Pertenece a una o varias instancias de coordinación local o regional entre instituciones que prestan servicios de justicia?",
+              "label": "P23 ¿Pertenece a una o varias instancias de coordinación local o regional entre instituciones que prestan servicios de justicia?",
               "options": [
                 {
                   "id": "23.1",
@@ -550,7 +444,7 @@
             {
               "id": 24,
               "type": "RM",
-              "label": "¿A qué instancias de coordinación usted pertenece?",
+              "label": "P24 ¿A qué instancias de coordinación usted pertenece?",
               "options": [
                 {
                   "id": "24.1",
@@ -632,43 +526,43 @@
             {
               "id": 25,
               "type": "RM",
-              "label": "¿Con cuáles actores u operadores se articula usted para el cumplimiento de sus funciones en materia de acceso a la justicia?",
+              "label": "P25 ¿Con cuáles actores u operadores se articula usted para el cumplimiento de sus funciones en materia de acceso a la justicia?",
               "options": []
             },
             {
               "id": 26,
               "type": "Text",
-              "label": "¿Cuáles actores u operadores considera usted que no tienen presencia en el municipio y son necesarios para el acceso a la justicia?",
+              "label": "P26 ¿Cuáles actores u operadores considera usted que no tienen presencia en el municipio y son necesarios para el acceso a la justicia?",
               "valueId": "26.1"
             },
             {
               "id": 27,
               "type": "RM",
-              "label": "¿Cuál es la oferta de servicios de acceso a la justicia que ustedes brindan a la comunidad?",
+              "label": "P27 ¿Cuál es la oferta de servicios de acceso a la justicia que ustedes brindan a la comunidad?",
               "options": []
             },
             {
               "id": 28,
               "type": "RM",
-              "label": "¿Cuáles acciones de comunicación y divulgación se realizan para que la comunidad conozca la oferta de servicios de acceso a la justicia?",
+              "label": "P28 ¿Cuáles acciones de comunicación y divulgación se realizan para que la comunidad conozca la oferta de servicios de acceso a la justicia?",
               "options": []
             },
             {
               "id": 29,
               "type": "Text",
-              "label": "¿Por qué no se realizan acciones de comunicación y divulgación para que la comunidad conozca la oferta de servicios de acceso a la justicia?",
+              "label": "P29 ¿Por qué no se realizan acciones de comunicación y divulgación para que la comunidad conozca la oferta de servicios de acceso a la justicia?",
               "valueId": "29.1"
             },
             {
               "id": 30,
               "type": "Text",
-              "label": "¿En qué temas le gustaría capacitarse relacionados con acceso a la justicia?",
+              "label": "P30 ¿En qué temas le gustaría capacitarse relacionados con acceso a la justicia?",
               "valueId": "30.1"
             },
             {
               "id": 31,
               "type": "RU",
-              "label": "¿Le suministran a usted los medios de transporte para realizar los desplazamientos necesarios?",
+              "label": "P30A ¿Le suministran a usted los medios de transporte para realizar los desplazamientos necesarios?",
               "options": [
                 {
                   "id": "31.1",
@@ -686,18 +580,18 @@
         },
         {
           "id": 4,
-          "title": "Barreras de acceso a la justicia",
+          "title": "Capítulo 4. Barreras de acceso a la justicia",
           "questions": [
             {
               "id": 32,
               "type": "RM",
-              "label": "¿Cuáles considera que son las principales barreras de acceso a la justicia que se presentan en este municipio?",
+              "label": "P31 ¿Cuáles considera que son las principales barreras de acceso a la justicia que se presentan en este municipio?",
               "options": []
             },
             {
               "id": 33,
               "type": "RM",
-              "label": "¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se presentan en el municipio?",
+              "label": "P32 ¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se presentan en el municipio?",
               "options": [
                 {
                   "id": "32.1.1",
@@ -956,18 +850,18 @@
         },
         {
           "id": 5,
-          "title": "Conflictividades",
+          "title": "Capítulo 5. Conflictividades",
           "questions": [
             {
               "id": 34,
               "type": "RM",
-              "label": "¿Cuáles problemas / desacuerdos / conflictos y disputas tramita usted con mayor frecuencia?",
+              "label": "P33 ¿Cuáles problemas / desacuerdos / conflictos y disputas tramita usted con mayor frecuencia?",
               "options": []
             },
             {
               "id": 35,
               "type": "RM",
-              "label": "¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
+              "label": "P34 ¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
               "options": [
                 {
                   "id": "34.1.1",
@@ -1444,7 +1338,7 @@
             {
               "id": 36,
               "type": "RM",
-              "label": "¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+              "label": "P35 ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
               "options": [
                 {
                   "id": "35.1",
@@ -2826,7 +2720,7 @@
             {
               "id": 37,
               "type": "boolean",
-              "label": "¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+              "label": "P36 ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
               "options": [
                 {
                   "id": "36.1",
@@ -3823,7 +3717,7 @@
             {
               "id": 38,
               "type": "boolean",
-              "label": "¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+              "label": "P37 ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
               "options": [
                 {
                   "id": "37.1",
@@ -4820,13 +4714,13 @@
             {
               "id": 39,
               "type": "Text",
-              "label": "¿Cuántos casos de este tipo de problemas se atienden mensualmente?",
+              "label": "P38 ¿Cuántos casos de este tipo de problemas se atienden mensualmente?",
               "valueId": "38.1"
             },
             {
               "id": 40,
               "type": "RU",
-              "label": "¿Existe algún tipo de coordinación con autoridades indígenas para el trámite de los casos que usted atiende y que tengan relación con estas comunidades?",
+              "label": "P39 ¿Existe algún tipo de coordinación con autoridades indígenas para el trámite de los casos que usted atiende y que tengan relación con estas comunidades?",
               "options": [
                 {
                   "id": "39.1",
@@ -4843,7 +4737,7 @@
             {
               "id": 41,
               "type": "RU",
-              "label": "¿Existe algún tipo de coordinación con comunidades negras y afrocolombianas para el trámite de los casos que usted atiende y que tengan relación con estas comunidades?",
+              "label": "P40 ¿Existe algún tipo de coordinación con comunidades negras y afrocolombianas para el trámite de los casos que usted atiende y que tengan relación con estas comunidades?",
               "options": [
                 {
                   "id": "40.1",
@@ -4865,7 +4759,7 @@
             {
               "id": 42,
               "type": "RU",
-              "label": "¿Usted ha identificado algún conflicto entre empresas y comunidad en el municipio?",
+              "label": "P41 ¿Usted ha identificado algún conflicto entre empresas y comunidad en el municipio?",
               "options": [
                 {
                   "id": "41.1",
@@ -4883,12 +4777,12 @@
         },
         {
           "id": 6,
-          "title": "Política pública de acceso a la justicia",
+          "title": "Capítulo 6. Política pública de acceso a la justicia",
           "questions": [
             {
               "id": 43,
               "type": "RU",
-              "label": "¿El municipio cuenta con una política pública de acceso a la justicia?",
+              "label": "P42 ¿El municipio cuenta con una política pública de acceso a la justicia?",
               "options": [
                 {
                   "id": "42.1",
@@ -4905,38 +4799,38 @@
             {
               "id": 44,
               "type": "Text",
-              "label": "Describa los énfasis de la política pública de acceso a la justicia a nivel municipal.",
+              "label": "P43 Describa los énfasis de la política pública de acceso a la justicia a nivel municipal.",
               "valueId": "43.1"
             },
             {
               "id": 45,
               "type": "Text",
-              "label": "¿Qué acciones ha emprendido la administración para fortalecer la justicia a nivel municipal?",
+              "label": "P44 ¿Qué acciones ha emprendido la administración para fortalecer la justicia a nivel municipal?",
               "valueId": "44.1"
             },
             {
               "id": 46,
               "type": "Text",
-              "label": "¿Qué apoyo o articulación necesitan con la institucionalidad nacional o departamental para fortalecer la justicia en su municipio?",
+              "label": "P45 ¿Qué apoyo o articulación necesitan con la institucionalidad nacional o departamental para fortalecer la justicia en su municipio?",
               "valueId": "45.1"
             },
             {
               "id": 47,
               "type": "Text",
-              "label": "¿Cuál es el presupuesto anual disponible en su entidad para proyectos relacionados con acceso a la justicia en el municipio?",
+              "label": "P45A ¿Cuál es el presupuesto anual disponible en su entidad para proyectos relacionados con acceso a la justicia en el municipio?",
               "valueId": "45A"
             },
             {
               "id": 48,
               "type": "Text",
-              "label": "¿Desea agregar algún comentario o recomendación?",
+              "label": "P46 ¿Desea agregar algún comentario o recomendación?",
               "valueId": "46.1"
             }
           ]
         },
         {
           "id": 7,
-          "title": "Información del encuestador",
+          "title": "Capítulo A. Información del encuestador",
           "questions": []
         }
       ]
@@ -4947,18 +4841,18 @@
       "chapters": [
         {
           "id": 8,
-          "title": "Características sociodemográficas del encuestado",
+          "title": "Capítulo 1. Características sociodemográficas del encuestado",
           "questions": [
             {
               "id": 49,
               "type": "Text",
-              "label": "Nombre completo del encuestado",
+              "label": "P1 Nombre completo del encuestado",
               "valueId": "P1.1"
             },
             {
               "id": 58,
               "type": "RM",
-              "label": "¿Nos autoriza a realizarle la encuesta?",
+              "label": "P10 ¿Nos autoriza a realizarle la encuesta?",
               "options": [
                 {
                   "id": "10.1",
@@ -4985,7 +4879,7 @@
             {
               "id": 59,
               "type": "RM",
-              "label": "¿Cuál es su edad?",
+              "label": "P11 ¿Cuál es su edad?",
               "options": [
                 {
                   "id": "11.2.1",
@@ -5017,7 +4911,7 @@
             {
               "id": 60,
               "type": "RM",
-              "label": "¿Cuál es su nivel educativo más alto alcanzado?",
+              "label": "P12 ¿Cuál es su nivel educativo más alto alcanzado?",
               "options": [
                 {
                   "id": "12.2.1",
@@ -5084,49 +4978,49 @@
             {
               "id": 50,
               "type": "Text",
-              "label": "Nombre de la comunidad que representa",
+              "label": "P2 Nombre de la comunidad que representa",
               "valueId": "P2.1"
             },
             {
               "id": 51,
               "type": "Text",
-              "label": "Número de celular",
+              "label": "P3 Número de celular",
               "valueId": "P3.1"
             },
             {
               "id": 52,
               "type": "Text",
-              "label": "Correo electrónico",
+              "label": "P4 Correo electrónico",
               "valueId": "P4.1"
             },
             {
               "id": 53,
               "type": "Text",
-              "label": "Nombre del departamento",
+              "label": "P5 Nombre del departamento",
               "valueId": "P5.1"
             },
             {
               "id": 54,
               "type": "Text",
-              "label": "Código departamento",
+              "label": "P6 Código departamento",
               "valueId": "P6.1"
             },
             {
               "id": 55,
               "type": "Text",
-              "label": "Nombre del municipio",
+              "label": "P7 Nombre del municipio",
               "valueId": "P7.1"
             },
             {
               "id": 56,
               "type": "Text",
-              "label": "Código del municipio",
+              "label": "P8 Código del municipio",
               "valueId": "P8.1"
             },
             {
               "id": 57,
               "type": "RM",
-              "label": "¿Qué rol desempeña usted dentro de su comunidad?",
+              "label": "P9 ¿Qué rol desempeña usted dentro de su comunidad?",
               "options": [
                 {
                   "id": "9.1",
@@ -5188,12 +5082,12 @@
         },
         {
           "id": 9,
-          "title": "Información de la comunidad",
+          "title": "Capítulo 2. Información de la comunidad",
           "questions": [
             {
               "id": 61,
               "type": "RM",
-              "label": "De acuerdo con su cultura, pueblo o rasgos físicos... ¿cuál de las siguientes categorías se enmarca su comunidad?",
+              "label": "P13 De acuerdo con su cultura, pueblo o rasgos físicos... ¿cuál de las siguientes categorías se enmarca su comunidad?",
               "options": [
                 {
                   "id": "13.2.1",
@@ -5230,7 +5124,7 @@
             {
               "id": 62,
               "type": "RM",
-              "label": "¿Cuál es el tamaño de su comunidad?",
+              "label": "P14 ¿Cuál es el tamaño de su comunidad?",
               "options": [
                 {
                   "id": "14.2.1",
@@ -5264,7 +5158,7 @@
             {
               "id": 63,
               "type": "RM",
-              "label": "¿La comunidad a la que usted pertenece es?",
+              "label": "P15 ¿La comunidad a la que usted pertenece es?",
               "options": [
                 {
                   "id": "15.2.1",
@@ -5287,12 +5181,12 @@
         },
         {
           "id": 10,
-          "title": "Barreras de acceso a la justicia",
+          "title": "Capítulo 3. Barreras de acceso a la justicia",
           "questions": [
             {
               "id": 64,
               "type": "RM",
-              "label": "¿Del siguiente listado, ¿Cuáles considera, desde su rol (como representante de la comunidad), que son las principales barreras de acceso a la justicia que se le presentan a los miembros de su comunidad?",
+              "label": "P16 ¿Del siguiente listado, ¿Cuáles considera, desde su rol (como representante de la comunidad), que son las principales barreras de acceso a la justicia que se le presentan a los miembros de su comunidad?",
               "options": [
                 {
                   "id": "16.2.1.1",
@@ -5379,7 +5273,7 @@
             {
               "id": 65,
               "type": "RM",
-              "label": "¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los miembros de su comunidad?",
+              "label": "P17 ¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los miembros de su comunidad?",
               "options": [
                 {
                   "id": "17.2.1.1",
@@ -5638,18 +5532,18 @@
         },
         {
           "id": 11,
-          "title": "Conflictividades",
+          "title": "Capítulo 5. Conflictividades",
           "questions": [
             {
               "id": 66,
               "type": "RM",
-              "label": "¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los miembros de su comunidad?",
+              "label": "P18 ¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los miembros de su comunidad?",
               "options": []
             },
             {
               "id": 67,
               "type": "RM",
-              "label": "¿Cuáles de las siguientes tipologías de problemas afectan con mayor frecuencia a los miembros de su comunidad?",
+              "label": "P19 ¿Cuáles de las siguientes tipologías de problemas afectan con mayor frecuencia a los miembros de su comunidad?",
               "options": [
                 {
                   "id": "19.1.1.1",
@@ -6136,7 +6030,7 @@
             {
               "id": 68,
               "type": "RM",
-              "label": "Frente a este problema ¿cuál es la acción que con más frecuencia adoptan los miembros de su comunidad?",
+              "label": "P20 Frente a este problema ¿cuál es la acción que con más frecuencia adoptan los miembros de su comunidad?",
               "options": [
                 {
                   "id": "20.12.6.1",
@@ -9233,7 +9127,7 @@
             {
               "id": 69,
               "type": "RM",
-              "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+              "label": "P21 ¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
               "options": [
                 {
                   "id": "21.2.1.1.1",
@@ -10588,7 +10482,7 @@
                 {
                   "id": "21.2.7.3",
                   "value": "21.2.7.3",
-                  "label": "Ambas"
+                  "label": "Rural"
                 },
                 {
                   "id": "21.2.7.3",
@@ -10598,7 +10492,7 @@
                 {
                   "id": "21.2.7.3",
                   "value": "21.2.7.3",
-                  "label": "Rural"
+                  "label": "Ambas"
                 },
                 {
                   "id": "21.2.7.4.1",
@@ -10770,7 +10664,7 @@
             {
               "id": 70,
               "type": "RM",
-              "label": "Sobre este problema ¿es común que la jurisdicción ordinaria o la justicia estatal reclame competencia?",
+              "label": "P22 Sobre este problema ¿es común que la jurisdicción ordinaria o la justicia estatal reclame competencia?",
               "options": [
                 {
                   "id": "22.2.1.1.1",
@@ -11787,7 +11681,7 @@
             {
               "id": 71,
               "type": "RM",
-              "label": "¿El problema se solucionó?",
+              "label": "P23 ¿El problema se solucionó?",
               "options": [
                 {
                   "id": "23.2.1.1.1",
@@ -12814,7 +12708,7 @@
             {
               "id": 72,
               "type": "yes_no",
-              "label": "¿Existe desde la comunidad a la que usted representa alguna alianza o espacios de coordinación con la institucionalidad u operadores de justicia del municipio para atender los casos o problemas que se presentan?",
+              "label": "P24 ¿Existe desde la comunidad a la que usted representa alguna alianza o espacios de coordinación con la institucionalidad u operadores de justicia del municipio para atender los casos o problemas que se presentan?",
               "options": [
                 {
                   "id": "24.2.1.1",
@@ -12831,31 +12725,31 @@
             {
               "id": 73,
               "type": "Text",
-              "label": "Puede usted mencionar brevemente ¿en qué consisten esos espacios de coordinación o alianza?",
+              "label": "P25 Puede usted mencionar brevemente ¿en qué consisten esos espacios de coordinación o alianza?",
               "valueId": "25.2.1.1"
             },
             {
               "id": 74,
               "type": "Text",
-              "label": "¿Cuáles son las instituciones que hacen parte de esa coordinación o alianza con las autoridades étnicas?",
+              "label": "P26 ¿Cuáles son las instituciones que hacen parte de esa coordinación o alianza con las autoridades étnicas?",
               "valueId": "26.2.1.1"
             },
             {
               "id": 75,
               "type": "Text",
-              "label": "¿Por qué no existen esas alianzas o protocolos de coordinación?",
+              "label": "P27 ¿Por qué no existen esas alianzas o protocolos de coordinación?",
               "valueId": "27.2.1.1"
             },
             {
               "id": 76,
               "type": "Text",
-              "label": "¿Qué apoyo o articulación necesitan con la institucionalidad municipal, departamental o nacional para el manejo de estos casos?",
+              "label": "P28 ¿Qué apoyo o articulación necesitan con la institucionalidad municipal, departamental o nacional para el manejo de estos casos?",
               "valueId": "28.2.1.1"
             },
             {
               "id": 77,
               "type": "Text",
-              "label": "Para finalizar esta encuesta, ¿desearía agregar algún comentario o recomendación?",
+              "label": "P29 Para finalizar esta encuesta, ¿desearía agregar algún comentario o recomendación?",
               "valueId": "29.2.1.1"
             }
           ]
@@ -12868,18 +12762,18 @@
       "chapters": [
         {
           "id": 12,
-          "title": "Capítulo 1.  Características sociodemográficas del encuestado",
+          "title": "Capítulo 1. Capítulo 1.  Características sociodemográficas del encuestado",
           "questions": [
             {
               "id": 78,
               "type": "Text",
-              "label": "Nombre completo del encuestado",
+              "label": "P1 Nombre completo del encuestado",
               "valueId": "P1.3.1"
             },
             {
               "id": 87,
               "type": "RM",
-              "label": "¿Nos autoriza a realizarle la encuesta?",
+              "label": "P10 ¿Nos autoriza a realizarle la encuesta?",
               "options": [
                 {
                   "id": "10.3.1",
@@ -12896,13 +12790,13 @@
             {
               "id": 88,
               "type": "RM",
-              "label": "¿Cuántas sedes tiene el Establecimiento Educativo en el que usted trabaja?",
+              "label": "P11 ¿Cuántas sedes tiene el Establecimiento Educativo en el que usted trabaja?",
               "options": []
             },
             {
               "id": 89,
               "type": "RM",
-              "label": "¿Cuál es su edad?",
+              "label": "P12 ¿Cuál es su edad?",
               "options": [
                 {
                   "id": "12.3.1",
@@ -12934,7 +12828,7 @@
             {
               "id": 90,
               "type": "RM",
-              "label": "¿De acuerdo con su cultura, pueblo o rasgos físicos... usted se reconoce como",
+              "label": "P13 ¿De acuerdo con su cultura, pueblo o rasgos físicos... usted se reconoce como",
               "options": [
                 {
                   "id": "13.3.1",
@@ -12971,7 +12865,7 @@
             {
               "id": 91,
               "type": "RM",
-              "label": "¿Cuál es su nivel educativo más alto alcanzado?",
+              "label": "P14 ¿Cuál es su nivel educativo más alto alcanzado?",
               "options": [
                 {
                   "id": "14.3.1",
@@ -13038,49 +12932,49 @@
             {
               "id": 79,
               "type": "Text",
-              "label": "Nombre de la comunidad que representa",
+              "label": "P2 Nombre de la comunidad que representa",
               "valueId": "P2.3.1"
             },
             {
               "id": 80,
               "type": "Text",
-              "label": "Número de celular",
+              "label": "P3 Número de celular",
               "valueId": "P3.3.1"
             },
             {
               "id": 81,
               "type": "Text",
-              "label": "Correo electrónico",
+              "label": "P4 Correo electrónico",
               "valueId": "P4.3.1"
             },
             {
               "id": 82,
               "type": "Text",
-              "label": "Nombre del departamento",
+              "label": "P5 Nombre del departamento",
               "valueId": "P5.3.1"
             },
             {
               "id": 83,
               "type": "Text",
-              "label": "Código departamento",
+              "label": "P6 Código departamento",
               "valueId": "P6.3.1"
             },
             {
               "id": 84,
               "type": "Text",
-              "label": "Nombre del municipio",
+              "label": "P7 Nombre del municipio",
               "valueId": "P7.3.1"
             },
             {
               "id": 85,
               "type": "Text",
-              "label": "Código del municipio",
+              "label": "P8 Código del municipio",
               "valueId": "P8.3.1"
             },
             {
               "id": 86,
               "type": "RM",
-              "label": "¿Qué rol desempeña usted dentro del establecimiento educativo?",
+              "label": "P9 ¿Qué rol desempeña usted dentro del establecimiento educativo?",
               "options": [
                 {
                   "id": "9.3.1",
@@ -13098,18 +12992,18 @@
         },
         {
           "id": 13,
-          "title": "Capítulo 2.  Información del Establecimiento Educativo",
+          "title": "Capítulo 2. Capítulo 2.  Información del Establecimiento Educativo",
           "questions": [
             {
               "id": 92,
               "type": "Text",
-              "label": "¿Cuál es el nombre completo del Establecimiento Educativo en el que usted trabaja?",
+              "label": "P15 ¿Cuál es el nombre completo del Establecimiento Educativo en el que usted trabaja?",
               "valueId": "15.3.1"
             },
             {
               "id": 93,
               "type": "RM",
-              "label": "¿Cuál es el nivel más alto ofertado por el Establecimiento Educativo?",
+              "label": "P16 ¿Cuál es el nivel más alto ofertado por el Establecimiento Educativo?",
               "options": [
                 {
                   "id": "16.3.1",
@@ -13143,7 +13037,7 @@
             {
               "id": 94,
               "type": "RM",
-              "label": "¿Cuál es la jornada escolar que brinda el Establecimiento Educativo?",
+              "label": "P17 ¿Cuál es la jornada escolar que brinda el Establecimiento Educativo?",
               "options": [
                 {
                   "id": "17.3.1",
@@ -13182,7 +13076,7 @@
             {
               "id": 95,
               "type": "RM",
-              "label": "¿A cuál sector pertenece el Establecimiento Educativo?",
+              "label": "P18 ¿A cuál sector pertenece el Establecimiento Educativo?",
               "options": [
                 {
                   "id": "18.3.1",
@@ -13199,7 +13093,7 @@
             {
               "id": 96,
               "type": "RM",
-              "label": "¿Cuántos años de experiencia tiene en este cargo u ocupación?",
+              "label": "P19 ¿Cuántos años de experiencia tiene en este cargo u ocupación?",
               "options": [
                 {
                   "id": "19.3.1",
@@ -13231,7 +13125,7 @@
             {
               "id": 97,
               "type": "RM",
-              "label": "¿Las funciones / labores que usted desempeña tiene cobertura?",
+              "label": "P20 ¿Las funciones / labores que usted desempeña tiene cobertura?",
               "options": [
                 {
                   "id": "20.3.1",
@@ -13253,7 +13147,7 @@
             {
               "id": 98,
               "type": "RM",
-              "label": "¿Qué tipo de vinculación tiene usted en el cargo, ocupación o rol que desempeña actualmente?",
+              "label": "P21 ¿Qué tipo de vinculación tiene usted en el cargo, ocupación o rol que desempeña actualmente?",
               "options": [
                 {
                   "id": "21.3.1",
@@ -13298,12 +13192,12 @@
         },
         {
           "id": 14,
-          "title": "Barreras de acceso a la justicia",
+          "title": "Capítulo 3. Barreras de acceso a la justicia",
           "questions": [
             {
               "id": 99,
               "type": "RM",
-              "label": "Del siguiente listado, a partir de su rol (Rector, Coordinador o líder de convivencia escolar), ¿cuáles considera que son las principales barreras de acceso a la justicia que se le presentan a los estudiantes de su establecimiento educativo?",
+              "label": "P22 Del siguiente listado, a partir de su rol (Rector, Coordinador o líder de convivencia escolar), ¿cuáles considera que son las principales barreras de acceso a la justicia que se le presentan a los estudiantes de su establecimiento educativo?",
               "options": [
                 {
                   "id": "22.3.1.1",
@@ -13390,7 +13284,7 @@
             {
               "id": 100,
               "type": "RM",
-              "label": "¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los estudiantes de su establecimiento educativo? Marcar con X",
+              "label": "P23 ¿Cuáles de las siguientes subcategorías de barreras de acceso a la justicia se le presentan a los estudiantes de su establecimiento educativo? Marcar con X",
               "options": [
                 {
                   "id": "23.3.1.1",
@@ -13649,72 +13543,72 @@
         },
         {
           "id": 15,
-          "title": "Conflictividades",
+          "title": "Capítulo 5. Conflictividades",
           "questions": [
             {
               "id": 101,
               "type": "yes_no",
-              "label": "¿Existe desde la comunidad a la que usted representa alguna alianza o espacios de coordinación con la institucionalidad u operadores de justicia del municipio para atender los casos o problemas que se presentan?",
+              "label": "P24 ¿Existe desde la comunidad a la que usted representa alguna alianza o espacios de coordinación con la institucionalidad u operadores de justicia del municipio para atender los casos o problemas que se presentan?",
               "options": []
             },
             {
               "id": 102,
               "type": "Text",
-              "label": "¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
+              "label": "P25 ¿Cuáles de las siguientes tipologías de problemas o conflictos se presentan con mayor frecuencia a los estudiantes?",
               "valueId": "25.3.1.1.1"
             },
             {
               "id": 103,
               "type": "Text",
-              "label": "¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
+              "label": "P26 ¿En qué zonas del municipio considera usted que se presenta este tipo de problema o conflicto?",
               "valueId": "26.3.1.1.1"
             },
             {
               "id": 104,
               "type": "Text",
-              "label": "¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
+              "label": "P27 ¿Existe alguna ruta o protocolo por parte del establecimiento educativo para el manejo de este tipo de problema o conflicto?",
               "valueId": "27.3.1.1.1"
             },
             {
               "id": 105,
               "type": "Text",
-              "label": "¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
+              "label": "P28 ¿Existe material pedagógico para comunicar la ruta o protocolo que debe seguir el estudiante para atender su caso?",
               "valueId": "28.3.1.1.1"
             },
             {
               "id": 106,
               "type": "Text",
-              "label": "Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?",
+              "label": "P29 Mensualmente, ¿Cuántos casos de este tipo de problema o conflicto, tiene conocimiento el establecimiento educativo?",
               "valueId": "29.3.1.1.1"
             },
             {
               "id": 107,
               "type": "Text",
-              "label": "¿Existe desde el Establecimiento Educativo alianzas o espacios de coordinación con la institucionalidad u operadores de justicia presentes en el municipio para atender los casos de los estudiantes?",
+              "label": "P30 ¿Existe desde el Establecimiento Educativo alianzas o espacios de coordinación con la institucionalidad u operadores de justicia presentes en el municipio para atender los casos de los estudiantes?",
               "valueId": "30.3.1"
             },
             {
               "id": 108,
               "type": "Text",
-              "label": "¿A qué institución, autoridad o personas particularmente acude el Establecimiento Educativo para atender los casos?",
+              "label": "P31 ¿A qué institución, autoridad o personas particularmente acude el Establecimiento Educativo para atender los casos?",
               "valueId": "31.3.1"
             },
             {
               "id": 109,
               "type": "Text",
-              "label": "¿Por qué no existen esas alianzas o protocolos de coordinación?",
+              "label": "P32 ¿Por qué no existen esas alianzas o protocolos de coordinación?",
               "valueId": "32.3.1"
             },
             {
               "id": 110,
               "type": "Text",
-              "label": "¿Qué apoyo o articulación ustedes necesitan con la institucionalidad municipal, departamental o nacional para el manejo de estos casos?",
+              "label": "P33 ¿Qué apoyo o articulación ustedes necesitan con la institucionalidad municipal, departamental o nacional para el manejo de estos casos?",
               "valueId": "33.3.1"
             },
             {
               "id": 111,
               "type": "Text",
-              "label": "Para finalizar esta encuesta, ¿desearía agregar algún comentario o recomendación?",
+              "label": "P34 Para finalizar esta encuesta, ¿desearía agregar algún comentario o recomendación?",
               "valueId": "34.3.1"
             }
           ]

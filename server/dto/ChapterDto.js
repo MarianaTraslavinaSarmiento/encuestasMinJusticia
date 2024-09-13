@@ -20,7 +20,7 @@ module.exports = class ChapterDto {
     //! CORRECT EXAMPLE:
     constructor(data) {
         this.id = data.id;
-        this.title = data.chapter_title;
+        this.title = `Capítulo ${data.chapter_number}. ${data.chapter_title}` ;
         this.questions = data.questions.map(question => new QuestionDto(question));
     }
 

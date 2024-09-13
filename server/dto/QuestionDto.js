@@ -7,7 +7,7 @@ module.exports = class QuestionDto {
         // QuestionDto.restartOptionsValues()
         this.id = data.id;
         this.type = data.response_type;
-        this.label = data.question_text;
+        this.label = `${data.question_number} ${ data.question_text }`;
         if (data.response_type === 'text' || data.options[0]?.response?.optiontext === 'Text') {
             this.valueId = data.options[0].numberoption;
             this.type = 'Text';
