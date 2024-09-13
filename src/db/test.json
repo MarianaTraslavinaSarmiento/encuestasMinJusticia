@@ -19,6 +19,7 @@
               "id": 10,
               "type": "RU",
               "label": "P10 ¿Nos autoriza a realizar la encuesta?",
+              "isFinal": true,
               "options": [
                 {
                   "id": "10.1",

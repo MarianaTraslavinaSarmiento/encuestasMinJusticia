@@ -23,10 +23,12 @@ const isOtherSelected = computed(() => {
   return selectedOption.value === 'other';
 });
 
-watch(selectedOption, (newValue) => {
-    if (newValue === "2" && question.value.isFinal) {
+watch(selectedOption, (newValue) => {    
+
+    if (newValue?.split('-')[0] === "No" && question.value.isFinal) {
         showModal.value = true;
     }
+
 });
 
 const handleConfirm = () => {
@@ -46,7 +48,6 @@ const handleCancel = () => {
   console.log('User cancelled');
   showModal.value = false;
   selectedOption.value = null;
-
 };
 
 </script>
@@ -60,7 +61,7 @@ const handleCancel = () => {
                     type="radio" 
                     :id="`question-${question.id}-${option.value}`" 
                     v-model="selectedOption" 
-                    :value="option.value"
+                    :value="option.label + '-' + option.value"
                     :name="`question-${question.id}`"
                 >
                 <label :for="`question-${question.id}-${option.value}`">{{ option.label }}</label>
