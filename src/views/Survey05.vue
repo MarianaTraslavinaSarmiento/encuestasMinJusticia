@@ -4,190 +4,200 @@ import TituloForm from "@/components/TituloForm.vue";
 import BackHome from "@/components/BackHome.vue";
 import { useFormStore } from '@/stores/formStore.js'
 import Chapter from "@/components/Chapter/Chapter.vue";
+import test from "@/db/test.json";
 
 const formStore = useFormStore()
 formStore.setCurrentForm('formData1')
-const currentData = formStore.getCurrentFormData
+// const currentData = formStore.getCurrentFormData
 
-const survey = {
-  chapters: [
-    {
-      id: "01",
-      title: "Capítulo 1.  Características sociodemográficas del encuestado",
-      questions: [
-        {
-          id: "0001",
-          type: "Input",
-          label: "Nombre",
-        },
-        {
-          id: "00",
-          type: "RU",
-          label: "No es Final",
-          options: [
-            {
-              value: "1",
-              label: "Si",
-            },
-            {
-              value: "2",
-              label: "No",
-              ref: {
-                id: "00.1",
-                label: "Referencia",
-                type: "RU",
-                options: [
-                  {
-                    value: "1",
-                    label: "Si",
-                    ref: {
-                      id: "00.1.1",
-                      label: "Referencia",
-                      type: "RU",
-                      options: [
-                        {
-                          value: "1",
-                          label: "Si",
-                        },
-                        {
-                          value: "2",
-                          label: "No",
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    value: "2",
-                    label: "No",
-                  },
-                  {
-                    value: "3",
-                    label: "tal vez"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          id: "01",
-          isFinal: true,
-          type: "RU",
-          label: "autoriza? (es Final)",
-          options: [
-            {
-              value: "1",
-              label: "Si",
-            },
-            {
-              value: "2",
-              label: "No",
-            }
-          ]
-        },
-        {
-          id: "02",
-          isFinal: false,
-          type: "RM",
-          label: "multiple sin otro",
-          options: [
-            {
-              value: "1",
-              label: "Si",
-            },
-            {
-              value: "2",
-              label: "No",
-            },
-            {
-              value: "3",
-              label: "tal vez"
-            }
-          ]
-        },
-        {
-          id: "03",
-          isFinal: false,
-          type: "RM",
-          label: "multiple con otro",
-          options: [
-            {
-              value: "1",
-              label: "Si",
-            },
-            {
-              value: "2",
-              label: "No",
-            },
-            {
-              value: "other",
-              label: "Otro",
-              isOther: true,
-              placeholder: "Por favor, especifique"
-            }
-          ]
-        },
-        {
-          id: "044",
-          isFinal: false,
-          type: "RM",
-          label: "multiple con referencia",
-          options: [
-            {
-              value: "1",
-              label: "Sisi",
-              ref: {
-                id: "1.1.1",
-                label: "Referencia",
-                type: "RM",
-                options: [
-                  {
-                    value: "1",
-                    label: "Si",
-                    ref: {
-                      id: "1.1.1.1",
-                      label: "Referencia",
-                      type: "RM",
-                      options: [
-                        {
-                          value: "1",
-                          label: "Si",
-                        },
-                        {
-                          value: "2",
-                          label: "No",
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    value: "2",
-                    label: "No",
-                  },
-                  {
-                    value: "3",
-                    label: "tal vez"
-                  }
-                ]
-              }
-            },
-            {
-              value: "2",
-              label: "No",
-              ref: "02"
-            },
-            {
-              value: "other",
-              label: "Otro",
-              isOther: true,
-              placeholder: "Por favor, especifique"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+let survey = {chapters: test.surveys[0].chapters};
+
+// survey.chapters.push([1]);
+
+console.log(test.surveys[0].chapters[0]);
+
+
+
+
+// const survey = {
+//   chapters: [
+//     {
+//       id: "01",
+//       title: "Capítulo 1.  Características sociodemográficas del encuestado",
+//       questions: [
+//         {
+//           id: "0001",
+//           type: "Input",
+//           label: "Nombre",
+//         },
+//         {
+//           id: "00",
+//           type: "RU",
+//           label: "No es Final",
+//           options: [
+//             {
+//               value: "1",
+//               label: "Si",
+//             },
+//             {
+//               value: "2",
+//               label: "No",
+//               ref: {
+//                 id: "00.1",
+//                 label: "Referencia",
+//                 type: "RU",
+//                 options: [
+//                   {
+//                     value: "1",
+//                     label: "Si",
+//                     ref: {
+//                       id: "00.1.1",
+//                       label: "Referencia",
+//                       type: "RU",
+//                       options: [
+//                         {
+//                           value: "1",
+//                           label: "Si",
+//                         },
+//                         {
+//                           value: "2",
+//                           label: "No",
+//                         }
+//                       ]
+//                     }
+//                   },
+//                   {
+//                     value: "2",
+//                     label: "No",
+//                   },
+//                   {
+//                     value: "3",
+//                     label: "tal vez"
+//                   }
+//                 ]
+//               }
+//             }
+//           ]
+//         },
+//         {
+//           id: "01",
+//           isFinal: true,
+//           type: "RU",
+//           label: "autoriza? (es Final)",
+//           options: [
+//             {
+//               value: "1",
+//               label: "Si",
+//             },
+//             {
+//               value: "2",
+//               label: "No",
+//             }
+//           ]
+//         },
+//         {
+//           id: "02",
+//           isFinal: false,
+//           type: "RM",
+//           label: "multiple sin otro",
+//           options: [
+//             {
+//               value: "1",
+//               label: "Si",
+//             },
+//             {
+//               value: "2",
+//               label: "No",
+//             },
+//             {
+//               value: "3",
+//               label: "tal vez"
+//             }
+//           ]
+//         },
+//         {
+//           id: "03",
+//           isFinal: false,
+//           type: "RM",
+//           label: "multiple con otro",
+//           options: [
+//             {
+//               value: "1",
+//               label: "Si",
+//             },
+//             {
+//               value: "2",
+//               label: "No",
+//             },
+//             {
+//               value: "other",
+//               label: "Otro",
+//               isOther: true,
+//               placeholder: "Por favor, especifique"
+//             }
+//           ]
+//         },
+//         {
+//           id: "044",
+//           isFinal: false,
+//           type: "RM",
+//           label: "multiple con referencia",
+//           options: [
+//             {
+//               value: "1",
+//               label: "Sisi",
+//               ref: {
+//                 id: "1.1.1",
+//                 label: "Referencia",
+//                 type: "RM",
+//                 options: [
+//                   {
+//                     value: "1",
+//                     label: "Si",
+//                     ref: {
+//                       id: "1.1.1.1",
+//                       label: "Referencia",
+//                       type: "RM",
+//                       options: [
+//                         {
+//                           value: "1",
+//                           label: "Si",
+//                         },
+//                         {
+//                           value: "2",
+//                           label: "No",
+//                         }
+//                       ]
+//                     }
+//                   },
+//                   {
+//                     value: "2",
+//                     label: "No",
+//                   },
+//                   {
+//                     value: "3",
+//                     label: "tal vez"
+//                   }
+//                 ]
+//               }
+//             },
+//             {
+//               value: "2",
+//               label: "No",
+//               ref: "02"
+//             },
+//             {
+//               value: "other",
+//               label: "Otro",
+//               isOther: true,
+//               placeholder: "Por favor, especifique"
+//             }
+//           ]
+//         }
+//       ]
+//     }
+//   ]
+// }
 
 </script>
 

@@ -24,7 +24,7 @@ const question = computed(() => props.question);
         <div v-else-if="question.type === 'RM'">
             <RM :question="question"/>
         </div>
-        <div v-else-if="question.type === 'Input'">
+        <div v-else-if="question.type === 'Text'">
             <Input :question="question"/>
         </div>
     </div>

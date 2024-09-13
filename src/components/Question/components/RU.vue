@@ -19,6 +19,10 @@ const refQuestion = computed(() => {
     return selected && selected.ref ? selected.ref : null;
 });
 
+const isOtherSelected = computed(() => {
+  return selectedOption.value === 'other';
+});
+
 watch(selectedOption, (newValue) => {
     if (newValue === "2" && question.value.isFinal) {
         showModal.value = true;
@@ -60,6 +64,9 @@ const handleCancel = () => {
                     :name="`question-${question.id}`"
                 >
                 <label :for="`question-${question.id}-${option.value}`">{{ option.label }}</label>
+
+                <input v-if="option.isOther && isOtherSelected" type="text" v-model="otherInput"
+                :placeholder="option.placeholder || 'Please specify'" class="other-input">
             </div>
             
         </fieldset>
@@ -101,6 +108,19 @@ const handleCancel = () => {
         display: flex;
         gap: 0.5rem;
         padding: 0 0 0 0.5rem  ;
+
+        & label {
+        font-size: 1rem;
+        padding: 0.5rem;
+      }
+
+        & .other-input {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 100%;
+        border: 1px solid #ccc;
+        margin-right: 0.5rem;
+      }
     }
 
   }
