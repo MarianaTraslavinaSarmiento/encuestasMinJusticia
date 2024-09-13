@@ -20,7 +20,9 @@ const refQuestion = computed(() => {
 });
 
 const isOtherSelected = computed(() => {
-  return selectedOption.value === 'other';
+    console.log(selectedOption.value);
+    
+  return selectedOption.value?.split('-')[1] === 'other';
 });
 
 watch(selectedOption, (newValue) => {    

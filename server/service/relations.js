@@ -31,8 +31,8 @@ async function getSurveysWithChapters() {
             order: [
                 ['id', 'ASC'],
                 [{ model: Chapter, as: 'chapters' }, 'chapter_number', 'ASC'],
-                [{ model: Chapter, as: 'chapters' }, { model: Question, as: 'questions' }, 'question_number', 'ASC'],
-                [{ model: Chapter, as: 'chapters' }, { model: Question, as: 'questions' }, { model: OptionQuestion, as: 'options' }, 'numberoption', 'ASC']
+                [{ model: Chapter, as: 'chapters' }, { model: Question, as: 'questions' }, 'id', 'ASC'],
+                // [{ model: Chapter, as: 'chapters' }, { model: Question, as: 'questions' }, { model: OptionQuestion, as: 'options' }, 'id', 'DESC']
             ]
         });
 
