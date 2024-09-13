@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const { sequelize } = require("./db/db.js");
 const { getSurveysWithChapters } = require('./service/relations.js');
-const { Survey , Chapter, Question , OptionQuestion} = require('./db/models');
+
 
 const port = process.env.EXPRESS_PORT || 5001; // Proporciona un valor predeterminado
 

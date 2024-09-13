@@ -1,4 +1,6 @@
+
 const { Survey, Chapter, Question, OptionQuestion, OptionResponse, SubQuestion } = require('../db/models');
+const  SurveyDto = require('../dto/SurveyDTO');
 
 async function getSurveysWithChapters() {
     try {
@@ -34,18 +36,11 @@ async function getSurveysWithChapters() {
             ]
         });
 
-        // Sort questions within each chapter
-        surveys.forEach(survey => {
-            survey.chapters.forEach(chapter => {
-                chapter.questions.sort((a, b) => {
-                    const aNum = parseInt(a.question_number.substring(1));
-                    const bNum = parseInt(b.question_number.substring(1));
-                    return aNum - bNum;
-                });
-            });
-        });
 
-        return surveys;
+    
+    return surveys.map(survey => new SurveyDto(survey));
+
+
     } catch (error) {
         console.error('Error al obtener las encuestas con capítulos:', error);
         throw error;
