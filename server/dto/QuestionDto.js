@@ -1,13 +1,15 @@
 const OptionDto = require("./OptionDto");
 
 module.exports = class QuestionDto {
-    static nextOptionValue = 0;
+    static finalQuestions = [ 10 ];
 
     constructor(data) {
-        // QuestionDto.restartOptionsValues()
         this.id = data.id;
         this.type = data.response_type;
         this.label = `${data.question_number} ${ data.question_text }`;
+        if( QuestionDto.finalQuestions.includes( parseInt(data.id) ) ){
+            this.isFinal = true;
+        }
         if (data.response_type === 'text' || data.options[0]?.response?.optiontext === 'Text') {
             this.valueId = data.options[0].numberoption;
             this.type = 'Text';
