@@ -632,7 +632,7 @@
                 {
                   "id": "22.5",
                   "value": "other",
-                  "label": "Otro ¿Cuál? ______",
+                  "label": "Otro ¿Cuál?",
                   "isOther": true,
                   "placeholder": "Por favor, especifique"
                 },
@@ -649,96 +649,96 @@
               "label": "P23 ¿Pertenece a una o varias instancias de coordinación local o regional entre instituciones que prestan servicios de justicia?",
               "options": [
                 {
+                  "id": "23.1",
+                  "value": "23.1",
+                  "label": "Si",
+                  "ref":{
+                    "id": 24,
+                    "type": "RM",
+                    "label": "P24 ¿A qué instancias de coordinación usted pertenece?",
+                    "options": [
+                      {
+                        "id": "24.12",
+                        "value": "24.12",
+                        "label": "Comité Interinstitucional Consultivo para la Prevención de la Violencia Sexual y Atención Integral de los Niños, Niñas y Adolescentes (NNA) Victimas del Abuso Sexual"
+                      },
+                      {
+                        "id": "24.1",
+                        "value": "24.1",
+                        "label": "Consejo Municipal de Seguridad"
+                      },
+                      {
+                        "id": "24.6",
+                        "value": "24.6",
+                        "label": "Comité Municipal de Derechos Humanos y Derecho Internacional Humanitario"
+                      },
+                      {
+                        "id": "24.10",
+                        "value": "24.10",
+                        "label": "Comité Municipal de Convivencia Escolar"
+                      },
+                      {
+                        "id": "24.14",
+                        "value": "24.14",
+                        "label": "Comité Territorial de Orden Público"
+                      },
+                      {
+                        "id": "24.16",
+                        "value": "24.16",
+                        "label": "Otros, ¿cuáles?  "
+                      },
+                      {
+                        "id": "24.15",
+                        "value": "24.15",
+                        "label": "Comité Local de Justicia"
+                      },
+                      {
+                        "id": "24.13",
+                        "value": "24.13",
+                        "label": "Comité Municipal para la Lucha contra la Trata de Personas"
+                      },
+                      {
+                        "id": "24.11",
+                        "value": "24.11",
+                        "label": "Comisión Municipal de Policía y Participación Ciudadana"
+                      },
+                      {
+                        "id": "24.9",
+                        "value": "24.9",
+                        "label": "Mesa Municipal de Participación de Víctimas"
+                      },
+                      {
+                        "id": "24.8",
+                        "value": "24.8",
+                        "label": "Consejo Municipal de Paz, Reconciliación y Convivencia"
+                      },
+                      {
+                        "id": "24.7",
+                        "value": "24.7",
+                        "label": "Consejo Municipal de Política Social"
+                      },
+                      {
+                        "id": "24.5",
+                        "value": "24.5",
+                        "label": "Comité Coordinador de Casa de Justicia o Centro de Convivencia Ciudadana"
+                      },
+                      {
+                        "id": "24.3",
+                        "value": "24.3",
+                        "label": "Comité Municipal de Casa de Justicia o Centro de Convivencia Ciudadana"
+                      },
+                      {
+                        "id": "24.2",
+                        "value": "24.2",
+                        "label": "Comité Municipal de Justicia Transicional "
+                      }
+                    ]
+                  }
+                },
+                {
                   "id": "23.2",
                   "value": "23.2",
                   "label": "No"
-                },
-                {
-                  "id": "23.1",
-                  "value": "23.1",
-                  "label": "Si"
-                }
-              ]
-            },
-            {
-              "id": 24,
-              "type": "RM",
-              "label": "P24 ¿A qué instancias de coordinación usted pertenece?",
-              "options": [
-                {
-                  "id": "24.12",
-                  "value": "24.12",
-                  "label": "Comité Interinstitucional Consultivo para la Prevención de la Violencia Sexual y Atención Integral de los Niños, Niñas y Adolescentes (NNA) Victimas del Abuso Sexual"
-                },
-                {
-                  "id": "24.1",
-                  "value": "24.1",
-                  "label": "Consejo Municipal de Seguridad"
-                },
-                {
-                  "id": "24.6",
-                  "value": "24.6",
-                  "label": "Comité Municipal de Derechos Humanos y Derecho Internacional Humanitario"
-                },
-                {
-                  "id": "24.10",
-                  "value": "24.10",
-                  "label": "Comité Municipal de Convivencia Escolar"
-                },
-                {
-                  "id": "24.14",
-                  "value": "24.14",
-                  "label": "Comité Territorial de Orden Público"
-                },
-                {
-                  "id": "24.16",
-                  "value": "24.16",
-                  "label": "Otros, ¿cuáles?  "
-                },
-                {
-                  "id": "24.15",
-                  "value": "24.15",
-                  "label": "Comité Local de Justicia"
-                },
-                {
-                  "id": "24.13",
-                  "value": "24.13",
-                  "label": "Comité Municipal para la Lucha contra la Trata de Personas"
-                },
-                {
-                  "id": "24.11",
-                  "value": "24.11",
-                  "label": "Comisión Municipal de Policía y Participación Ciudadana"
-                },
-                {
-                  "id": "24.9",
-                  "value": "24.9",
-                  "label": "Mesa Municipal de Participación de Víctimas"
-                },
-                {
-                  "id": "24.8",
-                  "value": "24.8",
-                  "label": "Consejo Municipal de Paz, Reconciliación y Convivencia"
-                },
-                {
-                  "id": "24.7",
-                  "value": "24.7",
-                  "label": "Consejo Municipal de Política Social"
-                },
-                {
-                  "id": "24.5",
-                  "value": "24.5",
-                  "label": "Comité Coordinador de Casa de Justicia o Centro de Convivencia Ciudadana"
-                },
-                {
-                  "id": "24.3",
-                  "value": "24.3",
-                  "label": "Comité Municipal de Casa de Justicia o Centro de Convivencia Ciudadana"
-                },
-                {
-                  "id": "24.2",
-                  "value": "24.2",
-                  "label": "Comité Municipal de Justicia Transicional "
                 }
               ]
             },

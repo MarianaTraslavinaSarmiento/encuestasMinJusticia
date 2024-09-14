@@ -15,7 +15,8 @@ const selectedOption = ref(null);
 const showModal = ref(false);
 
 const refQuestion = computed(() => {
-    const selected = question.value.options.find(option => option.value === selectedOption.value);
+    const selected = question.value.options.find(option => option.value === selectedOption.value?.split('-')[1] );
+    
     return selected && selected.ref ? selected.ref : null;
 });
 
