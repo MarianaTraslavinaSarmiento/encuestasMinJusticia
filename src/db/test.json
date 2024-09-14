@@ -983,21 +983,19 @@
                   "label": "Acompañamiento técnico para la resolución de los conflictos"
                 },
                 {
-                  "id": "27.7",
-                  "value": "other",
-                  "label": "Otro ¿Cuál? ",
-                  "isOther": true,
-                  "placeholder": "Por favor, especifique"
-                },
-                {
-                  "id": "27.6",
-                  "value": "27.6",
-                  "label": "Administración de justicia (dirección de procesos / adopción de decisiones)"
-                },
-                {
                   "id": "27.2",
                   "value": "27.2",
                   "label": "Cursos, charlas, talleres o diplomados referentes a la resolución de conflictos"
+                },
+                {
+                  "id": "27.3",
+                  "value": "27.3",
+                  "label": "Jornadas de atención en acceso a la justicia"
+                },
+                {
+                  "id": "27.4",
+                  "value": "27.4",
+                  "label": "Ferias de servicios"
                 },
                 {
                   "id": "27.5",
@@ -1005,31 +1003,34 @@
                   "label": "Orientación sobre las rutas y/o protocolos de atención en acceso a la justicia"
                 },
                 {
-                  "id": "27.4",
-                  "value": "27.4",
-                  "label": " Ferias de servicios"
+                  "id": "27.6",
+                  "value": "27.6",
+                  "label": "Administración de justicia (dirección de procesos / adopción de decisiones)"
                 },
                 {
-                  "id": "27.3",
-                  "value": "27.3",
-                  "label": "Jornadas de atención en acceso a la justicia"
+                  "id": "27.7",
+                  "value": "other",
+                  "label": "Otro ¿Cuál? ",
+                  "isOther": true,
+                  "placeholder": "Por favor, especifique"
                 }
-              ]
+              ]              
             },
             {
               "id": 28,
               "type": "RM",
               "label": "P28 ¿Cuáles acciones de comunicación y divulgación se realizan para que la comunidad conozca la oferta de servicios de acceso a la justicia?",
+              "generalRef":{
+                  "id": 30,
+                  "type": "Text",
+                  "label": "P30 ¿En qué temas le gustaría capacitarse relacionados con acceso a la justicia?",
+                  "valueId": "30.1"
+              },
               "options": [
                 {
-                  "id": "28.5",
-                  "value": "28.5",
-                  "label": "Emisoras locales"
-                },
-                {
-                  "id": "28.3",
-                  "value": "28.3",
-                  "label": "Jornadas de socialización"
+                  "id": "28.1",
+                  "value": "28.1",
+                  "label": "Publicaciones en carteleras"
                 },
                 {
                   "id": "28.2",
@@ -1037,14 +1038,9 @@
                   "label": "Campañas publicitarias"
                 },
                 {
-                  "id": "28.7",
-                  "value": "28.7",
-                  "label": "Ninguno"
-                },
-                {
-                  "id": "28.1",
-                  "value": "28.1",
-                  "label": "Publicaciones en carteleras"
+                  "id": "28.3",
+                  "value": "28.3",
+                  "label": "Jornadas de socialización"
                 },
                 {
                   "id": "28.4",
@@ -1052,26 +1048,32 @@
                   "label": "Mensajes publicitarios en las reuniones locales"
                 },
                 {
+                  "id": "28.5",
+                  "value": "28.5",
+                  "label": "Emisoras locales"
+                },
+                {
                   "id": "28.6",
                   "value": "other",
                   "label": "Otro ¿Cuál? ",
                   "isOther": true,
                   "placeholder": "Por favor, especifique"
+                },
+                {
+                  "id": "28.7",
+                  "value": "28.7",
+                  "label": "Ninguno",
+                  "ref": {
+                    "id": 29,
+                    "type": "Text",
+                    "label": "P29 ¿Por qué no se realizan acciones de comunicación y divulgación para que la comunidad conozca la oferta de servicios de acceso a la justicia?",
+                    "valueId": "29.1"
+                  }
                 }
               ]
             },
-            {
-              "id": 29,
-              "type": "Text",
-              "label": "P29 ¿Por qué no se realizan acciones de comunicación y divulgación para que la comunidad conozca la oferta de servicios de acceso a la justicia?",
-              "valueId": "29.1"
-            },
-            {
-              "id": 30,
-              "type": "Text",
-              "label": "P30 ¿En qué temas le gustaría capacitarse relacionados con acceso a la justicia?",
-              "valueId": "30.1"
-            },
+           
+           
             {
               "id": 31,
               "type": "RU",
