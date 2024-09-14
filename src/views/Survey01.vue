@@ -4,10 +4,14 @@ import TituloForm from "@/components/TituloForm.vue";
 import BackHome from "@/components/BackHome.vue";
 import { useFormStore } from '@/stores/formStore.js'
 import DynamicForm from "@/components/DynamicForm.vue";
+import test from "@/db/test.json";
+import Chapter from "@/components/Chapter/Chapter.vue";
 
-const formStore = useFormStore()
-formStore.setCurrentForm('formData1')
-const currentData = formStore.getCurrentFormData
+// const formStore = useFormStore()
+// formStore.setCurrentForm('formData1')
+// const currentData = formStore.getCurrentFormData
+
+let survey = {chapters: test.surveys[0].chapters};
 
 </script>
 
@@ -54,7 +58,8 @@ const currentData = formStore.getCurrentFormData
         diligenciamiento 60 minutos.
       </p>
       <hr class="initialDivision" />
-      <DynamicForm :formData="currentData" />
+      <Chapter v-for="chapter in survey.chapters" :key="chapter.id" :chapter="chapter" />
+
     </form>
   </main>
 

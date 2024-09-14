@@ -17,17 +17,17 @@ const router = createRouter({
     {
       path: '/necesidades_juridicas',
       name: 'necesidades_juridicas',
-      component: () => import('../views/Survey02.vue')
+      component: () => import('../views/Survey04.vue')
     },
     {
       path: '/necesidades_juridicas_comunidades_etnicas',
       name: 'necesidades_juridicas_comunidades_etnicas',
-      component: () => import('../views/Survey03.vue')
+      component: () => import('../views/Survey02.vue')
     },
     {
       path: '/necesidades_juridicas_sector_educativo',
       name: 'necesidades_juridicas_sector_educativo',
-      component: () => import('../views/Survey04.vue')
+      component: () => import('../views/Survey03.vue')
     },
     {
       path: '/encuesta_finalizada',
