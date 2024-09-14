@@ -738,171 +738,171 @@
                 {
                   "id": "23.2",
                   "value": "23.2",
-                  "label": "No"
-                }
-              ]
-            },
-            {
-              "id": 25,
-              "type": "RM",
-              "label": "P25 ¿Con cuáles actores u operadores se articula usted para el cumplimiento de sus funciones en materia de acceso a la justicia?",
-              "options": [
-                {
-                  "id": "25.7.25",
-                  "value": "25.7.25",
-                  "label": "Defensoría del pueblo"
-                },
-                {
-                  "id": "25.8.27",
-                  "value": "25.8.27",
-                  "label": "Secretaría de gobierno / interior"
-                },
-                {
-                  "id": "25.1.4",
-                  "value": "25.1.4",
-                  "label": "Hospital Local"
-                },
-                {
-                  "id": "25.7.24",
-                  "value": "25.7.24",
-                  "label": "Personería municipal"
-                },
-                {
-                  "id": "25.2.7",
-                  "value": "25.2.7",
-                  "label": "Conciliadores en derecho"
-                },
-                {
-                  "id": "25.1.3",
-                  "value": "25.1.3",
-                  "label": "Policía judicial"
-                },
-                {
-                  "id": "25.1.2",
-                  "value": "25.1.2",
-                  "label": "Fiscalía"
-                },
-                {
-                  "id": "25.1.1",
-                  "value": "25.1.1",
-                  "label": "Juzgados"
-                },
-                {
-                  "id": "25.4.17",
-                  "value": "25.4.17",
-                  "label": "Promotores comunitarios de paz"
-                },
-                {
-                  "id": "25.4.18",
-                  "value": "25.4.18",
-                  "label": "Casa de justicia / Centro de convivencia ciudadana"
-                },
-                {
-                  "id": "25.4.19",
-                  "value": "25.4.19",
-                  "label": "Consultorios jurídicos de Universidades"
-                },
-                {
-                  "id": "25.4.20",
-                  "value": "25.4.20",
-                  "label": "Funcionarios delegados de la Cámara de Comercio para métodos de resolución de conflictos y temas sociales"
-                },
-                {
-                  "id": "25.5.21",
-                  "value": "25.5.21",
-                  "label": "Pueblos indígenas"
-                },
-                {
-                  "id": "25.5.22",
-                  "value": "25.5.22",
-                  "label": "Jueces de paz"
-                },
-                {
-                  "id": "25.6.23",
-                  "value": "25.6.23",
-                  "label": "Enlace territorial de la JEP"
-                },
-                {
-                  "id": "25.8.26",
-                  "value": "25.8.26",
-                  "label": "Alcaldía"
-                },
-                {
-                  "id": "25.9.29",
-                  "value": "25.9.29",
-                  "label": "Comandante de la estación de Policía"
-                },
-                {
-                  "id": "25.9.30",
-                  "value": "25.9.30",
-                  "label": "Policía de Infancia y Adolescencia"
-                },
-                {
-                  "id": "25.9.32",
-                  "value": "25.9.32",
-                  "label": "Ninguno"
-                },
-                {
-                  "id": "25.9.31",
-                  "value": "other",
-                  "label": "Otro ¿Cuál? ______",
-                  "isOther": true,
-                  "placeholder": "Por favor, especifique"
-                },
-                {
-                  "id": "25.1.5",
-                  "value": "25.1.5",
-                  "label": "Instituto Nacional de Medicina Legal"
-                },
-                {
-                  "id": "25.2.6",
-                  "value": "25.2.6",
-                  "label": "Centro de Conciliación"
-                },
-                {
-                  "id": "25.2.8",
-                  "value": "25.2.8",
-                  "label": "Conciliadores en equidad"
-                },
-                {
-                  "id": "25.2.9",
-                  "value": "25.2.9",
-                  "label": "Mediadores, árbitros, amigables componedores"
-                },
-                {
-                  "id": "25.2.10",
-                  "value": "25.2.10",
-                  "label": "Notaria"
-                },
-                {
-                  "id": "25.2.11",
-                  "value": "25.2.11",
-                  "label": "Comisaria de familia"
-                },
-                {
-                  "id": "25.3.12",
-                  "value": "25.3.12",
-                  "label": "Coordinador Centro Zonal del ICBF"
-                },
-                {
-                  "id": "25.3.13",
-                  "value": "25.3.13",
-                  "label": "Corregidores"
-                },
-                {
-                  "id": "25.3.14",
-                  "value": "25.3.14",
-                  "label": "Inspección de policía"
-                },
-                {
-                  "id": "25.3.15",
-                  "value": "25.3.15",
-                  "label": "Inspección de tránsito"
-                },
-                {
-                  "id": "25.4.16",
-                  "value": "25.4.16",
-                  "label": "Juntas de Acción Comunal - JAC"
+                  "label": "No",
+                    "ref":  {
+                      "id": 25,
+                      "type": "RM",
+                      "label": "P25 ¿Con cuáles actores u operadores se articula usted para el cumplimiento de sus funciones en materia de acceso a la justicia?",
+                      "options": [
+                        {
+                          "id": "25.7.25",
+                          "value": "25.7.25",
+                          "label": "Defensoría del pueblo"
+                        },
+                        {
+                          "id": "25.8.27",
+                          "value": "25.8.27",
+                          "label": "Secretaría de gobierno / interior"
+                        },
+                        {
+                          "id": "25.1.4",
+                          "value": "25.1.4",
+                          "label": "Hospital Local"
+                        },
+                        {
+                          "id": "25.7.24",
+                          "value": "25.7.24",
+                          "label": "Personería municipal"
+                        },
+                        {
+                          "id": "25.2.7",
+                          "value": "25.2.7",
+                          "label": "Conciliadores en derecho"
+                        },
+                        {
+                          "id": "25.1.3",
+                          "value": "25.1.3",
+                          "label": "Policía judicial"
+                        },
+                        {
+                          "id": "25.1.2",
+                          "value": "25.1.2",
+                          "label": "Fiscalía"
+                        },
+                        {
+                          "id": "25.1.1",
+                          "value": "25.1.1",
+                          "label": "Juzgados"
+                        },
+                        {
+                          "id": "25.4.17",
+                          "value": "25.4.17",
+                          "label": "Promotores comunitarios de paz"
+                        },
+                        {
+                          "id": "25.4.18",
+                          "value": "25.4.18",
+                          "label": "Casa de justicia / Centro de convivencia ciudadana"
+                        },
+                        {
+                          "id": "25.4.19",
+                          "value": "25.4.19",
+                          "label": "Consultorios jurídicos de Universidades"
+                        },
+                        {
+                          "id": "25.4.20",
+                          "value": "25.4.20",
+                          "label": "Funcionarios delegados de la Cámara de Comercio para métodos de resolución de conflictos y temas sociales"
+                        },
+                        {
+                          "id": "25.5.21",
+                          "value": "25.5.21",
+                          "label": "Pueblos indígenas"
+                        },
+                        {
+                          "id": "25.5.22",
+                          "value": "25.5.22",
+                          "label": "Jueces de paz"
+                        },
+                        {
+                          "id": "25.6.23",
+                          "value": "25.6.23",
+                          "label": "Enlace territorial de la JEP"
+                        },
+                        {
+                          "id": "25.8.26",
+                          "value": "25.8.26",
+                          "label": "Alcaldía"
+                        },
+                        {
+                          "id": "25.9.29",
+                          "value": "25.9.29",
+                          "label": "Comandante de la estación de Policía"
+                        },
+                        {
+                          "id": "25.9.30",
+                          "value": "25.9.30",
+                          "label": "Policía de Infancia y Adolescencia"
+                        },
+                        {
+                          "id": "25.9.32",
+                          "value": "25.9.32",
+                          "label": "Ninguno"
+                        },
+                        {
+                          "id": "25.9.31",
+                          "value": "other",
+                          "label": "Otro ¿Cuál? ______",
+                          "isOther": true,
+                          "placeholder": "Por favor, especifique"
+                        },
+                        {
+                          "id": "25.1.5",
+                          "value": "25.1.5",
+                          "label": "Instituto Nacional de Medicina Legal"
+                        },
+                        {
+                          "id": "25.2.6",
+                          "value": "25.2.6",
+                          "label": "Centro de Conciliación"
+                        },
+                        {
+                          "id": "25.2.8",
+                          "value": "25.2.8",
+                          "label": "Conciliadores en equidad"
+                        },
+                        {
+                          "id": "25.2.9",
+                          "value": "25.2.9",
+                          "label": "Mediadores, árbitros, amigables componedores"
+                        },
+                        {
+                          "id": "25.2.10",
+                          "value": "25.2.10",
+                          "label": "Notaria"
+                        },
+                        {
+                          "id": "25.2.11",
+                          "value": "25.2.11",
+                          "label": "Comisaria de familia"
+                        },
+                        {
+                          "id": "25.3.12",
+                          "value": "25.3.12",
+                          "label": "Coordinador Centro Zonal del ICBF"
+                        },
+                        {
+                          "id": "25.3.13",
+                          "value": "25.3.13",
+                          "label": "Corregidores"
+                        },
+                        {
+                          "id": "25.3.14",
+                          "value": "25.3.14",
+                          "label": "Inspección de policía"
+                        },
+                        {
+                          "id": "25.3.15",
+                          "value": "25.3.15",
+                          "label": "Inspección de tránsito"
+                        },
+                        {
+                          "id": "25.4.16",
+                          "value": "25.4.16",
+                          "label": "Juntas de Acción Comunal - JAC"
+                        }
+                      ]
+                    }
                 }
               ]
             },
