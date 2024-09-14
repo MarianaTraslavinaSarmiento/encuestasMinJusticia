@@ -3,6 +3,7 @@ import { ref, watch, computed } from 'vue';
 import RU from './components/RU.vue';
 import RM from './components/RM.vue';
 import Input from './components/Input.vue';
+import Select from './components/Select.vue';
 
 const props = defineProps({
     question: {
@@ -18,8 +19,11 @@ const question = computed(() => props.question);
 
 <template>
     <div class="question">
-        <div v-if="question.type === 'RU'">
+        <div v-if="question.type === 'RU' && !question.specialType">
             <RU :question="question"/>
+        </div>
+        <div v-else-if="question.specialType === 'Select'">
+            <Select :question="question"/>
         </div>
         <div v-else-if="question.type === 'RM'">
             <RM :question="question"/>
