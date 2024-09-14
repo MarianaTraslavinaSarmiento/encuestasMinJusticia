@@ -5,6 +5,7 @@ import RM from './components/RM.vue';
 import Input from './components/Input.vue';
 import Select from './components/Select.vue';
 import Type from './components/Type.vue';
+import GroupedList from './components/GroupedList.vue';
 
 const props = defineProps({
     question: {
@@ -26,8 +27,11 @@ const question = computed(() => props.question);
         <div v-else-if="question.specialType === 'Select'">
             <Select :question="question"/>
         </div>
-        <div v-else-if="question.type === 'RM'">
+        <div v-else-if="question.type === 'RM' && !question.specialType">
             <RM :question="question"/>
+        </div>
+        <div v-else-if=" question.specialType === 'groupedList'">
+            <GroupedList :question="question"/>
         </div>
         <div v-else-if="question.type === 'Text'">
             <Input :question="question"/>
