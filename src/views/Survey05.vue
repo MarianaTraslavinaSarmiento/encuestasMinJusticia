@@ -5,9 +5,6 @@ import BackHome from "@/components/BackHome.vue";
 import { useFormStore } from '@/stores/formStore.js'
 import Chapter from "@/components/Chapter/Chapter.vue";
 import test from "@/db/test.json";
-
-const formStore = useFormStore()
-formStore.setCurrentForm('formData1')
 // const currentData = formStore.getCurrentFormData
 
 let survey = {chapters: test.surveys[0].chapters};

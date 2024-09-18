@@ -51,10 +51,19 @@
   </template>
   
   <style scoped>
+  label {
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    width: 50%;
+  }
+
   .ru-question {
     position: relative;
     width: 100%;
     font-family: Arial, sans-serif;
+    margin-top: 10px;
+
   }
   
   .select-wrapper {
@@ -66,6 +75,8 @@
     border-radius: 4px;
     cursor: pointer;
     background-color: white;
+    margin-block: 10px;
+
   }
   
   .select-wrapper.is-open {

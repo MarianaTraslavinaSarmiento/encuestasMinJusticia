@@ -4,7 +4,6 @@
     import BackHome from '@/components/BackHome.vue';
     import { useFormStore } from '@/stores/formStore.js'
     import DynamicForm from "@/components/DynamicForm.vue";
-
     import test from "@/db/test.json";
     import Chapter from '@/components/Chapter/Chapter.vue';
 

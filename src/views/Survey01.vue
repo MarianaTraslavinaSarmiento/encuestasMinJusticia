@@ -7,9 +7,6 @@ import DynamicForm from "@/components/DynamicForm.vue";
 import test from "@/db/test.json";
 import Chapter from "@/components/Chapter/Chapter.vue";
 
-// const formStore = useFormStore()
-// formStore.setCurrentForm('formData1')
-// const currentData = formStore.getCurrentFormData
 
 let survey = {chapters: test.surveys[0].chapters};
 

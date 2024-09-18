@@ -103,9 +103,16 @@ const handleOptionChange = (option) => {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 202, 202);
+
     & legend {
       font-size: 1rem;
       font-weight: bold;
+      background-color: white;
+      padding-right: 10px;
+      padding-left: 3px;
+      line-height: 30px;
     }
     .option {
       display: flex;

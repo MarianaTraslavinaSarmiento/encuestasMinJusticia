@@ -93,19 +93,29 @@ const handleCancel = () => {
 
 <style lang="scss" scoped>
 
+
+
 .ru-question {
     display: flex;
   flex-direction: column;
+  
 
   & fieldset {
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 202, 202);
     
     & legend {
       font-size: 1rem;
       font-weight: bold;
+      // margin-left: 10px;
+      background-color: white;
+      padding-right: 10px;
+      padding-left: 3px;
+      line-height: 30px;
     }
 
     .option{

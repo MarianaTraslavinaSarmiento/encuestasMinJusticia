@@ -33,7 +33,7 @@ const props = defineProps({
 
     & fieldset {
         padding: 20px 0 020px;
-        outline: 1px solid var(--color-darkBlue);
+        // outline: 1px solid var(--color-darkBlue);
         border: none;
         outline-offset: -1px;
     }
