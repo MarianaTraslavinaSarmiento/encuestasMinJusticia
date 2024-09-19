@@ -6,6 +6,8 @@
     import DynamicForm from "@/components/DynamicForm.vue";
     import test from "@/db/test.json";
     import Chapter from '@/components/Chapter/Chapter.vue';
+    import SubmitButton from "@/components/Submit/SubmitButton.vue";
+
 
     let survey = {chapters: test.surveys[2].chapters};
 
@@ -30,6 +32,7 @@
             <p> Agradecemos de antemano su colaboración. </p>
             <hr class="initialDivision">
             <Chapter v-for="chapter in survey.chapters" :key="chapter.id" :chapter="chapter" />
+            <SubmitButton/>
 
 
         </div>

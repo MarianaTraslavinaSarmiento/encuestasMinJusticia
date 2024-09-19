@@ -6,6 +6,8 @@ import { useFormStore } from '@/stores/formStore.js'
 import Chapter from "@/components/Chapter/Chapter.vue";
 import test from "@/db/test.json";
 // const currentData = formStore.getCurrentFormData
+import SubmitButton from "@/components/Submit/SubmitButton.vue";
+
 
 let survey = {chapters: test.surveys[0].chapters};
 
@@ -240,6 +242,8 @@ console.log(test.surveys[0].chapters[0]);
       </p>
       <hr class="initialDivision" />
       <Chapter v-for="chapter in survey.chapters" :key="chapter.id" :chapter="chapter" />
+      <SubmitButton/>
+      
     </form>
   </main>
 

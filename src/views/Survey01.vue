@@ -6,6 +6,7 @@ import { useFormStore } from '@/stores/formStore.js'
 import DynamicForm from "@/components/DynamicForm.vue";
 import test from "@/db/test.json";
 import Chapter from "@/components/Chapter/Chapter.vue";
+import SubmitButton from "@/components/Submit/SubmitButton.vue";
 
 
 let survey = {chapters: test.surveys[0].chapters};
@@ -56,7 +57,7 @@ let survey = {chapters: test.surveys[0].chapters};
       </p>
       <hr class="initialDivision" />
       <Chapter v-for="chapter in survey.chapters" :key="chapter.id" :chapter="chapter" />
-
+      <SubmitButton/>
     </form>
   </main>
 

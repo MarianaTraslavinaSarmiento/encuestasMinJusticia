@@ -6,7 +6,7 @@
 }
 
 :root {
-  --color-white: #ffffff;
+  --color-white: hsl(0, 0%, 100%);
   --color-darkBlue: #002060;
   --color-red: #ff1919;
   --color-orange: #f89d30;
