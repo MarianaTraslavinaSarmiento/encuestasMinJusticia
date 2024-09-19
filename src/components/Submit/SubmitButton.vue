@@ -46,7 +46,7 @@ import ModalDialog from '../ModalDialog/ModalDialog.vue';
         color: white;
         background-color: var(--color-darkBlue);
         border: none;
-        padding: 5px;
+        padding: 10px;
         font-weight: bold;
     }
 </style>
