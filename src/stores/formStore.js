@@ -1,43 +1,36 @@
-// store/formStore.js
 import { defineStore } from 'pinia'
-import adminMunicipalOperadoresJusticia from '@/db/adminMunicipalOperadoresJusticia.json';
-import necesidadesJuridicas from '@/db/necesidadesJuridicas.json';
-import juridicasComunitarias from '@/db/juridicasComunitarias.json';
-import sectorEducativo from '@/db/sectorEducativo.json';
-
+import surveysData from '@/db/surveys.json'
 
 export const useFormStore = defineStore('form', {
   state: () => ({
-    formData: {
-      formData1: adminMunicipalOperadoresJusticia,
-      formData2: necesidadesJuridicas,
-      formData3: juridicasComunitarias,
-      formData4: sectorEducativo,
-    },
-    questions: {},
-    currentForm: 'formData1', // default form
+    surveys: surveysData.surveys || {},
+    currentSurveyId: 0,
+    answers: {}
   }),
   actions: {
-    setQuestions(formName, questions) {
-      this.questions[formName] = questions
-    },
-    updateAnswer(questionId, answer) {
-      if (this.formData[this.currentForm]) {
-        this.formData[this.currentForm][questionId] = answer
+    setCurrentSurvey(surveyId) {
+      if (this.surveys[surveyId]) {
+        this.currentSurveyId = surveyId
       } else {
-        console.error(`Current form ${this.currentForm} not found`)
+        console.error(`Survey with id ${surveyId} not found`)
       }
     },
-    setCurrentForm(formName) {
-      if (this.formData[formName]) {
-        this.currentForm = formName
-      } else {
-        console.error(`Form ${formName} not found`)
+    updateAnswer(chapterId, questionId, answer) {
+      if (!this.answers[this.currentSurveyId]) {
+        this.answers[this.currentSurveyId] = {}
       }
+      if (!this.answers[this.currentSurveyId][chapterId]) {
+        this.answers[this.currentSurveyId][chapterId] = {}
+      }
+      this.answers[this.currentSurveyId][chapterId][questionId] = answer
     },
+    getAnswer(chapterId, questionId) {
+      return this.answers[this.currentSurveyId]?.[chapterId]?.[questionId] || ''
+    }
   },
   getters: {
-    getCurrentFormData: (state) => state.formData[state.currentForm],
-    getCurrentQuestions: (state) => state.questions[state.currentForm] || [],
-  },
+    currentSurvey: (state) => state.surveys[state.currentSurveyId] || null,
+    surveyTitle: (state) => state.surveys[state.currentSurveyId]?.title || '',
+    surveyChapters: (state) => state.surveys[state.currentSurveyId]?.chapters || []
+  }
 })

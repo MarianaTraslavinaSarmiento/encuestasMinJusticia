@@ -1,15 +1,19 @@
 <script setup>
-import MenuDesplegable from "@/components/MenuDesplegable.vue";
 import TituloForm from "@/components/TituloForm.vue";
 import BackHome from "@/components/BackHome.vue";
 import { useFormStore } from '@/stores/formStore.js'
-import DynamicForm from "@/components/DynamicForm.vue";
-import test from "@/db/test.json";
+import { storeToRefs } from "pinia";
 import Chapter from "@/components/Chapter/Chapter.vue";
 import SubmitButton from "@/components/Submit/SubmitButton.vue";
 
 
-let survey = {chapters: test.surveys[0].chapters};
+const formStore = useFormStore()
+const { surveyTitle, surveyChapters } = storeToRefs(formStore)
+
+const onSubmit = () => {
+  // Handle form submission
+  console.log('Form submitted')
+}
 
 </script>
 
@@ -19,7 +23,7 @@ let survey = {chapters: test.surveys[0].chapters};
     <BackHome></BackHome>
     <form @submit.prevent="onSubmit" class="form">
       <TituloForm
-        titulo="ENCUESTA A LA ADMINISTRACIÓN MUNICIPAL Y OPERADORES DE JUSTICIA"
+        :titulo="surveyTitle.split('–')[0]"
       />
       <p>
         El Ministerio de Justicia y del Derecho viene adelantando, la asistencia
@@ -56,7 +60,7 @@ let survey = {chapters: test.surveys[0].chapters};
         diligenciamiento 60 minutos.
       </p>
       <hr class="initialDivision" />
-      <Chapter v-for="chapter in survey.chapters" :key="chapter.id" :chapter="chapter" />
+      <Chapter v-for="chapter in surveyChapters" :key="chapter.id" :chapter="chapter" />
       <SubmitButton/>
     </form>
   </main>
