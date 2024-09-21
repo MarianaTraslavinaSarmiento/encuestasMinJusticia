@@ -1,4 +1,5 @@
-<script setup>
+<!-- <script setup>
+import MenuDesplegable from "@/components/MenuDesplegable.vue";
 import TituloForm from "@/components/TituloForm.vue";
 import BackHome from "@/components/BackHome.vue";
 import { useFormStore } from '@/stores/formStore.js'
@@ -289,4 +290,4 @@ main {
     line-height: 25px;
   }
 }
-</style>
+</style> -->
