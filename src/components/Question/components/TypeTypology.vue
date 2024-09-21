@@ -9,107 +9,118 @@ const props = defineProps({
   }
 });
 
-const selectedAnswers = ref({});
+const selectedOptions = ref({});
 
-const handleAnswer = (optionId, choiceValue) => {
-  selectedAnswers.value[optionId] = choiceValue;
+const handleOptionSelect = (questionId, optionId, value) => {
+  if (!selectedOptions.value[questionId]) {
+    selectedOptions.value[questionId] = {};
+  }
+  selectedOptions.value[questionId][optionId] = value;
 };
 
-const getRefQuestion = (option, questionNumber) => {
-  if (!option || typeof option !== 'object') return null;
-  
-  const selectedChoice = option.options && Array.isArray(option.options) 
-    ? option.options.find(choice => choice.value === selectedAnswers.value[option.id])
-    : null;
-
-  return selectedChoice && selectedChoice[`p${questionNumber}`];
-};
-
-const flattenedOptions = computed(() => {
-  const flatten = (options) => {
-    return options.flatMap(option => {
-      if (option.options && Array.isArray(option.options)) {
-        return [option, ...flatten(option.options)];
-      }
-      return option;
+const flattenedQuestions = computed(() => {
+  const questions = [];
+  props.question.typologies.forEach(typology => {
+    typology.categories.forEach(category => {
+      questions.push({
+        typology: typology.label,
+        category: category.label,
+        questions: category.questions
+      });
     });
-  };
-  
-  return flatten(props.question.options || []);
+  });
+  return questions;
+});
+
+const additionalQuestions = computed(() => {
+  const addQuestions = [];
+  flattenedQuestions.value.forEach(item => {
+    item.questions.forEach(question => {
+      question.options.forEach(option => {
+        if (option.ref && selectedOptions.value[question.id]?.[option.id]) {
+          addQuestions.push(option.ref);
+        }
+      });
+    });
+  });
+  return addQuestions;
 });
 </script>
 
 <template>
-  <div class="question-container">
-    <h3>{{ question.label }}</h3>
-    <table class="catalog-table">
+  <div class="survey-container">
+    <table class="survey-table">
       <thead>
         <tr>
           <th>Catálogo por tipología</th>
-          <th>P34. ¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?</th>
-          <th>P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?</th>
-          <th>P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?</th>
+          <th>{{ props.question.label }}</th>
+          <th v-for="(question, index) in flattenedQuestions[0].questions" :key="index">
+            {{ question.label }}
+          </th>
+          <th v-for="(addQuestion, index) in additionalQuestions" :key="`add-${index}`">
+            {{ addQuestion.label }}
+          </th>
         </tr>
       </thead>
       <tbody>
-        <tr v-for="option in flattenedOptions" :key="option.id">
-          <td>{{ option.label }}</td>
-          <td>
-            <div v-if="option.options && Array.isArray(option.options)" class="radio-group">
-              <label v-for="choice in option.options" :key="choice.value">
-                <input
-                  type="radio"
-                  :name="option.id"
-                  :value="choice.value"
-                  v-model="selectedAnswers[option.id]"
-                  @change="handleAnswer(option.id, choice.value)"
-                >
-                {{ choice.label }}
-              </label>
-            </div>
-          </td>
-          <td>
-            <Question 
-              v-if="getRefQuestion(option, 35)" 
-              :question="getRefQuestion(option, 35)" 
-            />
-          </td>
-          <td>
-            <Question 
-              v-if="getRefQuestion(option, 36)" 
-              :question="getRefQuestion(option, 36)" 
-            />
-          </td>
-        </tr>
+        <template v-for="(item, itemIndex) in flattenedQuestions" :key="itemIndex">
+          <tr v-if="itemIndex === 0 || item.typology !== flattenedQuestions[itemIndex - 1].typology">
+            <td :colspan="4 + additionalQuestions.length" class="typology-header">{{ item.typology }}</td>
+          </tr>
+          <tr>
+            <td>{{ item.category }}</td>
+            <td>
+              <input type="checkbox" :id="`category-${itemIndex}`" />
+              <label :for="`category-${itemIndex}`">Marcar con X</label>
+            </td>
+            <td v-for="(question, questionIndex) in item.questions" :key="questionIndex">
+              <Question 
+                :question="question"
+                :selectedOptions="selectedOptions"
+                @select="handleOptionSelect"
+              />
+            </td>
+            <td v-for="(addQuestion, index) in additionalQuestions" :key="`add-${index}`">
+              <Question 
+                v-if="item.questions.some(q => q.options.some(o => o.ref && o.ref.id === addQuestion.id))"
+                :question="addQuestion"
+                :selectedOptions="selectedOptions"
+                @select="handleOptionSelect"
+              />
+            </td>
+          </tr>
+        </template>
       </tbody>
     </table>
   </div>
 </template>
 
 <style scoped>
-.question-container {
-  margin-bottom: 20px;
+.survey-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-x: auto;
 }
-.catalog-table {
+
+.survey-table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 20px;
 }
-.catalog-table th, .catalog-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
+
+.survey-table th, .survey-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
   text-align: left;
+  vertical-align: top;
 }
-.catalog-table th {
-  background-color: #f2f2f2;
-}
-.radio-group {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-label {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+
+
+
+.typology-header {
+  background-color: #e6f3ff;
+  font-weight: bold;
+  text-align: center;
 }
 </style>
