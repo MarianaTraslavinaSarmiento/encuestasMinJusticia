@@ -13,31 +13,44 @@ const props = defineProps({
 const questionStore = useQuestionStore();
 
 const selectedOptions = computed({
-  get: () => questionStore.answers[props.question.id] || [],
+  get: () => {
+    const answer = questionStore.getAnswer(props.question.id);
+    return answer ? Object.keys(answer).filter(key => answer[key] === true) : [];
+  },
   set: (value) => {
-    questionStore.updateAnswer(props.question.id, value);
+    const newAnswer = value.reduce((acc, optionId) => {
+      acc[optionId] = true;
+      return acc;
+    }, {});
+    questionStore.updateAnswer(props.question.id, newAnswer);
   }
 });
 
 const otherInput = computed({
   get: () => {
-    const answer = questionStore.answers[props.question.id];
-    return answer && answer.otherInput ? answer.otherInput : '';
+    const answer = questionStore.getAnswer(props.question.id);
+    const otherOption = props.question.options.find(opt => opt.isOther);
+    return answer && otherOption && answer[otherOption.id] || '';
   },
   set: (value) => {
-    questionStore.updateOtherInput(props.question.id, value);
+    const currentAnswer = questionStore.getAnswer(props.question.id) || {};
+    const otherOption = props.question.options.find(opt => opt.isOther);
+    if (otherOption) {
+      questionStore.updateAnswer(props.question.id, { ...currentAnswer, [otherOption.id]: value });
+    }
   }
 });
 
 const isOtherSelected = computed(() => {
-  return selectedOptions.value.includes('other');
+  const otherOption = props.question.options.find(opt => opt.isOther);
+  return otherOption && selectedOptions.value.includes(otherOption.id);
 });
 
 const showGeneralRef = computed(() => {
   if (!props.question.generalRef) return false;
   
-  return selectedOptions.value.some(selectedValue => {
-    const option = props.question.options.find(opt => opt.value === selectedValue);
+  return selectedOptions.value.some(selectedId => {
+    const option = props.question.options.find(opt => opt.id === selectedId);
     return option && !option.ref;
   });
 });
@@ -45,16 +58,20 @@ const showGeneralRef = computed(() => {
 const specificRefQuestions = computed(() => {
   if (showGeneralRef.value) return [];
   return props.question.options
-    .filter(option => option.ref && selectedOptions.value.includes(option.value))
+    .filter(option => option.ref && selectedOptions.value.includes(option.id))
     .map(option => option.ref);
 });
 
 const isOptionDisabled = (option) => {
+  const noneOption = props.question.options.find(opt => opt.value === 'none');
+  if (noneOption && selectedOptions.value.includes(noneOption.id)) {
+    return option.id !== noneOption.id;
+  }
   if (showGeneralRef.value) {
     return option.ref != null;
   } else {
-    return !option.ref && selectedOptions.value.some(value => {
-      const selectedOption = props.question.options.find(opt => opt.value === value);
+    return !option.ref && selectedOptions.value.some(id => {
+      const selectedOption = props.question.options.find(opt => opt.id === id);
       return selectedOption && selectedOption.ref;
     });
   }
@@ -63,9 +80,20 @@ const isOptionDisabled = (option) => {
 const handleOptionChange = (option) => {
   if (isOptionDisabled(option)) return;
   const newSelectedOptions = [...selectedOptions.value];
-  const index = newSelectedOptions.indexOf(option.value);
+  const index = newSelectedOptions.indexOf(option.id);
   if (index === -1) {
-    newSelectedOptions.push(option.value);
+    if (option.value === 'none') {
+      newSelectedOptions.length = 0;
+    } else {
+      const noneOption = props.question.options.find(opt => opt.value === 'none');
+      if (noneOption) {
+        const noneIndex = newSelectedOptions.indexOf(noneOption.id);
+        if (noneIndex !== -1) {
+          newSelectedOptions.splice(noneIndex, 1);
+        }
+      }
+    }
+    newSelectedOptions.push(option.id);
   } else {
     newSelectedOptions.splice(index, 1);
   }
@@ -77,16 +105,16 @@ const handleOptionChange = (option) => {
   <div class="rm-question">
     <fieldset>
       <legend>{{ question.label }}</legend>
-      <div v-for="option in question.options" :key="option.value" class="option">
+      <div v-for="option in question.options" :key="option.id" class="option">
         <input 
           type="checkbox" 
-          :id="`question-${question.id}-${option.value}`" 
-          :checked="selectedOptions.includes(option.value)"
+          :id="`question-${question.id}-${option.id}`" 
+          :checked="selectedOptions.includes(option.id)"
           @change="handleOptionChange(option)"
           :disabled="isOptionDisabled(option)"
           :name="`question-${question.id}`"
         >
-        <label :for="`question-${question.id}-${option.value}`">{{ option.label }}</label>
+        <label :for="`question-${question.id}-${option.id}`">{{ option.label }}</label>
         <input 
           v-if="option.isOther && isOtherSelected" 
           type="text" 

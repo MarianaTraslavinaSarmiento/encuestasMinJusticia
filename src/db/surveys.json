@@ -57,7 +57,7 @@
               "valueId": "8.1"
             },
             {
-              "id": 9,
+              "id": 9.1,
               "specialType": "Select",
               "type": "RU",
               "label": "P9 ¿Qué tipo de actor / operador de justicia usted representa?",
@@ -570,6 +570,7 @@
                 {
                   "id": "18.4",
                   "value": "other",
+                  "valueId": "18.1.4",
                   "label": "Otro ¿Cuál? ",
                   "isOther": true,
                   "placeholder": "Por favor, especifique"

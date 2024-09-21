@@ -1,5 +1,6 @@
 <script setup>
-
+import { computed } from 'vue';
+import { useQuestionStore } from '@/stores/questionStore.js';
 
 const props = defineProps({
   question: {
@@ -8,12 +9,19 @@ const props = defineProps({
   }
 });
 
+const questionStore = useQuestionStore();
+
+const inputValue = computed({
+  get: () => questionStore.getAnswer(props.question.valueId),
+  set: (value) => questionStore.updateAnswer(props.question.valueId, value)
+});
+
 </script>
 
 <template>
   <div class="input-question">
     <label>{{ question.label }}</label>
-    <input type="text" :id="`question-${question.id}`" v-model="question.value">
+    <input type="text" :id="`question-${question.valueId}`" v-model="inputValue">
   </div>
 </template>
 

@@ -5,14 +5,11 @@ export const useQuestionStore = defineStore('question', {
     answers: {}
   }),
   actions: {
-    updateAnswer(questionId, selectedValues) {
-      this.answers[questionId] = selectedValues;
+    updateAnswer(questionId, value) {
+      this.answers[questionId] = value;
     },
-    updateOtherInput(questionId, otherInput) {
-      if (!this.answers[questionId]) {
-        this.answers[questionId] = { selectedValues: [], otherInput: '' };
-      }
-      this.answers[questionId].otherInput = otherInput;
+    getAnswer(questionId) {
+      return this.answers[questionId] || '';
     }
   }
 })
