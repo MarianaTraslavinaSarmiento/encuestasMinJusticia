@@ -3,24 +3,33 @@
     import BackHome from '@/components/BackHome.vue';
     // import { useFormStore } from '@/stores/formStore.js'
     // import DynamicForm from "@/components/DynamicForm.vue";
-    import test from "@/db/test.json";
+    // import test from "@/db/test.json";
     import Chapter from '@/components/Chapter/Chapter.vue';
+    import SubmitButton from "@/components/Submit/SubmitButton.vue";
+    import TituloForm from "@/components/TituloForm.vue";
+    import BackHome from "@/components/BackHome.vue";
+    import { useFormStore } from '@/stores/formStore.js'
+    import { storeToRefs } from "pinia";
+    import Chapter from "@/components/Chapter/Chapter.vue";
     import SubmitButton from "@/components/Submit/SubmitButton.vue";
 
 
+const formStore = useFormStore()
+const { surveyTitle, surveyChapters } = storeToRefs(formStore)
+formStore.setCurrentSurvey(1)
 
-    let survey = {chapters: test.surveys[1].chapters};
-    // const formStore = useFormStore()
-    // formStore.setCurrentForm('formData3')
-    // const currentData = formStore.getCurrentFormData
+const onSubmit = () => {
+  // Handle form submission
+  console.log('Form submitted')
+}
 
 </script>
 
 <template>
     <main>
         <BackHome></BackHome>
-        <div class="form">
-            <TituloForm titulo="ENCUESTA DE NECESIDADES JURÍDICAS - COMUNIDADES ÉTNICAS" />
+        <form @submit.prevent="onSubmit" class="form">
+            <TituloForm :titulo="surveyTitle.split('–')[0]" />
             <p>El Ministerio de Justicia y del Derecho viene adelantando la asistencia técnica a distintos actores de la
                 sociedad para promover la implementación, funcionamiento y sostenibilidad de la estrategia Sistemas
                 Locales de Justicia a nivel municipal. El objetivo de esta encuesta es contribuir a la lectura del
@@ -43,11 +52,10 @@
             <br>
             <p> Agradecemos de antemano su colaboración. </p>
             <hr class="initialDivision">
-
-            <Chapter v-for="chapter in survey.chapters" :key="chapter.id" :chapter="chapter" />
+            <Chapter v-for="chapter in surveyChapters" :key="chapter.id" :chapter="chapter" />
             <SubmitButton/>
             
-        </div>
+        </form>
     </main>
 </template>
 
