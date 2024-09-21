@@ -3,8 +3,8 @@
         "01": ["/administracion_municipal_y_operadores_de_justicia", "Encuesta A La Administración Municipal Y Operadores De Justicia"],
         "02": ["/necesidades_juridicas_comunidades_etnicas", "Encuesta De Necesidades Jurídicas - Comunidades Étnicas"],
         "03": ["/necesidades_juridicas_sector_educativo", "Encuesta De Necesidades Jurídicas - Sector Educativo"],
-        "04": ["/necesidades_juridicas", "Encuesta Sobre Necesidades Jurídicas"],
-        "05": ["/pruebas", "Encuesta De Pruebas Para Generacion Automatica De Formularios"],
+        "04": ["/necesidades_juridicas", "Encuesta Sobre Necesidades Jurídicas"]
+        // "05": ["/pruebas", "Encuesta De Pruebas Para Generacion Automatica De Formularios"],
     }
    
 </script>
