@@ -9,6 +9,8 @@ import SubmitButton from "@/components/Submit/SubmitButton.vue";
 
 const formStore = useFormStore()
 const { surveyTitle, surveyChapters } = storeToRefs(formStore)
+formStore.setCurrentSurvey(0)
+
 
 const onSubmit = () => {
   // Handle form submission
@@ -61,7 +63,7 @@ const onSubmit = () => {
       </p>
       <hr class="initialDivision" />
       <Chapter v-for="chapter in surveyChapters" :key="chapter.id" :chapter="chapter" />
-      <SubmitButton/>
+      <SubmitButton />
     </form>
   </main>
 
