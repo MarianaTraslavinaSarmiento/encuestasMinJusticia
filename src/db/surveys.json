@@ -1826,50 +1826,667 @@
               "label": "P34 ¿Cuáles de las siguientes tipologías de problemas se tramitan con mayor frecuencia desde su competencia?",
               "typologies": [
                 {
-                  "id": "1",
+                  "id": "34.1.1",
                   "label": "Familiares",
                   "categories": [
                     {
-                      "id": "1.1",
+                      "id": "34.1",
                       "label": "Paternidad / maternidad o adopción",
                       "questions": [
                         {
-                          "id": "p35.1.1",
-                          "type": "RM",
+                          "id": "35.1",
+                          "type": "RU",
                           "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
                           "options": [
-                            { "id": "p35.1.1.1", "value": "1", "label": "Urbano" },
-                            { "id": "p35.1.1.2", "value": "2", "label": "Rural" },
-                            { "id": "p35.1.1.3", "value": "3", "label": "Ambas" }
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
                           ]
                         },
                         {
-                          "id": "p36.1.1",
+                          "id": "36.1.1",
                           "type": "RU",
                           "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
                           "options": [
                             {
-                              "id": "p36.1.1.1",
+                              "id": "36.1.1.1",
                               "value": "1",
                               "label": "Sí",
                               "ref": {
-                                "id": "p37",
+                                "id": "37",
                                 "type": "RU",
-                                "label": "P37. ¿Existe algún tipo de coordinación con autoridades indígenas para el trámite de los casos que usted atiende y que tengan relación con estas comunidades?",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
                                 "options": [
-                                  { "id": "p37.1", "value": "1", "label": "Si" },
-                                  { "id": "p37.2", "value": "2", "label": "No" }
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
                                 ]
                               }
                             },
                             {
-                              "id": "p36.1.1.2",
+                              "id": "36.1.1.2",
                               "value": "2",
                               "label": "No",
                               "ref": {
                                 "id": "p38",
                                 "type": "Text",
-                                "label": "P38. ¿Existe algún tipo de coordinación con comunidades negras y afrocolombianas para el trámite de los casos que usted atiende y que tengan relación con estas comunidades?"
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "34.1",
+                      "label": "Paternidad / maternidad o adopción",
+                      "questions": [
+                        {
+                          "id": "35.1",
+                          "type": "RU",
+                          "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
+                          ]
+                        },
+                        {
+                          "id": "36.1.1",
+                          "type": "RU",
+                          "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            {
+                              "id": "36.1.1.1",
+                              "value": "1",
+                              "label": "Sí",
+                              "ref": {
+                                "id": "37",
+                                "type": "RU",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                "options": [
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "36.1.1.2",
+                              "value": "2",
+                              "label": "No",
+                              "ref": {
+                                "id": "p38",
+                                "type": "Text",
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "34.1",
+                      "label": "Paternidad / maternidad o adopción",
+                      "questions": [
+                        {
+                          "id": "35.1",
+                          "type": "RU",
+                          "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
+                          ]
+                        },
+                        {
+                          "id": "36.1.1",
+                          "type": "RU",
+                          "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            {
+                              "id": "36.1.1.1",
+                              "value": "1",
+                              "label": "Sí",
+                              "ref": {
+                                "id": "37",
+                                "type": "RU",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                "options": [
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "36.1.1.2",
+                              "value": "2",
+                              "label": "No",
+                              "ref": {
+                                "id": "p38",
+                                "type": "Text",
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "34.1",
+                      "label": "Paternidad / maternidad o adopción",
+                      "questions": [
+                        {
+                          "id": "35.1",
+                          "type": "RU",
+                          "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
+                          ]
+                        },
+                        {
+                          "id": "36.1.1",
+                          "type": "RU",
+                          "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            {
+                              "id": "36.1.1.1",
+                              "value": "1",
+                              "label": "Sí",
+                              "ref": {
+                                "id": "37",
+                                "type": "RU",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                "options": [
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "36.1.1.2",
+                              "value": "2",
+                              "label": "No",
+                              "ref": {
+                                "id": "p38",
+                                "type": "Text",
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "34.1",
+                      "label": "Paternidad / maternidad o adopción",
+                      "questions": [
+                        {
+                          "id": "35.1",
+                          "type": "RU",
+                          "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
+                          ]
+                        },
+                        {
+                          "id": "36.1.1",
+                          "type": "RU",
+                          "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            {
+                              "id": "36.1.1.1",
+                              "value": "1",
+                              "label": "Sí",
+                              "ref": {
+                                "id": "37",
+                                "type": "RU",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                "options": [
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "36.1.1.2",
+                              "value": "2",
+                              "label": "No",
+                              "ref": {
+                                "id": "p38",
+                                "type": "Text",
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "34.1",
+                      "label": "Paternidad / maternidad o adopción",
+                      "questions": [
+                        {
+                          "id": "35.1",
+                          "type": "RU",
+                          "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
+                          ]
+                        },
+                        {
+                          "id": "36.1.1",
+                          "type": "RU",
+                          "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            {
+                              "id": "36.1.1.1",
+                              "value": "1",
+                              "label": "Sí",
+                              "ref": {
+                                "id": "37",
+                                "type": "RU",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                "options": [
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "36.1.1.2",
+                              "value": "2",
+                              "label": "No",
+                              "ref": {
+                                "id": "p38",
+                                "type": "Text",
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "34.1",
+                      "label": "Paternidad / maternidad o adopción",
+                      "questions": [
+                        {
+                          "id": "35.1",
+                          "type": "RU",
+                          "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
+                          ]
+                        },
+                        {
+                          "id": "36.1.1",
+                          "type": "RU",
+                          "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            {
+                              "id": "36.1.1.1",
+                              "value": "1",
+                              "label": "Sí",
+                              "ref": {
+                                "id": "37",
+                                "type": "RU",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                "options": [
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "36.1.1.2",
+                              "value": "2",
+                              "label": "No",
+                              "ref": {
+                                "id": "p38",
+                                "type": "Text",
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "34.1.1",
+                  "label": "Consumo de producto, bien o servicio",
+                  "categories": [
+                    {
+                      "id": "34.1",
+                      "label": "Paternidad / maternidad o adopción",
+                      "questions": [
+                        {
+                          "id": "35.1",
+                          "type": "RU",
+                          "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
+                          ]
+                        },
+                        {
+                          "id": "36.1.1",
+                          "type": "RU",
+                          "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            {
+                              "id": "36.1.1.1",
+                              "value": "1",
+                              "label": "Sí",
+                              "ref": {
+                                "id": "37",
+                                "type": "RU",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                "options": [
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "36.1.1.2",
+                              "value": "2",
+                              "label": "No",
+                              "ref": {
+                                "id": "p38",
+                                "type": "Text",
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "34.1",
+                      "label": "Paternidad / maternidad o adopción",
+                      "questions": [
+                        {
+                          "id": "35.1",
+                          "type": "RU",
+                          "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
+                          ]
+                        },
+                        {
+                          "id": "36.1.1",
+                          "type": "RU",
+                          "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            {
+                              "id": "36.1.1.1",
+                              "value": "1",
+                              "label": "Sí",
+                              "ref": {
+                                "id": "37",
+                                "type": "RU",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                "options": [
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "36.1.1.2",
+                              "value": "2",
+                              "label": "No",
+                              "ref": {
+                                "id": "p38",
+                                "type": "Text",
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "34.1",
+                      "label": "Paternidad / maternidad o adopción",
+                      "questions": [
+                        {
+                          "id": "35.1",
+                          "type": "RU",
+                          "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
+                          ]
+                        },
+                        {
+                          "id": "36.1.1",
+                          "type": "RU",
+                          "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            {
+                              "id": "36.1.1.1",
+                              "value": "1",
+                              "label": "Sí",
+                              "ref": {
+                                "id": "37",
+                                "type": "RU",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                "options": [
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "36.1.1.2",
+                              "value": "2",
+                              "label": "No",
+                              "ref": {
+                                "id": "p38",
+                                "type": "Text",
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "34.1",
+                      "label": "Paternidad / maternidad o adopción",
+                      "questions": [
+                        {
+                          "id": "35.1",
+                          "type": "RU",
+                          "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
+                          ]
+                        },
+                        {
+                          "id": "36.1.1",
+                          "type": "RU",
+                          "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            {
+                              "id": "36.1.1.1",
+                              "value": "1",
+                              "label": "Sí",
+                              "ref": {
+                                "id": "37",
+                                "type": "RU",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                "options": [
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "36.1.1.2",
+                              "value": "2",
+                              "label": "No",
+                              "ref": {
+                                "id": "p38",
+                                "type": "Text",
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "34.1",
+                      "label": "Paternidad / maternidad o adopción",
+                      "questions": [
+                        {
+                          "id": "35.1",
+                          "type": "RU",
+                          "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
+                          ]
+                        },
+                        {
+                          "id": "36.1.1",
+                          "type": "RU",
+                          "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            {
+                              "id": "36.1.1.1",
+                              "value": "1",
+                              "label": "Sí",
+                              "ref": {
+                                "id": "37",
+                                "type": "RU",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                "options": [
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "36.1.1.2",
+                              "value": "2",
+                              "label": "No",
+                              "ref": {
+                                "id": "p38",
+                                "type": "Text",
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "34.1",
+                      "label": "Paternidad / maternidad o adopción",
+                      "questions": [
+                        {
+                          "id": "35.1",
+                          "type": "RU",
+                          "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
+                          ]
+                        },
+                        {
+                          "id": "36.1.1",
+                          "type": "RU",
+                          "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            {
+                              "id": "36.1.1.1",
+                              "value": "1",
+                              "label": "Sí",
+                              "ref": {
+                                "id": "37",
+                                "type": "RU",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                "options": [
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "36.1.1.2",
+                              "value": "2",
+                              "label": "No",
+                              "ref": {
+                                "id": "p38",
+                                "type": "Text",
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "34.1",
+                      "label": "Paternidad / maternidad o adopción",
+                      "questions": [
+                        {
+                          "id": "35.1",
+                          "type": "RU",
+                          "label": "P35. ¿En qué zonas del municipio se están presentando estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            { "id": "35.1.1.1", "value": "1", "label": "Urbano" },
+                            { "id": "35.1.1.2", "value": "2", "label": "Rural" },
+                            { "id": "35.1.1.3", "value": "3", "label": "Ambas" }
+                          ]
+                        },
+                        {
+                          "id": "36.1.1",
+                          "type": "RU",
+                          "label": "P36. ¿Existe ruta/protocolo de atención para estos problemas / desacuerdos / conflictos y disputas?",
+                          "options": [
+                            {
+                              "id": "36.1.1.1",
+                              "value": "1",
+                              "label": "Sí",
+                              "ref": {
+                                "id": "37",
+                                "type": "RU",
+                                "label": "P37. ¿Existe material pedagógico para comunicar la ruta/protocolo de atención a la comunidad?",
+                                "options": [
+                                  { "id": "37.1", "value": "1", "label": "Si" },
+                                  { "id": "37.2", "value": "2", "label": "No" }
+                                ]
+                              }
+                            },
+                            {
+                              "id": "36.1.1.2",
+                              "value": "2",
+                              "label": "No",
+                              "ref": {
+                                "id": "p38",
+                                "type": "Text",
+                                "label": "P38. ¿Cuántos casos de este tipo de problemas se atienden mensualmente?"
                               }
                             }
                           ]
