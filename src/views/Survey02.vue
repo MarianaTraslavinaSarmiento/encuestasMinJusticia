@@ -1,9 +1,8 @@
 <script setup>
-    import MenuDesplegable from '@/components/MenuDesplegable.vue';
     import TituloForm from '@/components/TituloForm.vue';
     import BackHome from '@/components/BackHome.vue';
-    import { useFormStore } from '@/stores/formStore.js'
-    import DynamicForm from "@/components/DynamicForm.vue";
+    // import { useFormStore } from '@/stores/formStore.js'
+    // import DynamicForm from "@/components/DynamicForm.vue";
     import test from "@/db/test.json";
     import Chapter from '@/components/Chapter/Chapter.vue';
     import SubmitButton from "@/components/Submit/SubmitButton.vue";
