@@ -1,5 +1,6 @@
 <script setup>
-import { ref, defineProps, computed } from 'vue';
+import { computed } from 'vue';
+import { useQuestionStore } from '@/stores/questionStore.js';
 import Question from '../Question.vue';
 
 const props = defineProps({
@@ -9,8 +10,24 @@ const props = defineProps({
   }
 });
 
-const selectedOptions = ref([]);
-const otherInput = ref('');
+const questionStore = useQuestionStore();
+
+const selectedOptions = computed({
+  get: () => questionStore.answers[props.question.id] || [],
+  set: (value) => {
+    questionStore.updateAnswer(props.question.id, value);
+  }
+});
+
+const otherInput = computed({
+  get: () => {
+    const answer = questionStore.answers[props.question.id];
+    return answer && answer.otherInput ? answer.otherInput : '';
+  },
+  set: (value) => {
+    questionStore.updateOtherInput(props.question.id, value);
+  }
+});
 
 const isOtherSelected = computed(() => {
   return selectedOptions.value.includes('other');
@@ -27,7 +44,6 @@ const showGeneralRef = computed(() => {
 
 const specificRefQuestions = computed(() => {
   if (showGeneralRef.value) return [];
-
   return props.question.options
     .filter(option => option.ref && selectedOptions.value.includes(option.value))
     .map(option => option.ref);
@@ -46,13 +62,14 @@ const isOptionDisabled = (option) => {
 
 const handleOptionChange = (option) => {
   if (isOptionDisabled(option)) return;
-
-  const index = selectedOptions.value.indexOf(option.value);
+  const newSelectedOptions = [...selectedOptions.value];
+  const index = newSelectedOptions.indexOf(option.value);
   if (index === -1) {
-    selectedOptions.value.push(option.value);
+    newSelectedOptions.push(option.value);
   } else {
-    selectedOptions.value.splice(index, 1);
+    newSelectedOptions.splice(index, 1);
   }
+  selectedOptions.value = newSelectedOptions;
 };
 </script>
 
