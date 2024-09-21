@@ -1,5 +1,5 @@
 <script setup>
-    import TituloForm from '@/components/TituloForm.vue';
+    // import TituloForm from '@/components/TituloForm.vue';
     import BackHome from '@/components/BackHome.vue';
     // import { useFormStore } from '@/stores/formStore.js'
     // import DynamicForm from "@/components/DynamicForm.vue";
