@@ -7,6 +7,7 @@ import Select from './components/Select.vue';
 import Type from './components/Type.vue';
 import GroupedList from './components/GroupedList.vue';
 import TypeTypo from './components/TypeTypo.vue';
+import TypeTypology from './components/TypeTypology.vue';
 
 const props = defineProps({
     question: {
@@ -42,6 +43,9 @@ const question = computed(() => props.question);
         </div>
         <div v-else-if="question.type === 'TypeTypo'">
             <TypeTypo :question="question"/>
+        </div>
+        <div v-else-if="question.type === 'TypeTypology'">
+            <TypeTypology :question="question"/>
         </div>
     </div>
 </template>
